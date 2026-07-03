@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="2400" viewBox="0 0 1800 2400">
+  <defs>
+    <style>
+      .page { fill: #fffdf7; }
+      .ink { fill: none; stroke: #111; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { fill: none; stroke: #111; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .dash { fill: none; stroke: #111; stroke-width: 3; stroke-dasharray: 12 10; stroke-linecap: round; }
+      .fill { fill: #111; }
+      .wash { fill: #f4f0e8; stroke: #111; stroke-width: 4; }
+      .title { font-family: Impact, "Arial Black", sans-serif; font-size: 88px; letter-spacing: 1px; fill: #111; }
+      .subtitle { font-family: "Arial Black", Arial, sans-serif; font-size: 48px; fill: #111; }
+      .poster-title { font-family: "Arial Black", Arial, sans-serif; font-size: 31px; fill: #111; }
+      .charge { font-family: Arial, sans-serif; font-size: 24px; fill: #111; }
+      .small { font-family: Arial, sans-serif; font-size: 21px; fill: #111; }
+      .label { font-family: "Arial Black", Arial, sans-serif; font-size: 25px; fill: #111; }
+      .stamp { font-family: Impact, "Arial Black", sans-serif; font-size: 66px; fill: #111; letter-spacing: 3px; }
+    </style>
+  </defs>
+
+  <rect class="page" x="0" y="0" width="1800" height="2400"/>
+  <rect class="ink" x="45" y="45" width="1710" height="2310"/>
+
+  <g id="header">
+    <rect class="wash" x="90" y="90" width="1620" height="250" rx="6"/>
+    <text class="title" x="900" y="190" text-anchor="middle">AROUND HERE'S MOST WANTED</text>
+    <text class="subtitle" x="900" y="270" text-anchor="middle">CATEGORY FRAUD DIVISION</text>
+    <g transform="translate(150,130)">
+      <circle class="thin" cx="40" cy="40" r="34"/>
+      <path class="thin" d="M23 55 L57 23 M24 23 L57 56"/>
+      <path class="thin" d="M18 68 Q40 88 62 68"/>
+    </g>
+    <g transform="translate(1560,130)">
+      <circle class="thin" cx="40" cy="40" r="34"/>
+      <path class="thin" d="M23 55 L57 23 M24 23 L57 56"/>
+      <path class="thin" d="M18 68 Q40 88 62 68"/>
+    </g>
+  </g>
+
+  <!-- Poster template positions: x 105/625/1145, y 395/905/1415 -->
+
+  <g id="p1" transform="translate(105,395)">
+    <rect class="ink" x="0" y="0" width="480" height="470" rx="4"/>
+    <text class="poster-title" x="240" y="46" text-anchor="middle">BONELESS WING</text>
+    <g transform="translate(130,75)">
+      <path class="ink" d="M35 130 C30 65 100 25 170 48 C235 70 230 160 168 188 C105 215 45 190 35 130Z"/>
+      <path class="dash" d="M120 70 C150 90 162 125 148 160"/>
+      <circle class="thin" cx="85" cy="118" r="12"/>
+      <path class="thin" d="M60 205 L210 205"/>
+      <text class="small" x="135" y="238" text-anchor="middle">BONE NOT FOUND</text>
+    </g>
+    <text class="charge" x="36" y="335">Charges:</text>
+    <text class="charge" x="52" y="370">• Impersonating a Wing</text>
+    <text class="charge" x="52" y="404">• Failure to Produce Wing</text>
+    <text class="charge" x="52" y="438">• Aggravated Buffaloing</text>
+  </g>
+
+  <g id="p2" transform="translate(625,395)">
+    <rect class="ink" x="0" y="0" width="480" height="470" rx="4"/>
+    <text class="poster-title" x="240" y="46" text-anchor="middle">VEGETARIAN MEATLOAF</text>
+    <g transform="translate(120,82)">
+      <ellipse class="thin" cx="125" cy="190" rx="135" ry="35"/>
+      <path class="ink" d="M35 115 C45 62 205 55 230 108 L238 170 C188 202 75 200 28 170Z"/>
+      <circle class="fill" cx="80" cy="120" r="8"/>
+      <circle class="fill" cx="128" cy="97" r="7"/>
+      <circle class="fill" cx="180" cy="134" r="9"/>
+      <path class="thin" d="M98 45 Q130 20 162 45"/>
+    </g>
+    <text class="charge" x="36" y="335">Charges:</text>
+    <text class="charge" x="52" y="370">• Removal of Meat</text>
+    <text class="charge" x="52" y="404">• Retention of Meatloaf Status</text>
+    <text class="charge" x="52" y="438">• Loaf Laundering</text>
+  </g>
+
+  <g id="p3" transform="translate(1145,395)">
+    <rect class="ink" x="0" y="0" width="480" height="470" rx="4"/>
+    <text class="poster-title" x="240" y="46" text-anchor="middle">ALMOND MILK</text>
+    <g transform="translate(150,78)">
+      <path class="ink" d="M55 20 L175 20 L215 70 L215 230 L55 230Z"/>
+      <path class="thin" d="M175 20 L175 70 L215 70"/>
+      <text class="label" x="135" y="112" text-anchor="middle">MILK</text>
+      <path class="thin" d="M108 156 C108 120 160 120 160 156 C160 190 108 190 108 156Z"/>
+      <path class="thin" d="M122 145 C137 134 149 145 146 164"/>
+    </g>
+    <text class="charge" x="36" y="335">Charges:</text>
+    <text class="charge" x="52" y="370">• Unauthorized Use of Milk</text>
+    <text class="charge" x="52" y="404">• Dairy Adjacent Conduct</text>
+  </g>
+
+  <g id="p4" transform="translate(105,905)">
+    <rect class="ink" x="0" y="0" width="480" height="470" rx="4"/>
+    <text class="poster-title" x="240" y="46" text-anchor="middle">TEMPORARY POLICY</text>
+    <g transform="translate(125,78)">
+      <rect class="thin" x="35" y="12" width="200" height="230"/>
+      <path class="thin" d="M70 78 H200 M70 115 H200 M70 152 H200 M70 189 H155"/>
+      <path class="dash" d="M33 12 L10 -15 M235 12 L260 -15 M35 242 L10 270 M235 242 L260 270"/>
+      <text class="label" x="135" y="55" text-anchor="middle">TEMP</text>
+      <path class="thin" d="M40 250 C90 275 175 275 232 250"/>
+    </g>
+    <text class="charge" x="36" y="322">Charges:</text>
+    <text class="charge" x="52" y="356">• Failure to Leave</text>
+    <text class="charge" x="52" y="390">• Evading Sunset Clauses</text>
+    <text class="charge" x="36" y="434">Last Seen: <tspan font-weight="700">Still Here</tspan></text>
+  </g>
+
+  <g id="p5" transform="translate(625,905)">
+    <rect class="ink" x="0" y="0" width="480" height="470" rx="4"/>
+    <text class="poster-title" x="240" y="46" text-anchor="middle">WIRELESS ROUTER</text>
+    <g transform="translate(110,82)">
+      <rect class="ink" x="55" y="105" width="230" height="95" rx="12"/>
+      <circle class="fill" cx="105" cy="153" r="7"/>
+      <circle class="fill" cx="145" cy="153" r="7"/>
+      <circle class="fill" cx="185" cy="153" r="7"/>
+      <path class="thin" d="M80 105 L40 35"/>
+      <path class="thin" d="M260 105 L300 35"/>
+      <path class="ink" d="M170 200 C170 250 250 230 250 278 C250 315 195 305 195 340"/>
+      <path class="thin" d="M175 340 H215"/>
+    </g>
+    <text class="charge" x="36" y="335">Charges:</text>
+    <text class="charge" x="52" y="370">• Possession of Power Cord</text>
+    <text class="charge" x="52" y="404">• Misleading Modifier Use</text>
+  </g>
+
+  <g id="p6" transform="translate(1145,905)">
+    <rect class="ink" x="0" y="0" width="480" height="470" rx="4"/>
+    <text class="poster-title" x="240" y="46" text-anchor="middle">JELLYFISH</text>
+    <g transform="translate(105,78)">
+      <path class="ink" d="M92 120 C95 45 255 45 258 120 C225 155 128 155 92 120Z"/>
+      <path class="thin" d="M105 135 C95 180 130 190 112 235"/>
+      <path class="thin" d="M145 143 C135 190 172 200 150 255"/>
+      <path class="thin" d="M185 143 C175 190 212 200 190 255"/>
+      <path class="thin" d="M232 135 C245 180 210 190 228 235"/>
+      <circle class="fill" cx="145" cy="108" r="7"/>
+      <circle class="fill" cx="205" cy="108" r="7"/>
+      <path class="thin" d="M143 280 H207"/>
+      <text class="small" x="175" y="315" text-anchor="middle">FISH LICENSE?</text>
+    </g>
+    <text class="charge" x="36" y="322">Charges:</text>
+    <text class="charge" x="52" y="356">• Fish Impersonation</text>
+    <text class="charge" x="52" y="390">• Failure to Produce Fish</text>
+    <text class="charge" x="52" y="424">• Gelatinous Misrepresentation</text>
+  </g>
+
+  <g id="p7" transform="translate(105,1415)">
+    <rect class="ink" x="0" y="0" width="480" height="470" rx="4"/>
+    <text class="poster-title" x="240" y="46" text-anchor="middle">SWEETBREADS</text>
+    <g transform="translate(102,82)">
+      <ellipse class="thin" cx="165" cy="218" rx="145" ry="32"/>
+      <path class="ink" d="M65 145 C65 90 105 64 150 82 C178 50 240 70 248 124 C288 145 270 205 220 210 C185 238 125 225 102 205 C70 202 48 176 65 145Z"/>
+      <path class="thin" d="M108 132 C132 112 160 112 185 135"/>
+      <path class="thin" d="M150 170 C180 152 210 158 230 180"/>
+      <path class="thin" d="M95 245 H235"/>
+      <text class="small" x="165" y="280" text-anchor="middle">NOT BREAD</text>
+    </g>
+    <text class="charge" x="36" y="322">Charges:</text>
+    <text class="charge" x="52" y="356">• Bread Impersonation</text>
+    <text class="charge" x="52" y="390">• Sweetness Misrepresentation</text>
+    <text class="charge" x="52" y="424">• Organ Meat Disclosure Failure</text>
+  </g>
+
+  <g id="p8" transform="translate(625,1415)">
+    <rect class="ink" x="0" y="0" width="480" height="470" rx="4"/>
+    <text class="poster-title" x="240" y="46" text-anchor="middle">MASTER OF EVIL</text>
+    <g transform="translate(145,72)">
+      <path class="ink" d="M50 35 L225 35 L205 210 L70 210Z"/>
+      <path class="thin" d="M72 70 H122 M153 70 H203"/>
+      <circle class="fill" cx="98" cy="108" r="12"/>
+      <circle class="fill" cx="177" cy="108" r="12"/>
+      <path class="thin" d="M112 160 Q137 180 162 160"/>
+      <path class="thin" d="M50 35 L20 15 M225 35 L255 15"/>
+      <text class="small" x="137" y="250" text-anchor="middle">CLASSIFICATION?</text>
+    </g>
+    <text class="charge" x="36" y="330">Charges:</text>
+    <text class="charge" x="52" y="365">• Possible Misclassification</text>
+    <text class="charge" x="36" y="418">Reward: <tspan font-weight="700">43 Years of Closure</tspan></text>
+  </g>
+
+  <g id="p9" transform="translate(1145,1415)">
+    <rect class="ink" x="0" y="0" width="480" height="470" rx="4"/>
+    <text class="poster-title" x="240" y="46" text-anchor="middle">INSTANT POPCORN</text>
+    <g transform="translate(125,78)">
+      <path class="ink" d="M60 55 L235 55 L212 235 L82 235Z"/>
+      <path class="thin" d="M78 85 H216 M75 125 H220 M70 165 H225"/>
+      <text class="label" x="148" y="120" text-anchor="middle">POP</text>
+      <circle class="thin" cx="42" cy="270" r="16"/>
+      <circle class="thin" cx="92" cy="285" r="14"/>
+      <circle class="thin" cx="142" cy="272" r="15"/>
+      <circle class="thin" cx="194" cy="290" r="13"/>
+    </g>
+    <text class="charge" x="36" y="335">Charges:</text>
+    <text class="charge" x="52" y="370">• Premature Popcorning</text>
+    <text class="charge" x="36" y="424">Evidence: <tspan font-weight="700">Still Corn</tspan></text>
+  </g>
+
+  <g id="pardoned" transform="translate(1175,1902) rotate(-7)">
+    <rect class="ink" x="0" y="0" width="530" height="310" rx="4"/>
+    <text class="poster-title" x="265" y="43" text-anchor="middle">FLIGHTLESS BIRD</text>
+    <g transform="translate(150,70)">
+      <path class="ink" d="M120 180 C80 150 75 105 105 75 C140 42 205 70 208 125 C210 170 165 205 120 180Z"/>
+      <path class="ink" d="M172 78 C185 35 228 35 245 68"/>
+      <circle class="fill" cx="229" cy="61" r="6"/>
+      <path class="thin" d="M138 185 L122 245 M168 185 L188 245"/>
+      <path class="thin" d="M112 245 H145 M178 245 H212"/>
+      <path class="thin" d="M84 120 C40 128 32 160 58 180"/>
+    </g>
+    <g transform="translate(45,116) rotate(-18)">
+      <rect class="ink" x="0" y="0" width="440" height="95" rx="8"/>
+      <text class="stamp" x="220" y="70" text-anchor="middle">PARDONED</text>
+    </g>
+  </g>
+
+  <g id="footer">
+    <rect class="wash" x="90" y="2255" width="1620" height="70" rx="6"/>
+    <text class="label" x="900" y="2302" text-anchor="middle">OFFICE OF COMEDIC STANDARDS • CATEGORY FRAUD DIVISION • NO EXPLANATION REQUIRED</text>
+  </g>
+</svg>

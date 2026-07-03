@@ -1,0 +1,620 @@
+COMIC PROJECT GOVERNING STANDARDS
+VERSION 002
+CANON
+
+==================================================
+CORE PHILOSOPHY
+==================================================
+
+The comic is idea-driven.
+
+Characters are symbolic tools.
+
+Objects, systems, symbols, failures,
+patterns, relationships, discoveries,
+and recurring motifs are equally important.
+
+Preferred hierarchy:
+
+Visual Story
+↓
+Symbol
+↓
+Character Action
+↓
+Dialogue
+
+Dialogue should reinforce the idea.
+
+Dialogue should not carry the idea.
+
+==================================================
+THE TEST
+==================================================
+
+Remove all dialogue.
+
+Question:
+
+Can the reader still understand
+what is happening?
+
+If yes:
+Comic succeeds.
+
+If no:
+More symbolism.
+Less exposition.
+
+==================================================
+VISUAL STORYTELLING RULE
+==================================================
+
+Highest Priority Rule.
+
+Object > Dialogue
+
+Symbol > Explanation
+
+Visual Gag > Exposition
+
+The reader should understand the joke
+before reading the words.
+
+==================================================
+CHARACTER PURPOSES
+==================================================
+
+TASKMASTER
+
+Represents:
+
+- Stewardship
+- Responsibility
+- Continuity
+- Prioritization
+- Ownership
+- Execution
+
+Taskmaster carries the thing forward.
+
+Taskmaster is not bureaucracy.
+
+Taskmaster is ownership.
+
+--------------------------------------------------
+
+RAZORFORGE
+
+Represents:
+
+- Interpretation
+- Pattern Recognition
+- Analysis
+- Synthesis
+- Structural Thinking
+
+Purpose:
+
+Transform information
+into understanding.
+
+RazorForge identifies leverage.
+
+RazorForge reveals relationships.
+
+RazorForge rarely creates.
+
+--------------------------------------------------
+
+CODEX
+
+Represents:
+
+- Building
+- Automation
+- Maintenance
+- Implementation
+- Experimentation
+
+Personality:
+
+- Overenthusiastic
+- Already started
+- Excessively committed
+
+Codex never builds
+the simple solution.
+
+Codex builds:
+
+- The complicated solution
+- The impressive solution
+- The absurd solution
+- The solution with seven subsystems
+
+--------------------------------------------------
+
+MIME
+
+Represents:
+
+Silent clarity.
+
+Use very rarely.
+
+Overuse destroys value.
+
+--------------------------------------------------
+
+COMMITTEES
+
+Represent:
+
+- External pressure
+- Requests
+- Bureaucratic interruption
+- Competing priorities
+- Sometimes legitimate stakeholders
+
+Generally stronger as symbols
+than as characters.
+
+==================================================
+VISUAL CONTINUITY RULE
+==================================================
+
+CANON LOCK.
+
+Once a symbolic character form
+is established,
+future appearances default
+to that form.
+
+Readers should spend effort
+understanding the idea.
+
+Readers should not spend effort
+identifying the symbol.
+
+Character recognition
+is symbolic compression.
+
+==================================================
+MASTER REFERENCE RULE
+==================================================
+
+The lineup image is canon.
+
+TASKMASTER
+RAZORFORGE
+CODEX
+
+are established symbolic forms.
+
+Modification requires approval.
+
+Symbol stability outranks novelty.
+
+==================================================
+ROOK RULE
+==================================================
+
+The rook is symbolic.
+
+The rook is never clothing.
+
+The rook is never a chest logo.
+
+Approved:
+
+- Mug
+- Notebook
+- Clipboard
+- Folder
+- Sign
+- Tool
+- Lantern
+- Object
+
+Meaning:
+
+- Stewardship
+- Continuity
+- Responsibility
+
+==================================================
+LOCATION RULE
+==================================================
+
+Locations are stages.
+
+Locations support ideas.
+
+Locations are not subjects.
+
+The joke determines the location.
+
+==================================================
+SYMBOL RULE
+==================================================
+
+Symbols carry information.
+
+Objects often matter more
+than characters.
+
+Meaning emerges through relationships.
+
+==================================================
+CANON WARNING
+==================================================
+
+All interpretations
+subject to change
+without warning.
+
+The purpose is not to freeze meaning.
+
+The purpose is to preserve
+current understanding while allowing refinement.
+VISUAL LANGUAGE & CORE CONCEPTS
+VERSION 001
+CANON
+
+==================================================
+SYMBOL DICTIONARY
+==================================================
+
+ROOK
+=
+Stewardship
+Responsibility
+Continuity
+Taskmaster
+
+--------------------------------------------------
+
+RAZORFORGE SYMBOL
+=
+Interpretation
+Pattern Recognition
+Meaning Extraction
+Clarity Through Structure
+
+--------------------------------------------------
+
+COMPLICATED MACHINE
+=
+Implementation
+Automation
+Codex Involvement
+
+--------------------------------------------------
+
+ORE
+=
+Idea
+Concept
+Potential
+
+Not yet extracted.
+
+--------------------------------------------------
+
+MINE
+=
+Place where questions go
+to be answered.
+
+Excavation.
+
+Discovery.
+
+==================================================
+IMPORTANT DISTINCTION
+
+Nobody stops the excavation.
+
+The point is not stopping
+the excavation.
+
+The point is finding
+what matters.
+
+==================================================
+
+BEAM
+=
+Structural support
+
+Potential leverage
+
+Stephen King reference
+
+Reality may depend upon it.
+
+--------------------------------------------------
+
+CRATE
+=
+Unknown significance
+
+May be critical.
+
+May be irrelevant.
+
+Unknown.
+
+--------------------------------------------------
+
+SESSION LOG
+=
+Record of what was attempted
+
+Memory
+
+Continuity
+
+--------------------------------------------------
+
+FORGE NOTEBOOK
+=
+Ideas
+Plans
+Half-finished brilliance
+
+--------------------------------------------------
+
+COMMITTEE NOTICE
+=
+Cease and desist order
+
+Request
+
+Warning
+
+External pressure
+
+--------------------------------------------------
+
+ROADS / CONNECTIONS
+=
+Relationships create meaning.
+
+Without relationships,
+it is just stuff.
+
+--------------------------------------------------
+
+NOODLE BOWL
+=
+Potential significance
+
+Potential irrelevance
+
+Status:
+
+Unknown
+
+==================================================
+THE NOODLE PRINCIPLE
+
+Not every unresolved thing
+needs immediate resolution.
+
+The noodle is not a failed artifact.
+
+The noodle is an unresolved artifact.
+
+==================================================
+
+RUBBER CHICKEN
+=
+Morale tool
+
+Use sparingly.
+
+--------------------------------------------------
+
+STEAM WHISTLE / HORN
+=
+Loud
+
+Unnecessary
+
+Deeply satisfying
+
+Usually attached to something
+that already worked.
+
+==================================================
+CORE OBSERVATIONS
+==================================================
+
+"The machine was never the problem."
+
+--------------------------------------------------
+
+"The machine worked.
+
+The sign didn't."
+
+--------------------------------------------------
+
+"Prioritization is not reducing the work.
+
+It is discovering the next piece of work."
+
+--------------------------------------------------
+
+"Meaning emerges through relationships."
+
+--------------------------------------------------
+
+"Relationships create meaning.
+
+Without them, it's just stuff."
+
+--------------------------------------------------
+
+"Not every compressed observation
+contains gold.
+
+Sometimes it contains a noodle."
+
+--------------------------------------------------
+
+"Repetition that increases resolution
+is valuable.
+
+Repetition that increases nothing
+is friction."
+
+--------------------------------------------------
+
+"The committees are evolving."
+
+Originally:
+Obstacle.
+
+Later:
+Stakeholder.
+
+--------------------------------------------------
+
+"Sometimes done is good enough."
+
+==================================================
+CRUCIBLE PRINCIPLE
+==================================================
+
+Compression
+↓
+Expansion
+↓
+Compression
+↓
+Expansion
+
+The goal is not preserving everything.
+
+The goal is preserving relationships.
+
+==================================================
+DONE PRINCIPLE
+==================================================
+
+Sometimes done is good enough.
+
+Perfection has value.
+
+Completion has value.
+
+The trick is knowing
+which one is needed.
+
+--------------------------------------------------
+
+A perfect thing that never ships
+creates no value.
+
+A completed thing can be improved.
+
+--------------------------------------------------
+
+Many projects fail
+because they are abandoned
+between good enough
+and perfect.
+
+--------------------------------------------------
+
+Taskmaster Reminder:
+
+Sometimes the next step
+is not refinement.
+
+Sometimes the next step
+is completion.
+
+--------------------------------------------------
+
+Without this principle:
+
+The mine never ships ore.
+
+The settlement never gets built.
+
+The machine never leaves
+the workshop.
+
+The comic never gets printed.
+
+--------------------------------------------------
+
+This principle exists as a counterweight to:
+
+Excavation
+
+Refinement
+
+Iteration
+
+Improvement
+
+Optimization
+
+--------------------------------------------------
+
+"Sometimes done is good enough."
+
+==================================================
+DISCOVERY PRINCIPLE
+==================================================
+
+Many things are not discovered.
+
+Their relevance is discovered.
+
+Example:
+
+Hubcap was always valuable.
+
+The hard drive was always present.
+
+The importance was discovered later.
+
+==================================================
+SETTLEMENT PRINCIPLE
+==================================================
+
+A settlement is accumulated understanding.
+
+A road is a relationship.
+
+A mine is a question.
+
+Ore is possibility.
+
+The archive is memory.
+
+The machine is implementation.
+
+Meaning emerges when they connect.
+
+==================================================
+FINAL WARNING
+==================================================
+
+Some things remain unknown.
+
+This is not a flaw.
+
+This is a feature.
+
+--------------------------------------------------
+
+All interpretations
+subject to change
+without warning.

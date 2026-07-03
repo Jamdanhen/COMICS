@@ -1,0 +1,10 @@
+TEST DOCUMENT - COMICS PHONE PATH
+
+If you can open this from OneDrive on your phone, the Comics-Sleeper path works.
+
+Path:
+OneDrive > Documents > Comics-Sleeper
+
+After you confirm this opened easily, tell Codex to delete the test document.
+
+This file is disposable.
