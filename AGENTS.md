@@ -1,5 +1,27 @@
 # Comic Project Agent Guide
 
+## Crucible Registry Inheritance
+
+This project is organized by the Crucible Registry.
+
+Before acting, check the applicable project guidance and use the Crucible
+Ecosystem Operating Standards as inherited default behavior unless this local
+project guidance explicitly overrides or specializes them.
+
+Inherited defaults include:
+
+- work from meaningful decision point to meaningful decision point
+- do not create micro-approval loops
+- continue through safe implied work inside an approved lane
+- stop only at real decision, authority, source-modification, or safety boundaries
+- provide a concrete next action or real pause boundary in closeouts
+- keep project substance inside the owning project
+- preserve local project authority and local overrides
+- protect user files from unapproved move, rename, delete, merge, overwrite,
+  cleanup, or restructure operations
+
+Local project guidance controls when it is more specific.
+
 This folder is the home base for the private comic project.
 
 ## Core Premise
