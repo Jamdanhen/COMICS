@@ -171,3 +171,21 @@ Around Here may be strong enough to become the comic's title, because it names t
 Follow-up state:
 
 Candidate for promotion. Not final title canon until Taskmaster explicitly approves it.
+
+### Around Here Sign Visual Concept
+
+File:
+
+`C:\COMICS\Working\visual-concept-around-here-sign-2026-07-04.md`
+
+Generated draft:
+
+`C:\COMICS\Images\Generated\generated-2026-07-04-around-here-sign-concept-v1.png`
+
+Core idea:
+
+Around Here can be represented by an ordinary, hand-painted roadside sign that functions as a mythological `You Are Here` marker. It does not help locate the reader; it confirms they have already arrived within the jurisdiction.
+
+Follow-up state:
+
+Working visual concept. Future revisions should consider making the arrow more obviously useless rather than merely directional.

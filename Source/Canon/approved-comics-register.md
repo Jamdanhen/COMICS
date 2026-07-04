@@ -79,6 +79,31 @@ Series function:
 
 Reader-facing foundational visual-language glossary.
 
+### Dictionary 003 - The Usual Suspects With Chief Inspector
+
+Status: approved dictionary/front-matter comic
+
+Approved shelf image:
+
+`C:\comics\Approved\Comic Pages\dictionary-003-the-usual-suspects-with-chief-inspector.png`
+
+Generated source image:
+
+`C:\comics\Images\Generated\draft-dictionary-001-the-usual-suspects-with-chief-inspector-2026-07-04-v1.png`
+
+Working record:
+
+`C:\comics\Working\draft-usual-suspects-with-chief-inspector-2026-07-04.md`
+
+Source basis:
+
+- `C:\comics\Source\Lineup.png`
+- `C:\comics\Working\character-snapshot-chief-inspector-category-fraud-2026-07-04.md`
+
+Series function:
+
+Reader-facing expanded character lineup introducing the Chief Inspector at true short scale as a category-fraud investigator alongside Taskmaster, Razorforge, and Codex.
+
 ## Approved Narrative Chapter Pages
 
 ### Chapter 001 Page 001 - This Seemed Smaller In My Head
@@ -189,8 +214,9 @@ This page was an early successful test and is approved to save, but its reader-f
 
 1. `Dictionary 001 - The Usual Suspects`
 2. `Dictionary 002 - Symbol Key - Volume 1 v2`
-3. `Chapter 001 Page 001 - This Seemed Smaller In My Head`
-4. `Chapter 001 Page 002 - Razorforge Idea Anatomy`
-5. `Chapter 001 Page 003 - Codex Overbuild`
-6. `Chapter 001 Page 004 - Around Here's Most Wanted`
-7. `Chapter 002 Page 001 - The Fragile Detail`
+3. `Dictionary 003 - The Usual Suspects With Chief Inspector`
+4. `Chapter 001 Page 001 - This Seemed Smaller In My Head`
+5. `Chapter 001 Page 002 - Razorforge Idea Anatomy`
+6. `Chapter 001 Page 003 - Codex Overbuild`
+7. `Chapter 001 Page 004 - Around Here's Most Wanted`
+8. `Chapter 002 Page 001 - The Fragile Detail`
