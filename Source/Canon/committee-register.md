@@ -55,6 +55,10 @@ Visual form:
 - Alarm clock
 - Bed
 
+Visual differentiation note:
+
+Committee notices are already part of the foundational visual language. The open design problem is how to distinguish a Biological Committee notice from a Committee of Comedy Standards notice without relying on too much label text.
+
 ## Committee Of Previously Answered Questions
 
 Primary function:
@@ -344,6 +348,10 @@ Visual form:
 - Tiny clown car
 - Improvised solution
 - Official notice stamped: `THIS JOKE REQUIRES REVISION`
+
+Visual differentiation note:
+
+Comedy Standards notices may need a distinct flavor from Biological Committee notices through delivery method, wrong-tool props, stamp language, border style, or representative presence. This distinction is open for brainstorming.
 
 ## Special Case: The Mime
 

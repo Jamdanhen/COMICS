@@ -1,6 +1,6 @@
 # Around Here Comic Dictionary - Candidate Symbol Register v0.1
 
-Status: working symbol list
+Status: working symbol register / partially promoted
 
 Source:
 
@@ -14,9 +14,9 @@ Core symbol reference:
 
 This register is a working dictionary of symbols that may appear in the comic language of Around Here.
 
-It mixes approved core symbols, strong candidates, emerging symbols, infrastructure symbols, and high-risk ideas that should only be observed for now.
+It mixes approved core symbols, promoted symbols, held candidates, infrastructure symbols, and high-risk ideas that should only be observed for now.
 
-Do not treat every entry in this register as approved canon.
+Do not treat every entry in this register as approved canon. Check each entry's status.
 
 ## Tier 1 - Foundational Symbols
 
@@ -93,6 +93,26 @@ Status:
 
 Core Symbol
 
+### Idea Spud / Living Information Blob
+
+Category:
+
+Early Formation / Living Information
+
+Meaning:
+
+- Idea or information before it outgrows containment.
+- Early living information form.
+- Seed form of a larger information blob.
+
+Status:
+
+Approved Symbol
+
+Approval basis:
+
+Approved through repeated use in Comics 1 through 3.
+
 ## Tier 2 - Strong Secondary Symbols
 
 ### The Crate
@@ -117,13 +137,13 @@ Strong Candidate
 
 Category:
 
-Deferred Consequence
+Discovery / Excavation
 
 Meaning:
 
-- Known hazard.
-- Future collision.
-- Inactive implication.
+- Place where digging and excavation occur.
+- Rare ores become ideas or meaning.
+- Active discovery rather than only deferred danger.
 
 Question:
 
@@ -150,7 +170,7 @@ What happened.
 
 Status:
 
-Strong Candidate
+Hold
 
 ### The Monocle
 
@@ -170,13 +190,13 @@ What it means.
 
 Status:
 
-Strong Candidate
+Hold
 
 ### The Gazelle
 
 Category:
 
-Observation
+Observation / Reporting Character
 
 Meaning:
 
@@ -189,7 +209,15 @@ What is happening now.
 
 Status:
 
-Strong Candidate
+Authorized Character
+
+Character authority:
+
+`C:\COMICS\Source\Characters\character-gazelle-reporter.md`
+
+Approved visual reference:
+
+`C:\COMICS\Images\Generated\candidate-character-gazelle-reporter-2026-07-05-v3.png`
 
 ## Tier 3 - Emerging Symbols
 
@@ -209,7 +237,11 @@ A question intentionally left open until a better framework appears.
 
 Status:
 
-Emerging
+Approved Symbol
+
+Approval basis:
+
+Approved by Taskmaster and included in the approved `Around Here's Most Wanted` comic as the `Master of Evil` unresolved-classification symbol.
 
 ### The Code Block
 
@@ -246,7 +278,7 @@ Something becoming.
 
 Status:
 
-Emerging
+Approved Symbol
 
 ### The Blob
 
@@ -264,7 +296,11 @@ Information mutating faster than the container can accommodate.
 
 Status:
 
-Emerging
+Approved Symbol
+
+Approval basis:
+
+Approved as part of the Idea Spud / Living Information Blob language and already used in early approved comics.
 
 ## Tier 4 - Infrastructure Symbols
 
@@ -282,7 +318,11 @@ Meaning:
 
 Status:
 
-Variable
+Foundational Infrastructure Symbol
+
+Approval basis:
+
+Committee notice language appears in approved Symbol Key Volume 1.
 
 ### The Biological Committee
 
@@ -303,7 +343,35 @@ Interestingness.
 
 Status:
 
-Recurring
+Recurring / not separately differentiated yet
+
+Open question:
+
+How to visually distinguish a Biological Committee notice from a Committee for Comedic Standards notice without making the notice language too wordy.
+
+### Shift Clock / Mine Time Clock
+
+Category:
+
+Externally Imposed Work Interval
+
+Meaning:
+
+- The work is not finished.
+- The authorized interval has ended.
+- Technological or platform limits interrupt active discovery.
+
+Status:
+
+Approved Symbol
+
+Approval basis:
+
+Taskmaster approval on 2026-07-05.
+
+Draft image:
+
+`C:\COMICS\Images\Generated\candidate-symbol-shift-clock-mine-time-clock-2026-07-04.png`
 
 ### The Approved Shelf
 
@@ -435,3 +503,17 @@ These six feel like they carry the most conceptual weight right now without requ
 
 The remaining symbols currently feel more like residents of Around Here than foundational landmarks.
 
+## 2026-07-05 Promotion Notes
+
+Taskmaster approved or clarified the following:
+
+- Shift Clock / Mine Time Clock is approved.
+- Zodak's Helmet is approved.
+- Idea Spud / Living Information Blob is approved.
+- Chief Inspector is an approved character, not merely a symbol.
+- Around Here Chronicle is on hold.
+- Monocle is on hold.
+- Gazelle Reporter is authorized as a character.
+- Committee notices are already part of foundational visual language through Symbol Key Volume 1.
+- All symbols appearing in the approved `Around Here's Most Wanted` comic are approved by inclusion.
+- Symbol Key Volume 2A is not approved as a sheet; most entries lack enough context, except Noodle Shop remains interesting, Mythic BEAM needs a draft, and Idea Spud is already approved.

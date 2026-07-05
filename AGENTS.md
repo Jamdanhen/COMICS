@@ -71,6 +71,39 @@ The project repeatedly compresses and extracts ideas: raw material becomes obser
 - `Exports/`: shareable final bundles such as PDFs, image sets, or packaged scripts.
 - `Approved/Comic Pages/`: approved final comic page images after Taskmaster approval.
 
+## Phone And OneNote Sharing
+
+The durable project authority is `C:\COMICS`.
+
+The approved OneNote/mobile-facing reader packet path is:
+
+`C:\Users\MrJam\OneDrive\Documents\Comics-Sleeper`
+
+The active OneNote notebook for phone access is:
+
+`Approved Comics Reader`
+
+Do not use `Comics Phone Reader` as the active phone route. It was created
+from an older notebook copy and may retain stale section references.
+
+The backup mirror reader packet path is:
+
+`C:\Users\MrJam\OneDrive\Organized Content Backup\Comics\Sleeper\Reader_Packets`
+
+Use the OneNote notebook first for phone access to approved reader-facing
+comic material:
+
+- `Approved Comics Reader > Approved Comics`
+
+The OneDrive Documents path remains a file-based fallback, especially:
+
+- `Start Here - Approved Comics.html`
+- `Approved Comics - Reader Packet.pdf`
+
+Treat the OneDrive path as a sharing/mirror access path only. Do not revise
+comic canon, scripts, visual rules, source material, or project guidance there
+unless the owner explicitly changes the authority.
+
 ## Retrieval Rules
 
 When continuing the project:

@@ -1,6 +1,6 @@
 # Symbol Candidate Notes - Chronicle, Monocle, Gazelle, Biological Committee
 
-Status: working symbol notes / not canon
+Status: working symbol notes / hold and brainstorm
 
 Source note:
 
@@ -11,6 +11,10 @@ Source note:
 Role:
 
 The newspaper/reporting institution of Around Here.
+
+Current status:
+
+Hold.
 
 Symbol direction:
 
@@ -35,6 +39,10 @@ Avoid:
 Role:
 
 A focused Chronicle article/lens: opinion, analysis, feature, close-up, or focused treatment.
+
+Current status:
+
+Hold.
 
 Origin / joke:
 
@@ -66,6 +74,18 @@ Role:
 
 Anthropomorphic gazelle reporter for the Around Here Chronicle.
 
+Current status:
+
+Authorized character.
+
+Character authority:
+
+`C:\COMICS\Source\Characters\character-gazelle-reporter.md`
+
+Approved visual reference:
+
+`C:\COMICS\Images\Generated\candidate-character-gazelle-reporter-2026-07-05-v3.png`
+
 Origin / joke:
 
 The Gazelle comes from the abandoned first name `Around Here Gazette`.
@@ -75,6 +95,10 @@ The word drift / misspelling from `Gazette` to `Gazelle` became a literal gazell
 Symbol direction:
 
 A simple repeatable reporter figure: gazelle head/ears/horns, press hat or reporter notebook, microphone, satchel, or press badge.
+
+Approved character direction:
+
+Older male, serious trusted-correspondent presence. He may wear the press hat when field reporting, but desk/news-update mode requires a jacket and should feel like a veteran broadcaster.
 
 Possible visual anchors:
 
@@ -95,6 +119,10 @@ Avoid:
 Role:
 
 Committee authority over sleep, hunger, time, physical limits, and other barriers to project work or idea creation.
+
+Current status:
+
+Committee notices are already part of foundational visual language. The unresolved design question is how to differentiate a Biological Committee notice from a Committee for Comedic Standards notice without over-labeling.
 
 Symbol direction:
 
@@ -137,6 +165,10 @@ Related source note:
 Role:
 
 An enforcement/intervention body for jokes that have gone wrong: bad puns, dumb jokes, forced jokes, or jokes that need a penalty notice.
+
+Current status:
+
+Committee notices are already part of foundational visual language. The specific Comedic Standards flavor can be brainstormed through notice style, delivery method, wrong-tool props, or stamp language.
 
 Symbol direction:
 

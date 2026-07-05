@@ -1,8 +1,8 @@
 # Candidate Symbol - Zodak's Helmet / Unresolved Classification
 
-Status: candidate
+Status: approved symbol
 
-Canon status: not canon
+Canon status: approved
 
 Source material:
 
@@ -17,6 +17,16 @@ Zodak's Helmet represents:
 **Unresolved classification.**
 
 It marks a known inconsistency, recognized anomaly, or open question that should be preserved until a sufficient framework exists.
+
+## Approval
+
+Taskmaster approved Zodak's Helmet as a symbol on 2026-07-05.
+
+It is also approved by appearance in:
+
+`C:\comics\Approved\Comic Pages\chapter-001-page-004-around-heres-most-wanted.png`
+
+In that comic, it appears as the `Master of Evil` unresolved-classification entry.
 
 ## Core Distinction
 
@@ -130,7 +140,6 @@ For project use, preserve the symbolic function and personal memory. Do not assu
 
 ## Promotion Boundary
 
-This candidate can be used for future drafting and vocabulary development.
+This symbol can be used for future drafting and vocabulary development.
 
-It should not be added to `C:\comics\Source\Language\language-core-terms.md` unless Taskmaster explicitly approves it as stable comic language.
-
+It may be treated as stable comic language unless Taskmaster later revises its scope.

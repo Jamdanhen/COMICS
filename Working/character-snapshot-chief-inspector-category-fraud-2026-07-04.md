@@ -1,6 +1,6 @@
 # Character Snapshot - Chief Inspector
 
-Status: candidate character snapshot / not canon
+Status: approved character snapshot
 
 Date: 2026-07-04
 
@@ -27,6 +27,18 @@ The Chief Inspector is a real crab with a fake black mustache who investigates c
 He is Sherlock-style investigator, not police.
 
 He is dry, serious, intelligent, and professionally bothered by bad classification.
+
+## Approval
+
+Taskmaster approved the Chief Inspector as a character on 2026-07-05.
+
+Approved reader-facing appearance:
+
+`C:\COMICS\Approved\Comic Pages\dictionary-003-the-usual-suspects-with-chief-inspector.png`
+
+Series placement:
+
+The Chief Inspector is introduced in `The Usual Suspects With Chief Inspector`, described by Taskmaster as `Usual Suspects Volume 2`.
 
 ## Required Visual Anchors
 
@@ -181,7 +193,7 @@ Open issues:
 - lower-left pose introduces a patterned open box that may create unwanted Zodak/candy-box drift
 - future versions may need less shell texture and cleaner repeatable line economy
 
-Not canon unless Taskmaster approves.
+Approved as character reference unless Taskmaster later revises.
 
 ### v2 Revision
 

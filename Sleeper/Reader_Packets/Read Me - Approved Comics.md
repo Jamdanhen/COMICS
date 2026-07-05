@@ -1,32 +1,30 @@
 # Approved Comics
 
-This is the phone-accessible OneDrive copy of the approved comic sequence.
+This folder is the current phone/share packet for the approved Around Here comic pages.
 
-Path on phone:
-OneDrive > Documents > Comics-Sleeper
+Start here:
 
-Note:
+`Start Here - Approved Comics.html`
 
-`Comics.url` in `OneDrive > Documents` is the OneNote notebook shortcut. OneDrive resolved this companion file folder as `Comics-Sleeper`, likely to avoid colliding with the notebook shortcut name.
+Single-file packet:
+
+`Approved Comics - Reader Packet.pdf`
+
+Images:
+
+`Comic Pages`
 
 ## Reading Order
 
-1. Comic 000A - The Usual Suspects
-2. Comic 000B - Symbol Key - Volume 1 v2
-3. Comic 001 - The Fragile Detail
+1. Dictionary 001 - The Usual Suspects
+2. Dictionary 002 - Symbol Key - Volume 1 v2
+3. Dictionary 003 - The Usual Suspects With Chief Inspector
+4. Chapter 001 Page 001 - This Seemed Smaller In My Head
+5. Chapter 001 Page 002 - Razorforge Idea Anatomy
+6. Chapter 001 Page 003 - Codex Overbuild
+7. Chapter 001 Page 004 - Around Here's Most Wanted
+8. Chapter 002 Page 001 - The Fragile Detail
 
-## Files
+The durable source of truth remains:
 
-The images are in:
-Comic Pages
-
-The easiest single-file packet is:
-Approved Comics - Reader Packet.pdf
-
-The phone-friendly start page is:
-Start Here - Approved Comics.html
-
-The durable canon register remains in:
-C:\Comics\Source\Canon\approved-comics-register.md
-
-The OneDrive copy is for phone and OneNote access.
+`C:\COMICS`

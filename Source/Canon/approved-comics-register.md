@@ -186,6 +186,10 @@ Series function:
 
 Introduces Around Here's Category Fraud Division through an in-world most-wanted board where objects are charged for names that fail their own categories. Uses Zodak's Helmet as the `Master of Evil` unresolved-classification symbol and keeps Sweetbreads visually honest as organ meat.
 
+Symbol approval note:
+
+Taskmaster clarified on 2026-07-05 that because `Around Here's Most Wanted` is approved as a comic page, every symbol appearing in that page is approved by inclusion.
+
 ### Chapter 002 Page 001 - The Fragile Detail
 
 Status: approved narrative chapter page / saved out of creation order

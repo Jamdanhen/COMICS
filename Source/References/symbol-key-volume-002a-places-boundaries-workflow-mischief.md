@@ -1,6 +1,6 @@
 # Symbol Key Volume 002A - Places, Boundaries, and Workflow Mischief
 
-Status: draft source visual dictionary
+Status: parked draft source visual dictionary / partial salvage
 
 Image:
 
@@ -83,22 +83,21 @@ Potential later revision:
 
 Panel 13 may eventually include the Clown or Mime distinction from the Committee Register, but this should not overcrowd Volume 2A unless Taskmaster requests it.
 
+## 2026-07-05 Taskmaster Review
+
+Taskmaster did not approve Symbol Key Volume 2A as a sheet.
+
+Review outcome:
+
+- Archive Candidate: no.
+- Most entries do not yet have enough context for promotion.
+- Noodle Shop remains contextually interesting.
+- Mythic BEAM needs to be drafted.
+- Idea Spud / Living Information Blob is already approved separately.
+- Committee notices are already part of the foundational language through Symbol Key Volume 1.
+
 ## Promotion Status
 
-Not approved yet.
+Do not promote this sheet as a whole.
 
-Needs Taskmaster review.
-
-## Suggested Decision Options
-
-```text
-APPROVE SYMBOL KEY VOLUME 2A
-```
-
-```text
-REVISE SYMBOL KEY VOLUME 2A:
-```
-
-```text
-PARK SYMBOL KEY VOLUME 2A
-```
+Use it only as a parked reference for salvageable parts.

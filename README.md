@@ -20,6 +20,55 @@ This project owns:
 - project-local language, symbols, motifs, and naming conventions
 - comic-specific source material and references
 
+## Authority And Phone Sharing
+
+The durable project authority is:
+
+```text
+C:\COMICS
+```
+
+The OneNote/mobile-facing reader packet path is:
+
+```text
+C:\Users\MrJam\OneDrive\Documents\Comics-Sleeper
+```
+
+The active OneNote notebook for phone access is:
+
+```text
+Approved Comics Reader
+```
+
+Do not use `Comics Phone Reader` as the active phone route. It was created
+from an older notebook copy and may retain stale section references.
+
+The backup mirror reader packet path is:
+
+```text
+C:\Users\MrJam\OneDrive\Organized Content Backup\Comics\Sleeper\Reader_Packets
+```
+
+Use the OneNote notebook first for phone access to approved reader-facing
+comic material. The intended OneNote entry point is:
+
+```text
+Approved Comics Reader > Approved Comics
+```
+
+The OneDrive Documents path remains a file-based fallback. Its intended entry
+points are:
+
+```text
+Start Here - Approved Comics.html
+Approved Comics - Reader Packet.pdf
+```
+
+The OneDrive path is a sharing/mirror access path, not the creative project
+authority. Do not treat OneDrive as the place to revise comic canon, scripts,
+visual rules, or source material unless the owner explicitly changes the
+authority.
+
 This project does not own:
 
 - the Crucible Registry relationship map

@@ -1,10 +1,16 @@
-# Candidate Symbol - Idea Spud / Information Blob
+# Approved Symbol - Idea Spud / Information Blob
 
-Status: candidate for future visual-language comic
+Status: approved symbol
 
 Source:
 
 - Taskmaster direction, 2026-06-11: preserve the small first-stage idea creature as a candidate symbol for idea or information in the next visual-language/key-language comic.
+- Taskmaster approval, 2026-07-05: Idea Spud / Living Information Blob is approved and already appears in Comics 1 through 3.
+
+Approval basis:
+
+- Approved through use in early comics.
+- Approved by Taskmaster as a recurring symbol.
 
 Reference comic draft:
 
@@ -14,7 +20,7 @@ Related reference image:
 
 `C:\comics\Images\Generated\draft-living-idea-blob-no-mouth-no-labels-2026-06-10.png`
 
-## Candidate Meaning
+## Symbol Meaning
 
 The small first-stage creature may represent:
 
@@ -50,6 +56,6 @@ Growth may include:
 
 ## Boundary
 
-This is not yet approved as final canon language.
+This is approved recurring visual language.
 
-Use it as a candidate for the next visual-language/key-language comic that establishes reusable symbols, alongside existing symbols such as Taskmaster's rook, Razorforge, the bolo suit reference, and the rubber chicken.
+Future symbol-key work may refine the exact icon form, but the underlying symbol is no longer merely a candidate.

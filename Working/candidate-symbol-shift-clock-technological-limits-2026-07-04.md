@@ -1,17 +1,18 @@
 # Candidate Symbol - Shift Clock / Technological Limits
 
-Status: working symbol note / not canon
+Status: approved symbol note
 
 Source:
 
 - REflections / Crucible Experiment conversation, 2026-07-04.
-- Taskmaster direction: preserve as a possible Comics / Around Here symbol, but do not promote to canon.
+- Taskmaster direction: preserve as a possible Comics / Around Here symbol.
+- Taskmaster approval on 2026-07-05: approve the Shift Clock / Mine Time Clock symbol.
 
 Promotion state:
 
-- Reference / candidate guidance.
-- Not local canon.
-- Not approved recurring visual language.
+- Approved symbol.
+- Approved recurring visual language.
+- Draft image exists and may be used as the current visual reference.
 
 ## Core Idea
 
@@ -24,7 +25,7 @@ The first working idea was `Technological Committee`, but the stronger comic vis
 - end-of-shift steam whistle
 - punch clock at the mine entrance
 
-The symbol should remain parked unless it recurs, survives, and proves useful in Comics / Around Here.
+The symbol is approved as a recurring visual symbol. Future use should keep the dry, institutional, mine-adjacent workplace mechanism rather than turning it into a mascot or villain.
 
 ## Visual Premise
 
@@ -136,17 +137,13 @@ The stronger gag is a neutral workplace mechanism interrupting cosmic inquiry be
 
 ## Boundary Notes
 
-Do not promote this to canon yet.
-
 Do not treat `Technological Committee` as a final name.
 
 Do not make it a generic mascot.
 
 Do not make it a replacement for the Biological Committee.
 
-Do not make it a regular recurring object unless repeated use proves it belongs.
-
-This candidate should remain parked unless it recurs, survives, and proves useful in Comics / Around Here.
+Use `Shift Clock` or `Mine Time Clock` as the working symbol name unless Taskmaster later revises it.
 
 ## Promotion Question
 
@@ -158,9 +155,7 @@ If no, it remains a funny one-off Mine gag.
 
 ## Recommended Handling
 
-Park as a candidate visual-symbol note for Comics / Around Here.
-
-Use only if a future strip or scene needs a visual way to show infrastructure interrupting active discovery without implying the discovery itself has ended.
+Use when a future strip or scene needs a visual way to show infrastructure interrupting active discovery without implying the discovery itself has ended.
 
 ## Candidate Generated Image
 
