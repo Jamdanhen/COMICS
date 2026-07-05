@@ -92,7 +92,6 @@ Review outcome:
 - Archive Candidate: no.
 - Most entries do not yet have enough context for promotion.
 - Noodle Shop remains contextually interesting.
-- Mythic BEAM needs to be drafted.
 - Idea Spud / Living Information Blob is already approved separately.
 - Committee notices are already part of the foundational language through Symbol Key Volume 1.
 

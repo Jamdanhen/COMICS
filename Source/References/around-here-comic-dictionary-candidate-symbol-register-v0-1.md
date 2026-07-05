@@ -516,4 +516,4 @@ Taskmaster approved or clarified the following:
 - Gazelle Reporter is authorized as a character.
 - Committee notices are already part of foundational visual language through Symbol Key Volume 1.
 - All symbols appearing in the approved `Around Here's Most Wanted` comic are approved by inclusion.
-- Symbol Key Volume 2A is not approved as a sheet; most entries lack enough context, except Noodle Shop remains interesting, Mythic BEAM needs a draft, and Idea Spud is already approved.
+- Symbol Key Volume 2A is not approved as a sheet; most entries lack enough context, except Noodle Shop remains interesting and Idea Spud is already approved.

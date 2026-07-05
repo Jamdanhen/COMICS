@@ -104,6 +104,30 @@ Series function:
 
 Reader-facing expanded character lineup introducing the Chief Inspector at true short scale as a category-fraud investigator alongside Taskmaster, Razorforge, and Codex.
 
+### Dictionary 004 - Around Here Chronicle Laundry Hydra
+
+Status: approved dictionary/front-matter comic
+
+Approved shelf image:
+
+`C:\comics\Approved\Comic Pages\dictionary-004-around-here-chronicle-laundry-hydra.png`
+
+Generated source image:
+
+`C:\comics\Images\Generated\candidate-around-here-chronicle-laundry-hydra-2026-07-05-v2.png`
+
+Working record:
+
+`C:\comics\Working\candidate-around-here-chronicle-laundry-hydra-2026-07-05.md`
+
+Source basis:
+
+Crucible Experiment conversation, 2026-07-05, preserved as a Laundry Hydra / full-cycle textile containment newspaper sample concept.
+
+Series function:
+
+Reader-facing in-world sample of `The Around Here Chronicle` and `The Monocle`, showing how Around Here reports absurd domestic systems theory with dry institutional seriousness.
+
 ## Approved Narrative Chapter Pages
 
 ### Chapter 001 Page 001 - This Seemed Smaller In My Head
@@ -219,8 +243,9 @@ This page was an early successful test and is approved to save, but its reader-f
 1. `Dictionary 001 - The Usual Suspects`
 2. `Dictionary 002 - Symbol Key - Volume 1 v2`
 3. `Dictionary 003 - The Usual Suspects With Chief Inspector`
-4. `Chapter 001 Page 001 - This Seemed Smaller In My Head`
-5. `Chapter 001 Page 002 - Razorforge Idea Anatomy`
-6. `Chapter 001 Page 003 - Codex Overbuild`
-7. `Chapter 001 Page 004 - Around Here's Most Wanted`
-8. `Chapter 002 Page 001 - The Fragile Detail`
+4. `Dictionary 004 - Around Here Chronicle Laundry Hydra`
+5. `Chapter 001 Page 001 - This Seemed Smaller In My Head`
+6. `Chapter 001 Page 002 - Razorforge Idea Anatomy`
+7. `Chapter 001 Page 003 - Codex Overbuild`
+8. `Chapter 001 Page 004 - Around Here's Most Wanted`
+9. `Chapter 002 Page 001 - The Fragile Detail`
