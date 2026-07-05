@@ -8,6 +8,32 @@ Easy retrieval list for comic concepts Taskmaster wants to return to soon.
 
 ## Near-Term Concepts
 
+### The Mine / Foundational Discovery Symbol
+
+File:
+
+`C:\COMICS\Source\References\The_Mine_Foundational_Symbol_Case_Study.md`
+
+Core idea:
+
+The Mine is the central metaphor for discovery. It is not primarily a physical location and it does not produce finished knowledge. It produces ore: raw observations, strange ideas, jokes, mistakes, symbols, anomalies, questions, and coincidences before they are understood.
+
+Comic potential:
+
+The strongest Mine comic should show discovery as honest work without overexplaining it. Ore is found, carried, examined, and only later refined. The Bench outside the Mine matters because understanding usually follows discovery rather than occurring underground.
+
+Important relationship:
+
+- The Mine provides material.
+- The Bench transforms material into understanding.
+- The Chronicle preserves what survives.
+- A Keystone is a load-bearing discovery.
+- The Lost City is coherent understanding that emerges after enough connected discoveries.
+
+Follow-up state:
+
+Foundational source case study exists. Use it before drafting Mine comics or Mine-related symbol images.
+
 ### Around Here's Most Wanted - Category Fraud Division
 
 File:

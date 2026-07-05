@@ -146,9 +146,30 @@ Mine:
 - A growing conceptual labyrinth inside the original mountain of project development.
 - Contains roads, branches, shafts, tunnels, connections, ore, and artifacts.
 - Expands through exploration of concepts and methods.
+- Not primarily a physical location.
+- Central metaphor for discovery.
+- Produces ore, not finished knowledge.
+- Ore is raw discovery before refinement: observations, jokes, symbols, mistakes, anomalies, questions, coincidences, and other unfinished material with possible value.
 - Does not always produce rules, signs, procedures, or clean answers.
 - May include dead ends, wandering paths, hazards, cliffs, unstable tunnels, spiral pits, overlooked veins, and discoveries that only later reveal what kind of structure is needed.
 - Sometimes the value of the Mine is finding the place where a rule, role sign, procedure, warning, or preservation tool is needed, rather than producing the tool immediately.
+- Most important conversations happen around the Mine rather than inside it.
+- The Bench outside the Mine is where ore is examined, stories are exchanged, humor becomes insight, and raw discovery becomes usable.
+- The Mine is not about digging deeper for its own sake; it is about discovering what has always been present but not yet recognized.
+- Source refinement: `C:\COMICS\Source\References\The_Mine_Foundational_Symbol_Case_Study.md`.
+
+Keystone:
+
+- A load-bearing discovery.
+- Pennsylvania reference: the Keystone State.
+- Many Mine discoveries are interesting ore, but only a few become keystones that support larger structures.
+
+Lost City:
+
+- Coherent understanding emerging from many small discoveries.
+- Not found directly at the start.
+- Discovered through connected roads, walls, tools, symbols, doorways, and accumulated excavations.
+- Related to Crucible as endpoint mythology, but should remain visually discovered through fragments before being recognized as a city.
 
 Crucible:
 

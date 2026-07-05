@@ -36,22 +36,31 @@ Priority: very high
 
 Corrected meaning:
 
-The Mine is an excavation mine, not the naval mine symbol. It is a place where digging, discovery, rare ores, source fragments, and ideas emerge.
+The Mine is an excavation mine, not the naval mine symbol.
+
+More precisely, the Mine is not primarily a physical location. It is the central metaphor for discovery: raw observations, strange ideas, symbols, mistakes, experiences, corrections, anomalies, questions, and coincidences are excavated before they are understood.
+
+The Mine produces ore, not finished knowledge.
 
 Comic use:
 
-- Taskmaster enters a working mine beneath Around Here.
-- Razorforge identifies a vein or seam.
-- Codex builds an excessive extraction tool.
-- A strange ore chunk becomes an idea, symbol, or usable bit.
+- Taskmaster, Razorforge, Codex, or another figure discovers ore in or near the Mine.
+- The ore is carried to the Bench rather than fully resolved underground.
+- Razorforge may identify a vein or seam, but understanding happens later.
+- Codex may build an excessive extraction tool, but the tool should not imply that the Mine produces finished answers.
+- A strange ore chunk may later become a symbol, doctrine, framework, or simply remain an interesting specimen.
 
 Why it works:
 
-It visualizes extraction without needing labels. It connects directly to idea generation, repository work, and the lunch bench origin.
+It visualizes discovery without needing labels. It connects directly to idea generation, repository work, Pennsylvania industrial landscape, and the lunch bench origin.
 
 Risk:
 
-Too many labels can turn it into a glossary page. Keep it visual and physical.
+Too many labels can turn it into a glossary page. Keep it visual, inhabited, and work-adjacent. The Mine should not feel like a grim industrial site alone; curiosity is honest work.
+
+Source:
+
+`C:\COMICS\Source\References\The_Mine_Foundational_Symbol_Case_Study.md`
 
 ### 2. The Bench Outside The Mine
 
@@ -59,13 +68,14 @@ Priority: very high
 
 Meaning:
 
-A work-adjacent conversation space where meaning accumulates during the pause.
+A work-adjacent conversation space where meaning accumulates during the pause. The Bench is where ore from the Mine becomes understandable and usable.
 
 Comic use:
 
 - Taskmaster and Razorforge pause outside the mine.
 - A lunchbox, ham sandwich, map, and mined ore sit nearby.
-- The pause becomes the place where the work becomes interpretable.
+- The pause becomes the place where discovery becomes interpretable.
+- Ore is examined together; not all of it becomes gold.
 
 Why it works:
 
@@ -303,7 +313,7 @@ The Mine / Excavation Mine.
 
 Reason:
 
-It corrects the mine drift, establishes a core creative place, and gives Taskmaster, Razorforge, and Codex clear physical actions without requiring much text.
+It corrects the mine drift and establishes the discovery cycle: ore comes from the Mine, understanding happens at the Bench, and only some discoveries become load-bearing keystones.
 
 ### Strong Follow-Up
 
@@ -323,8 +333,8 @@ It can become the emotional and interpretive origin point of Around Here: work p
 
 ## Current Best Three-Comic Cluster
 
-1. `The Mine` - extraction as place and action.
-2. `The Bench Outside The Mine` - pause where meaning becomes interpretable.
+1. `The Mine` - discovery produces ore, not finished knowledge.
+2. `The Bench Outside The Mine` - ore becomes interpretable and usable.
 3. `Chief Inspector` - category-fraud investigation as institutional humor.
 
 This cluster would extend Chapter 001 from idea emergence into the recurring geography and institutions of Around Here.
