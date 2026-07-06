@@ -69,6 +69,17 @@ authority. Do not treat OneDrive as the place to revise comic canon, scripts,
 visual rules, or source material unless the owner explicitly changes the
 authority.
 
+OneNote is not automatically derived from OneDrive. When a comic page is
+promoted into `C:\COMICS\Approved\Comic Pages`, the `Approved Comics Reader`
+notebook must be checked and refreshed so the `Approved Comics` section has one
+visible OneNote page per approved comic image.
+
+To push approved comic images into OneNote, run:
+
+```powershell
+powershell.exe -ExecutionPolicy Bypass -File C:\COMICS\Scripts\Push-ApprovedComicsToOneNote.ps1
+```
+
 This project does not own:
 
 - the Crucible Registry relationship map

@@ -69,6 +69,34 @@ The phone-access mirror is:
 
 When an approved comic page is added, renamed, replaced, or removed from the master approved shelf, make the same change in the Sleeper approved shelf. The Sleeper approved shelf should mirror the master shelf exactly so Taskmaster can access the approved comics from the phone without maintaining a second organization system.
 
+## Approved Reader Packet Propagation Rule
+
+When Taskmaster approves a comic page, approval is not complete until the reader-facing packet has been refreshed.
+
+For each approved comic, update all applicable locations:
+
+- `C:\COMICS\Approved\Comic Pages`
+- `C:\COMICS\Sleeper\Approved\Comic Pages`
+- `C:\COMICS\Sleeper\Reader_Packets\Comic Pages`
+- `C:\Users\MrJam\OneDrive\Documents\Comics-Sleeper\Comic Pages`
+- `C:\Users\MrJam\OneDrive\Organized Content Backup\Comics\Sleeper\Reader_Packets\Comic Pages`
+
+Then refresh the packet files from the current approved register:
+
+- `Approved Comics - Register.md`
+- `Read Me - Approved Comics.md`
+- `Start Here - Approved Comics.html`
+- `Approved Comics - Reader Packet.pdf`
+- `Approved Comics - OneNote Visible Reader.png`
+
+The same refreshed packet files should exist in:
+
+- `C:\COMICS\Sleeper\Reader_Packets`
+- `C:\Users\MrJam\OneDrive\Documents\Comics-Sleeper`
+- `C:\Users\MrJam\OneDrive\Organized Content Backup\Comics\Sleeper\Reader_Packets`
+
+Before closing an approval task, verify that the approved image count matches across the master shelf, Sleeper shelf, reader packet image folder, OneDrive phone folder, and backup packet folder, and verify that every image referenced by `Start Here - Approved Comics.html` exists.
+
 ## First-Draft Comic Blocking Rule
 
 For new multi-panel comic ideas, use rough blocking as the first draft format after the direction is discussed and chosen.

@@ -128,6 +128,26 @@ Series function:
 
 Reader-facing in-world sample of `The Around Here Chronicle` and `The Monocle`, showing how Around Here reports absurd domestic systems theory with dry institutional seriousness.
 
+### Dictionary 005 - Around Here Chronicle Newsroom Laundry Hydra
+
+Status: approved dictionary/front-matter comic
+
+Approved shelf image:
+
+`C:\comics\Approved\Comic Pages\dictionary-005-around-here-chronicle-newsroom-laundry-hydra.png`
+
+Generated source image:
+
+`C:\comics\Images\Generated\candidate-around-here-chronicle-newsroom-laundry-hydra-2026-07-05-v3.png`
+
+Source basis:
+
+Laundry Hydra / full-cycle textile containment concept and the authorized Gazelle Reporter character record.
+
+Series function:
+
+Reader-facing in-world sample of the Around Here Chronicle newsroom / broadcast format, showing the Gazelle Reporter as a serious older correspondent delivering absurd local news with institutional calm.
+
 ## Approved Narrative Chapter Pages
 
 ### Chapter 001 Page 001 - This Seemed Smaller In My Head
@@ -244,8 +264,9 @@ This page was an early successful test and is approved to save, but its reader-f
 2. `Dictionary 002 - Symbol Key - Volume 1 v2`
 3. `Dictionary 003 - The Usual Suspects With Chief Inspector`
 4. `Dictionary 004 - Around Here Chronicle Laundry Hydra`
-5. `Chapter 001 Page 001 - This Seemed Smaller In My Head`
-6. `Chapter 001 Page 002 - Razorforge Idea Anatomy`
-7. `Chapter 001 Page 003 - Codex Overbuild`
-8. `Chapter 001 Page 004 - Around Here's Most Wanted`
-9. `Chapter 002 Page 001 - The Fragile Detail`
+5. `Dictionary 005 - Around Here Chronicle Newsroom Laundry Hydra`
+6. `Chapter 001 Page 001 - This Seemed Smaller In My Head`
+7. `Chapter 001 Page 002 - Razorforge Idea Anatomy`
+8. `Chapter 001 Page 003 - Codex Overbuild`
+9. `Chapter 001 Page 004 - Around Here's Most Wanted`
+10. `Chapter 002 Page 001 - The Fragile Detail`

@@ -104,6 +104,17 @@ Treat the OneDrive path as a sharing/mirror access path only. Do not revise
 comic canon, scripts, visual rules, source material, or project guidance there
 unless the owner explicitly changes the authority.
 
+OneNote is a separate phone-facing reading surface, not an automatic mirror of
+OneDrive. When a comic page is promoted into `C:\COMICS\Approved\Comic Pages`,
+verify that `Approved Comics Reader > Approved Comics` has one visible OneNote
+page per approved comic image and add any missing pages there.
+
+Use this command to push approved comic images into OneNote:
+
+```powershell
+powershell.exe -ExecutionPolicy Bypass -File C:\COMICS\Scripts\Push-ApprovedComicsToOneNote.ps1
+```
+
 ## Retrieval Rules
 
 When continuing the project:
