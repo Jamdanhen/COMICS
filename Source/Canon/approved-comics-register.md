@@ -104,6 +104,14 @@ Series function:
 
 Reader-facing expanded character lineup introducing the Chief Inspector at true short scale as a category-fraud investigator alongside Taskmaster, Razorforge, and Codex.
 
+2026-07-07 title-card update:
+
+- Taskmaster approved adding the `Around Here...` title-card overlay to the upper-left corner.
+- The approved shelf image was overwritten with the titled version.
+- The local Sleeper approved shelf and reader-packet copies were updated to match.
+- Title-card source: `C:\COMICS\Images\Generated\Title-Cards\title-card-around-here-v18-sunday-comics-simple-mine-cart.svg`
+- Applied draft source: `C:\COMICS\Images\Edits\Title-Overlay-Tests\dictionary-003-around-here-title-overlay-v18-left-corner-draft.png`
+
 ### Dictionary 004 - Around Here Chronicle Laundry Hydra
 
 Status: approved dictionary/front-matter comic
@@ -170,6 +178,14 @@ Series function:
 
 Opening narrative page for Chapter 001, focused on the iteration of an idea and the introduction path for Razorforge and Codex.
 
+2026-07-07 title-card update:
+
+- Taskmaster approved adding the `Around Here...` title-card overlay to the upper-left corner.
+- The approved shelf image was overwritten with the titled version.
+- The local Sleeper approved shelf and reader-packet copies were updated to match.
+- Title-card source: `C:\COMICS\Images\Generated\Title-Cards\title-card-around-here-v18-sunday-comics-simple-mine-cart.svg`
+- Applied draft source: `C:\COMICS\Images\Edits\Title-Overlay-Tests\chapter-001-page-001-around-here-title-overlay-v18-upper-left-draft.png`
+
 ### Chapter 001 Page 002 - Razorforge Idea Anatomy
 
 Status: approved narrative chapter page
@@ -190,6 +206,14 @@ Series function:
 
 Introduces Razorforge through careful observation, idea anatomy, and structural interpretation before Codex turns the idea into a build problem.
 
+2026-07-07 title-card update:
+
+- Taskmaster approved adding the `Around Here...` title-card overlay to the upper-left corner.
+- The approved shelf image was overwritten with the titled version.
+- The local Sleeper approved shelf and reader-packet copies were updated to match.
+- Title-card source: `C:\COMICS\Images\Generated\Title-Cards\title-card-around-here-v18-sunday-comics-simple-mine-cart.svg`
+- Applied draft source: `C:\COMICS\Images\Edits\Title-Overlay-Tests\chapter-001-page-002-around-here-title-overlay-v18-upper-left-v2-draft.png`
+
 ### Chapter 001 Page 003 - Codex Overbuild
 
 Status: approved narrative chapter page
@@ -209,6 +233,14 @@ Script record:
 Series function:
 
 Introduces Codex through smart, overbuilt implementation: a gentle idea-segmenting machine that turns one living idea into organized usable parts.
+
+2026-07-07 title-card update:
+
+- Taskmaster approved adding the `Around Here...` title-card overlay to the upper-left corner.
+- The approved shelf image was overwritten with the titled version.
+- The local Sleeper approved shelf and reader-packet copies were updated to match.
+- Title-card source: `C:\COMICS\Images\Generated\Title-Cards\title-card-around-here-v18-sunday-comics-simple-mine-cart.svg`
+- Applied draft source: `C:\COMICS\Images\Edits\Title-Overlay-Tests\chapter-001-page-003-around-here-title-overlay-v18-upper-left-v2-draft.png`
 
 ### Chapter 001 Page 004 - Around Here's Most Wanted
 

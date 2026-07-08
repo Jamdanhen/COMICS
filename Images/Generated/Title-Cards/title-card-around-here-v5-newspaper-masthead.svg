@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 150" width="520" height="150" role="img" aria-labelledby="title desc">
+  <title id="title">Around Here newspaper masthead title card</title>
+  <desc id="desc">A compact black and white newspaper-print masthead reading Around Here...</desc>
+  <defs>
+    <filter id="ink" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="11" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="0.8"/>
+    </filter>
+    <pattern id="newsprint" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.55" fill="#111" opacity="0.18"/>
+      <circle cx="4" cy="4" r="0.45" fill="#111" opacity="0.11"/>
+    </pattern>
+  </defs>
+  <g filter="url(#ink)">
+    <path d="M18 22 H496 V128 H18 Z" fill="#fff" stroke="#111" stroke-width="3"/>
+    <path d="M28 34 H486 M28 108 H486" fill="none" stroke="#111" stroke-width="4"/>
+    <path d="M28 43 H486 M28 117 H486" fill="none" stroke="#111" stroke-width="1.5"/>
+    <rect x="31" y="47" width="452" height="56" fill="url(#newsprint)" opacity="0.35"/>
+    <text x="257" y="91" text-anchor="middle"
+          font-family="Georgia, 'Times New Roman', serif"
+          font-size="54" font-weight="900" letter-spacing="-1"
+          fill="#111">Around Here...</text>
+    <text x="259" y="29" text-anchor="middle"
+          font-family="'Courier New', monospace"
+          font-size="10" font-weight="700" letter-spacing="1.3"
+          fill="#111">A JURISDICTIONAL PUBLICATION</text>
+    <text x="258" y="123" text-anchor="middle"
+          font-family="'Courier New', monospace"
+          font-size="9" font-weight="700" letter-spacing="1"
+          fill="#111">OBSERVATIONS PRESERVED UNTIL FURTHER NOTICE</text>
+  </g>
+</svg>

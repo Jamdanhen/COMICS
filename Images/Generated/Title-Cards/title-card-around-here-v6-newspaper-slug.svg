@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="500" height="120" role="img" aria-labelledby="title desc">
+  <title id="title">Around Here newspaper slug title card</title>
+  <desc id="desc">A small newspaper slug style title card reading Around Here...</desc>
+  <defs>
+    <filter id="roughInk" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.55" numOctaves="2" seed="27" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="0.55"/>
+    </filter>
+  </defs>
+  <g filter="url(#roughInk)">
+    <path d="M18 18 H478 V98 H18 Z" fill="#fff" stroke="#111" stroke-width="3"/>
+    <path d="M30 31 H466" stroke="#111" stroke-width="2.5"/>
+    <path d="M30 83 H466" stroke="#111" stroke-width="2.5"/>
+    <text x="44" y="72"
+          font-family="Georgia, 'Times New Roman', serif"
+          font-size="52" font-weight="900" letter-spacing="-0.5"
+          fill="#111">Around Here...</text>
+    <text x="366" y="32" text-anchor="end"
+          font-family="'Courier New', monospace"
+          font-size="9" font-weight="700" letter-spacing="0.8"
+          fill="#111">LOCAL EDITION</text>
+    <text x="462" y="32" text-anchor="end"
+          font-family="'Courier New', monospace"
+          font-size="9" font-weight="700" letter-spacing="0.8"
+          fill="#111">PRICE: VARIABLE</text>
+  </g>
+</svg>

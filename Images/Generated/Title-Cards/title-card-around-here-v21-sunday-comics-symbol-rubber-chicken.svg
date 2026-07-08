@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 190" width="560" height="190" role="img" aria-labelledby="title desc">
+  <title id="title">Around Here Sunday comics logo with rubber chicken symbol</title>
+  <desc id="desc">A black and white Sunday comics page title logo reading Around Here... with a small rubber chicken symbol.</desc>
+  <defs>
+    <filter id="slightInk" x="-4%" y="-4%" width="108%" height="108%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="2" seed="277" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="0.5"/>
+    </filter>
+  </defs>
+  <g filter="url(#slightInk)">
+    <text x="28" y="105"
+          font-family="'Cooper Black', Georgia, 'Times New Roman', serif"
+          font-size="68" font-weight="900" letter-spacing="-1"
+          fill="#fff" stroke="#111" stroke-width="8" paint-order="stroke fill">Around</text>
+    <text x="252" y="148"
+          font-family="'Cooper Black', Georgia, 'Times New Roman', serif"
+          font-size="72" font-weight="900" letter-spacing="-1.5"
+          fill="#fff" stroke="#111" stroke-width="8" paint-order="stroke fill">Here...</text>
+    <g stroke="#111" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M143 137 H244" fill="none" stroke-width="5"/>
+      <path d="M151 148 H236" fill="none" stroke-width="3"/>
+      <path d="M162 148 L176 137 M205 137 L224 148" fill="none" stroke-width="3"/>
+      <path d="M171 128 C158 124 154 113 162 105 C171 96 190 104 200 115 C209 125 222 130 234 124 C231 137 220 145 205 142 C189 139 184 132 171 128 Z" fill="#fff" stroke-width="5"/>
+      <path d="M161 105 C151 101 150 93 160 91 C170 89 174 96 171 104" fill="#fff" stroke-width="4"/>
+      <path d="M155 88 L150 80 M160 88 L160 78 M166 90 L172 81" fill="none" stroke-width="3"/>
+      <path d="M150 96 L142 93 L150 91 Z" fill="#fff" stroke-width="3"/>
+      <circle cx="163" cy="97" r="2.5" fill="#111"/>
+      <path d="M194 132 L187 146 M209 134 L217 148" fill="none" stroke-width="4"/>
+      <path d="M184 116 C197 119 207 124 219 126" fill="none" stroke-width="3"/>
+    </g>
+    <circle cx="505" cy="49" r="9" fill="#fff" stroke="#111" stroke-width="4"/>
+    <circle cx="529" cy="58" r="5" fill="#111"/>
+  </g>
+</svg>

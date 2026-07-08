@@ -215,3 +215,32 @@ Around Here can be represented by an ordinary, hand-painted roadside sign that f
 Follow-up state:
 
 Working visual concept. Future revisions should consider making the arrow more obviously useless rather than merely directional.
+
+### Around Here Title Card Workups
+
+File:
+
+`C:\COMICS\Working\title-card-around-here-workups-2026-07-07.md`
+
+Assets:
+
+- `C:\COMICS\Images\Generated\Title-Cards\title-card-around-here-v1-road-sign.svg`
+- `C:\COMICS\Images\Generated\Title-Cards\title-card-around-here-v2-chronicle-masthead.svg`
+- `C:\COMICS\Images\Generated\Title-Cards\title-card-around-here-v3-case-label.svg`
+- `C:\COMICS\Images\Generated\Title-Cards\title-card-around-here-v4-placard.svg`
+
+Core idea:
+
+Reusable upper-left title-card add-ons using the title text `Around Here...` in black-and-white, scalable SVG form.
+
+Follow-up state:
+
+Draft workups awaiting Taskmaster preference or revision.
+
+Update:
+
+Taskmaster selected v18, the simple mine cart on tracks version, as the best current direction.
+
+Selected asset:
+
+`C:\COMICS\Images\Generated\Title-Cards\title-card-around-here-v18-sunday-comics-simple-mine-cart.svg`

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 180" width="560" height="180" role="img" aria-labelledby="title desc">
+  <title id="title">Around Here Sunday comics brush title</title>
+  <desc id="desc">A brush-lettered Sunday comics page title reading Around Here...</desc>
+  <defs>
+    <filter id="brushInk" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="104" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="0.65"/>
+    </filter>
+  </defs>
+  <g filter="url(#brushInk)" fill="#111">
+    <text x="24" y="111"
+          font-family="'Segoe Print', 'Comic Sans MS', 'Bradley Hand ITC', cursive"
+          font-size="74" font-weight="900" letter-spacing="0">Around Here...</text>
+    <path d="M34 126 C117 142 209 134 282 124 C374 111 454 119 527 133"
+          fill="none" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+    <path d="M409 38 C431 18 469 20 485 44 C501 70 473 94 448 84 C424 74 409 59 409 38 Z"
+          fill="#fff" stroke="#111" stroke-width="5"/>
+    <path d="M429 49 C441 43 455 43 469 50 M433 66 C446 71 461 70 473 62"
+          fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

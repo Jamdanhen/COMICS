@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 185" width="560" height="185" role="img" aria-labelledby="title desc">
+  <title id="title">Around Here Sunday comics block title</title>
+  <desc id="desc">A bold block-letter Sunday comics page title reading Around Here...</desc>
+  <defs>
+    <filter id="printInk" x="-4%" y="-4%" width="108%" height="108%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="2" seed="117" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="0.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#printInk)">
+    <text x="29" y="87"
+          font-family="'Arial Black', Impact, sans-serif"
+          font-size="62" font-weight="900" letter-spacing="1"
+          fill="#111">AROUND</text>
+    <text x="178" y="145"
+          font-family="'Arial Black', Impact, sans-serif"
+          font-size="72" font-weight="900" letter-spacing="1"
+          fill="#111">HERE...</text>
+    <path d="M23 100 H367 M167 158 H531" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+    <path d="M386 55 C421 41 456 45 486 68 C458 72 426 88 402 112 C398 89 391 70 386 55 Z"
+          fill="#fff" stroke="#111" stroke-width="5"/>
+    <path d="M415 69 C434 66 450 67 467 73 M408 88 C426 81 443 79 458 80"
+          fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

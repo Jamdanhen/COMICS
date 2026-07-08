@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 160" width="420" height="160" role="img" aria-labelledby="title desc">
+  <title id="title">Around Here title card, loose placard version</title>
+  <desc id="desc">A black and white taped placard title card reading Around Here...</desc>
+  <g fill="#fff" stroke="#111" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M55 42 C112 31 290 29 367 44 L357 116 C274 126 123 123 47 112 Z" stroke-width="5"/>
+    <path d="M49 39 L89 30 L98 54 L57 61 Z" stroke-width="3"/>
+    <path d="M321 34 L371 35 L372 61 L318 55 Z" stroke-width="3"/>
+    <path d="M69 49 L87 42 M337 47 L358 48" stroke-width="2" fill="none"/>
+    <path d="M78 101 C125 110 181 103 222 107 C278 112 315 105 342 101" stroke-width="2" fill="none"/>
+    <path d="M76 62 l18 -3 M111 42 l22 -1 M286 43 l26 2 M332 82 l20 -1 M65 89 l16 2" stroke-width="2" fill="none"/>
+    <path d="M195 114 C204 103 218 103 229 114" stroke-width="3" fill="none"/>
+    <path d="M229 114 L222 112 M229 114 L226 107" stroke-width="3" fill="none"/>
+  </g>
+  <text x="210" y="87" text-anchor="middle"
+        font-family="Comic Sans MS, Segoe Print, Bradley Hand ITC, sans-serif"
+        font-size="44" font-weight="900" letter-spacing="0"
+        fill="#111">Around Here...</text>
+</svg>

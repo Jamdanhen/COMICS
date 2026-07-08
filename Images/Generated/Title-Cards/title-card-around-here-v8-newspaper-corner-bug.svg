@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 125" width="360" height="125" role="img" aria-labelledby="title desc">
+  <title id="title">Around Here compact newspaper corner bug</title>
+  <desc id="desc">A compact upper-left newspaper title bug reading Around Here...</desc>
+  <defs>
+    <filter id="printWobble" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="2" seed="41" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="0.45"/>
+    </filter>
+  </defs>
+  <g filter="url(#printWobble)">
+    <path d="M16 17 H344 V102 H16 Z" fill="#fff" stroke="#111" stroke-width="3"/>
+    <path d="M27 30 H333 M27 90 H333" stroke="#111" stroke-width="3"/>
+    <text x="181" y="72" text-anchor="middle"
+          font-family="Georgia, 'Times New Roman', serif"
+          font-size="42" font-weight="900" letter-spacing="-0.7"
+          fill="#111">Around Here...</text>
+    <text x="181" y="28" text-anchor="middle"
+          font-family="'Courier New', monospace"
+          font-size="8.5" font-weight="700" letter-spacing="1"
+          fill="#111">UPPER LEFT EDITION</text>
+    <path d="M29 82 H84 M278 82 H331" stroke="#111" stroke-width="1.5"/>
+  </g>
+</svg>

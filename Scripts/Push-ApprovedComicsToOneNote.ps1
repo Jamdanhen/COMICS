@@ -2,7 +2,8 @@ param(
     [string]$SourceDir = "C:\COMICS\Approved\Comic Pages",
     [string]$NotebookName = "Approved Comics Reader",
     [string]$SectionName = "Approved Comics",
-    [double]$DisplayWidth = 700.0
+    [double]$DisplayWidth = 700.0,
+    [switch]$ForceRefresh
 )
 
 $ErrorActionPreference = "Stop"
@@ -18,6 +19,9 @@ if ([Threading.Thread]::CurrentThread.ApartmentState -ne "STA") {
         "-SectionName", $SectionName,
         "-DisplayWidth", $DisplayWidth
     )
+    if ($ForceRefresh) {
+        $argsList += "-ForceRefresh"
+    }
     & powershell.exe @argsList
     exit $LASTEXITCODE
 }
@@ -137,7 +141,7 @@ for ($i = 0; $i -lt $sourceFiles.Count; $i++) {
     $page = $existingPages | Where-Object { $_.name -eq $title } | Select-Object -First 1
     if ($page) {
         $hasImage = Test-OneNotePageHasImage -OneNote $oneNote -PageId $page.ID
-        if ($hasImage) {
+        if ($hasImage -and -not $ForceRefresh) {
             $results.Add([pscustomobject]@{
                 Action = "Already present"
                 Page = $title
@@ -148,7 +152,7 @@ for ($i = 0; $i -lt $sourceFiles.Count; $i++) {
 
         Set-OneNoteImagePage -OneNote $oneNote -PageId $page.ID -Title $title -ImagePath $file.FullName -DisplayWidth $DisplayWidth
         $results.Add([pscustomobject]@{
-            Action = "Rebuilt missing image"
+            Action = if ($ForceRefresh) { "Refreshed" } else { "Rebuilt missing image" }
             Page = $title
             Source = $file.Name
         })

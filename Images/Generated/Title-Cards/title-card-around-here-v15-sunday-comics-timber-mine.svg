@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 190" width="560" height="190" role="img" aria-labelledby="title desc">
+  <title id="title">Around Here Sunday comics logo with timber mine entrance</title>
+  <desc id="desc">A black and white Sunday comics page title logo reading Around Here... with a timber-framed mine entrance.</desc>
+  <defs>
+    <filter id="slightInk" x="-4%" y="-4%" width="108%" height="108%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="2" seed="181" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="0.5"/>
+    </filter>
+  </defs>
+  <g filter="url(#slightInk)">
+    <text x="28" y="105"
+          font-family="'Cooper Black', Georgia, 'Times New Roman', serif"
+          font-size="68" font-weight="900" letter-spacing="-1"
+          fill="#fff" stroke="#111" stroke-width="8" paint-order="stroke fill">Around</text>
+    <text x="252" y="148"
+          font-family="'Cooper Black', Georgia, 'Times New Roman', serif"
+          font-size="72" font-weight="900" letter-spacing="-1.5"
+          fill="#fff" stroke="#111" stroke-width="8" paint-order="stroke fill">Here...</text>
+    <g stroke="#111" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M139 133 L148 102 L232 102 L242 133 Z" fill="#fff" stroke-width="5"/>
+      <path d="M164 133 L168 114 L212 114 L216 133 Z" fill="#111" stroke-width="3"/>
+      <path d="M150 102 L162 133 M230 102 L218 133 M148 102 H232 M143 133 H246" fill="none" stroke-width="5"/>
+      <path d="M163 101 V133 M217 101 V133 M152 114 H228" fill="none" stroke-width="3"/>
+      <path d="M169 143 L187 133 M210 133 L230 143 M178 143 H222" fill="none" stroke-width="3"/>
+      <circle cx="197" cy="136" r="4" fill="#fff" stroke-width="3"/>
+    </g>
+    <circle cx="505" cy="49" r="9" fill="#fff" stroke="#111" stroke-width="4"/>
+    <circle cx="529" cy="58" r="5" fill="#111"/>
+  </g>
+</svg>

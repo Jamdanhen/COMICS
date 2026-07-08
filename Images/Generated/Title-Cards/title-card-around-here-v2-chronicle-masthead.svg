@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 160" width="420" height="160" role="img" aria-labelledby="title desc">
+  <title id="title">Around Here title card, chronicle masthead version</title>
+  <desc id="desc">A black and white clipped newspaper masthead title card reading Around Here...</desc>
+  <g fill="#fff" stroke="#111" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M42 27 L381 22 L392 120 L30 128 Z" stroke-width="5"/>
+    <path d="M54 40 L370 35" stroke-width="2" fill="none"/>
+    <path d="M50 93 L376 88" stroke-width="4" fill="none"/>
+    <path d="M53 107 L139 105 M158 105 L244 102 M262 102 L367 99" stroke-width="2" fill="none"/>
+    <path d="M64 116 L133 114 M154 114 L221 112 M245 111 L356 108" stroke-width="2" fill="none"/>
+    <path d="M35 63 L20 49 M384 31 L403 20 M386 112 L402 126 M31 126 L17 139" stroke-width="3" fill="none"/>
+    <path d="M70 47 C78 41 91 42 96 49 C101 57 92 66 83 65 C74 65 66 55 70 47 Z" stroke-width="2"/>
+    <path d="M322 43 C334 40 345 46 346 56 C347 67 334 72 323 66 C314 61 313 47 322 43 Z" stroke-width="2"/>
+  </g>
+  <text x="214" y="76" text-anchor="middle"
+        font-family="Georgia, Times New Roman, serif"
+        font-size="43" font-weight="900" letter-spacing="0"
+        fill="#111">Around Here...</text>
+  <text x="214" y="102" text-anchor="middle"
+        font-family="Courier New, monospace"
+        font-size="12" font-weight="700" letter-spacing="0"
+        fill="#111">JURISDICTION UNKNOWN - ARRIVAL CONFIRMED</text>
+</svg>

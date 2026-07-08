@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 160" width="430" height="160" role="img" aria-labelledby="title desc">
+  <title id="title">Around Here compact Sunday comics title</title>
+  <desc id="desc">A compact upper-left Sunday comics title logo reading Around Here...</desc>
+  <defs>
+    <filter id="cornerInk" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" seed="131" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="0.45"/>
+    </filter>
+  </defs>
+  <g filter="url(#cornerInk)">
+    <text x="21" y="76"
+          font-family="'Cooper Black', Georgia, 'Times New Roman', serif"
+          font-size="51" font-weight="900" letter-spacing="-0.6"
+          fill="#fff" stroke="#111" stroke-width="7" paint-order="stroke fill">Around</text>
+    <text x="132" y="124"
+          font-family="'Cooper Black', Georgia, 'Times New Roman', serif"
+          font-size="58" font-weight="900" letter-spacing="-1"
+          fill="#fff" stroke="#111" stroke-width="7" paint-order="stroke fill">Here...</text>
+    <path d="M29 96 C85 114 151 112 204 100 C262 88 331 90 390 112"
+          fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

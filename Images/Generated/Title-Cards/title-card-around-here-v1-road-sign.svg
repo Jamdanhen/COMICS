@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 160" width="420" height="160" role="img" aria-labelledby="title desc">
+  <title id="title">Around Here title card, road sign version</title>
+  <desc id="desc">A black and white hand-painted road sign title card reading Around Here...</desc>
+  <g fill="none" stroke="#111" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M48 36 C92 29 322 31 374 38 L388 87 C335 96 104 98 35 89 Z" fill="#fff" stroke-width="6"/>
+    <path d="M58 46 C110 42 307 42 367 47" stroke-width="2"/>
+    <path d="M47 84 C111 91 304 91 376 82" stroke-width="2"/>
+    <path d="M65 36 L58 24 M333 35 L341 23 M387 56 L403 50 M34 61 L18 56" stroke-width="3"/>
+    <path d="M61 104 L362 104" stroke-width="8"/>
+    <path d="M347 94 L370 104 L347 115" stroke-width="8"/>
+    <path d="M154 109 C183 113 202 97 229 103 C249 108 266 114 291 104" stroke="#fff" stroke-width="3"/>
+    <path d="M99 63 l10 -4 l-1 11 l-9 -7" stroke-width="2"/>
+    <path d="M311 62 l12 5 l-10 7 l-2 -12" stroke-width="2"/>
+    <path d="M75 51 l13 -2 M78 76 l20 1 M342 70 l18 -3 M123 44 l22 1 M252 82 l23 -2" stroke-width="2"/>
+  </g>
+  <text x="210" y="73" text-anchor="middle"
+        font-family="Comic Sans MS, Segoe Print, Bradley Hand ITC, sans-serif"
+        font-size="42" font-weight="900" letter-spacing="0"
+        fill="#111">Around Here...</text>
+</svg>

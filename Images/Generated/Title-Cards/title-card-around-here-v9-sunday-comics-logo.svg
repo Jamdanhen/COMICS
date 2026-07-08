@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 190" width="560" height="190" role="img" aria-labelledby="title desc">
+  <title id="title">Around Here Sunday comics logo</title>
+  <desc id="desc">A black and white Sunday comics page title logo reading Around Here...</desc>
+  <defs>
+    <filter id="slightInk" x="-4%" y="-4%" width="108%" height="108%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="2" seed="91" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="0.5"/>
+    </filter>
+  </defs>
+  <g filter="url(#slightInk)">
+    <text x="28" y="105"
+          font-family="'Cooper Black', Georgia, 'Times New Roman', serif"
+          font-size="68" font-weight="900" letter-spacing="-1"
+          fill="#fff" stroke="#111" stroke-width="8" paint-order="stroke fill">Around</text>
+    <text x="252" y="148"
+          font-family="'Cooper Black', Georgia, 'Times New Roman', serif"
+          font-size="72" font-weight="900" letter-spacing="-1.5"
+          fill="#fff" stroke="#111" stroke-width="8" paint-order="stroke fill">Here...</text>
+    <path d="M37 126 C118 151 230 150 318 135 C388 122 469 121 529 143"
+          fill="none" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="505" cy="49" r="9" fill="#fff" stroke="#111" stroke-width="4"/>
+    <circle cx="529" cy="58" r="5" fill="#111"/>
+  </g>
+</svg>
