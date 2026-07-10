@@ -37,7 +37,7 @@ Status: approved dictionary/front-matter comic
 
 Approved shelf image:
 
-`C:\comics\Approved\Comic Pages\dictionary-001-the-usual-suspects.png`
+`C:\comics\Approved\Comic Pages\_dictionary-001-the-usual-suspects.png`
 
 Generated source image:
 
@@ -61,7 +61,7 @@ Status: approved dictionary/front-matter comic
 
 Approved shelf image:
 
-`C:\comics\Approved\Comic Pages\dictionary-002-symbol-key-volume-1-v2.png`
+`C:\comics\Approved\Comic Pages\_dictionary-003-symbol-key-volume-1-v2.png`
 
 Generated source image:
 
@@ -85,7 +85,7 @@ Status: approved dictionary/front-matter comic
 
 Approved shelf image:
 
-`C:\comics\Approved\Comic Pages\dictionary-003-the-usual-suspects-with-chief-inspector.png`
+`C:\comics\Approved\Comic Pages\_dictionary-002-the-usual-suspects-with-chief-inspector.png`
 
 Generated source image:
 
@@ -118,7 +118,7 @@ Status: approved dictionary/front-matter comic
 
 Approved shelf image:
 
-`C:\comics\Approved\Comic Pages\dictionary-004-around-here-chronicle-laundry-hydra.png`
+`C:\comics\Approved\Comic Pages\chronicle-001-around-here-chronicle-laundry-hydra.png`
 
 Generated source image:
 
@@ -142,7 +142,7 @@ Status: approved dictionary/front-matter comic
 
 Approved shelf image:
 
-`C:\comics\Approved\Comic Pages\dictionary-005-around-here-chronicle-newsroom-laundry-hydra.png`
+`C:\comics\Approved\Comic Pages\chronicle-002-around-here-chronicle-newsroom-laundry-hydra.png`
 
 Generated source image:
 
@@ -248,7 +248,7 @@ Status: approved narrative chapter page
 
 Approved shelf image:
 
-`C:\comics\Approved\Comic Pages\chapter-001-page-004-around-heres-most-wanted.png`
+`C:\comics\Approved\Comic Pages\_dictonary-003-around-heres-most-wanted.png`
 
 Generated source image:
 
@@ -266,13 +266,41 @@ Symbol approval note:
 
 Taskmaster clarified on 2026-07-05 that because `Around Here's Most Wanted` is approved as a comic page, every symbol appearing in that page is approved by inclusion.
 
+### Chapter 001 Page 005 - The Ore Processing
+
+Status: approved narrative chapter page
+
+Approved shelf image:
+
+`C:\comics\Approved\Comic Pages\chapter-001-page-005-the-ore-processing.png`
+
+Generated source image:
+
+`C:\comics\Images\Generated\draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v10-full-redraw.png`
+
+Script record:
+
+`C:\comics\Scripts\chapter-001_05-the-ore-processing.md`
+
+Series function:
+
+Shows Taskmaster, Razorforge, and Codex each approaching the same raw ore in the Mine through their own method: observation and hypothesis, careful shaping, and overbuilt useful machinery.
+
+2026-07-08 title-card update:
+
+- Taskmaster approved adding the `Around Here...` title-card overlay to the upper-left corner.
+- The approved shelf image was overwritten with the titled version.
+- The local Sleeper approved shelf and reader-packet copies were updated to match.
+- Title-card source: `C:\COMICS\Images\Generated\Title-Cards\title-card-around-here-v18-sunday-comics-simple-mine-cart.svg`
+- Applied draft source: `C:\COMICS\Images\Edits\Title-Overlay-Tests\chapter-001-page-005-around-here-title-overlay-v18-upper-left-draft.png`
+
 ### Chapter 002 Page 001 - The Fragile Detail
 
 Status: approved narrative chapter page / saved out of creation order
 
 Approved shelf image:
 
-`C:\comics\Approved\Comic Pages\chapter-002-page-001-the-fragile-detail.png`
+`C:\comics\Approved\Comic Pages\chapter-001-page-004-the-fragile-detail.png`
 
 Generated source image:
 
@@ -292,13 +320,14 @@ This page was an early successful test and is approved to save, but its reader-f
 
 ## Current Reading Order
 
-1. `Dictionary 001 - The Usual Suspects`
-2. `Dictionary 002 - Symbol Key - Volume 1 v2`
-3. `Dictionary 003 - The Usual Suspects With Chief Inspector`
-4. `Dictionary 004 - Around Here Chronicle Laundry Hydra`
-5. `Dictionary 005 - Around Here Chronicle Newsroom Laundry Hydra`
-6. `Chapter 001 Page 001 - This Seemed Smaller In My Head`
-7. `Chapter 001 Page 002 - Razorforge Idea Anatomy`
-8. `Chapter 001 Page 003 - Codex Overbuild`
-9. `Chapter 001 Page 004 - Around Here's Most Wanted`
-10. `Chapter 002 Page 001 - The Fragile Detail`
+1. `_dictionary-001-the-usual-suspects.png`
+2. `_dictionary-002-the-usual-suspects-with-chief-inspector.png`
+3. `_dictionary-003-symbol-key-volume-1-v2.png`
+4. `_dictonary-003-around-heres-most-wanted.png`
+5. `chapter-001-page-001-this-seemed-smaller-in-my-head.png`
+6. `chapter-001-page-002-razorforge-idea-anatomy-approved-2026-06-16.png`
+7. `chapter-001-page-003-codex-overbuild.png`
+8. `chapter-001-page-004-the-fragile-detail.png`
+9. `chapter-001-page-005-the-ore-processing.png`
+10. `chronicle-001-around-here-chronicle-laundry-hydra.png`
+11. `chronicle-002-around-here-chronicle-newsroom-laundry-hydra.png`

@@ -1,0 +1,11 @@
+Approved Comics - iPhone Access
+
+This is the active flat phone access folder.
+Open individual numbered PNG files directly.
+
+No stacked reader image.
+No combined PDF.
+No nested Comic Pages folder.
+
+Project authority remains C:\COMICS.
+Source register: C:\COMICS\Source\Canon\approved-comics-register.md

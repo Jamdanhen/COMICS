@@ -69,6 +69,24 @@ The phone-access mirror is:
 
 When an approved comic page is added, renamed, replaced, or removed from the master approved shelf, make the same change in the Sleeper approved shelf. The Sleeper approved shelf should mirror the master shelf exactly so Taskmaster can access the approved comics from the phone without maintaining a second organization system.
 
+## Approved Filename Preservation Rule
+
+The master filenames in:
+
+`C:\COMICS\Approved\Comic Pages`
+
+are the governing names for approved comic page mirrors.
+
+For approved comic page copies and phone-facing mirrors, preserve the exact
+master filename unless Taskmaster explicitly instructs a rename or alternate
+reader packet format for that specific task. Do not create new numbered names,
+reader-facing display names, normalized names, or corrected spelling variants
+for mirrored image files by default.
+
+OneNote approved comic pages should use the exact master filename as the page
+title. This keeps the C-drive master shelf, OneDrive mirror, and OneNote mirror
+traceable without a second naming system.
+
 ## Approved Reader Packet Propagation Rule
 
 When Taskmaster approves a comic page, approval is not complete until the reader-facing packet has been refreshed.
@@ -80,6 +98,18 @@ For each approved comic, update all applicable locations:
 - `C:\COMICS\Sleeper\Reader_Packets\Comic Pages`
 - `C:\Users\MrJam\OneDrive\Documents\Comics-Sleeper\Comic Pages`
 - `C:\Users\MrJam\OneDrive\Organized Content Backup\Comics\Sleeper\Reader_Packets\Comic Pages`
+
+These image folders must preserve exact filenames from:
+
+`C:\COMICS\Approved\Comic Pages`
+
+The active OneNote mirror is:
+
+`Comics > Approved Comics`
+
+Each approved image should have one visible OneNote page in that section. The
+OneNote page title should match the exact master image filename, and the page
+should contain the corresponding image.
 
 Then refresh the packet files from the current approved register:
 

@@ -81,10 +81,20 @@ The approved OneNote/mobile-facing reader packet path is:
 
 The active OneNote notebook for phone access is:
 
-`Approved Comics Reader`
+`Comics`
+
+The active OneNote section for approved comic pages is:
+
+`Approved Comics`
 
 Do not use `Comics Phone Reader` as the active phone route. It was created
 from an older notebook copy and may retain stale section references.
+
+Do not use `Approved Comics Reader` as the active phone route unless
+Taskmaster explicitly redirects the project back to it. The current phone
+notebook route is:
+
+- `Comics > Approved Comics`
 
 The backup mirror reader packet path is:
 
@@ -93,7 +103,7 @@ The backup mirror reader packet path is:
 Use the OneNote notebook first for phone access to approved reader-facing
 comic material:
 
-- `Approved Comics Reader > Approved Comics`
+- `Comics > Approved Comics`
 
 The OneDrive Documents path remains a file-based fallback, especially:
 
@@ -106,10 +116,24 @@ unless the owner explicitly changes the authority.
 
 OneNote is a separate phone-facing reading surface, not an automatic mirror of
 OneDrive. When a comic page is promoted into `C:\COMICS\Approved\Comic Pages`,
-verify that `Approved Comics Reader > Approved Comics` has one visible OneNote
-page per approved comic image and add any missing pages there.
+verify that `Comics > Approved Comics` has one visible OneNote page per
+approved comic image and add any missing pages there.
 
-Use this command to push approved comic images into OneNote:
+Approved comic page mirrors must preserve the exact master filenames from:
+
+`C:\COMICS\Approved\Comic Pages`
+
+Use the same filename for the copied image file and the corresponding OneNote
+page title. Do not create new reader-facing names, numbered names, display
+names, or normalized names unless Taskmaster explicitly instructs a rename or
+alternate reader packet format for that specific task.
+
+The legacy OneNote push script may still target the older default notebook and
+the approved register naming path. Do not use it for exact-filename mirroring
+unless it has been updated or invoked with parameters that preserve the current
+route and naming rule.
+
+Legacy command:
 
 ```powershell
 powershell.exe -ExecutionPolicy Bypass -File C:\COMICS\Scripts\Push-ApprovedComicsToOneNote.ps1
