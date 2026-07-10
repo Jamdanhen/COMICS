@@ -156,6 +156,27 @@ Series function:
 
 Reader-facing in-world sample of the Around Here Chronicle newsroom / broadcast format, showing the Gazelle Reporter as a serious older correspondent delivering absurd local news with institutional calm.
 
+### Committee 001 - Official Committee Notifications
+
+Status: approved institutional/front-matter comic
+
+Approved shelf image:
+
+`C:\comics\Approved\Comic Pages\committee-001-official-committee-notifications.png`
+
+Generated source image:
+
+`C:\comics\Images\Generated\generated-2026-07-09-official-committee-notifications-approved.png`
+
+Source basis:
+
+- `C:\COMICS\Source\References\source-note-around-here-committee-map-2026-07-08.md`
+- `C:\COMICS\Source\Canon\committee-register.md`
+
+Series function:
+
+Reader-facing institutional sample of Around Here's committee notice system, showing multiple recurring authorities through distinct physical notice forms: Biological Committee warning, Technological Committee time-clock slip, Work Governance calendar, Boundary Commission tape, Category Fraud Division wanted poster, Comedic Standards mallet/ticket, and classified Noodle folder.
+
 ## Approved Narrative Chapter Pages
 
 ### Chapter 001 Page 001 - This Seemed Smaller In My Head
@@ -331,3 +352,4 @@ This page was an early successful test and is approved to save, but its reader-f
 9. `chapter-001-page-005-the-ore-processing.png`
 10. `chronicle-001-around-here-chronicle-laundry-hydra.png`
 11. `chronicle-002-around-here-chronicle-newsroom-laundry-hydra.png`
+12. `committee-001-official-committee-notifications.png`

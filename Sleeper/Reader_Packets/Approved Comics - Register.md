@@ -24,3 +24,4 @@ comic page shelf.
 9. `Comic Pages\chapter-001-page-005-the-ore-processing.png`
 10. `Comic Pages\chronicle-001-around-here-chronicle-laundry-hydra.png`
 11. `Comic Pages\chronicle-002-around-here-chronicle-newsroom-laundry-hydra.png`
+12. `Comic Pages\committee-001-official-committee-notifications.png`

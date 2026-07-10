@@ -180,6 +180,37 @@ Core rules:
 - Before image generation involving recurring characters, check `Source/Lineup.png` and the relevant files in `Source/Characters/`.
 - Do not stop to ask process questions when the direction has already been set. Continue until a true Taskmaster decision is needed.
 
+## Around Here Title Card Rule
+
+The approved comic title card is:
+
+`C:\COMICS\Images\Generated\Title-Cards\title-card-around-here-v18-sunday-comics-simple-mine-cart.svg`
+
+It reads:
+
+`Around Here...`
+
+It is a Sunday-comics feature title, not an in-world sign, newspaper clipping,
+label, or prop.
+
+For new comic pages, include the title card during initial page generation
+whenever practical. If the generated image does not include it cleanly, add it
+as a post-generation overlay before approval.
+
+When Taskmaster approves a comic page, the approved page should receive the
+title card before or during promotion into:
+
+`C:\COMICS\Approved\Comic Pages`
+
+Default placement is the upper-left corner. The title card has page-title
+priority and may cover incidental border details, height marks, background
+texture, or nonessential art if needed. Do not move it to another corner unless
+Taskmaster explicitly requests or approves an alternate placement for that page.
+
+When a title card is applied to an already-approved page, update the master
+approved image and exact-filename mirrors, then record the title-card update in
+the approved comics register.
+
 ## Naming Guidance
 
 Use clear names that sort naturally:

@@ -1,6 +1,6 @@
 # Title Card Workups - Around Here...
 
-Status: draft visual workups
+Status: selected title-card workups / v18 approved for comic-page overlays
 
 Date: 2026-07-07
 
@@ -162,6 +162,16 @@ Selected working title card:
 Reason:
 
 The Sunday-comics title lettering direction from v13 is working, and the simple mine cart on tracks reads better than the mine entrance, which risked looking like an igloo.
+
+Standing rule:
+
+Use v18 as the approved `Around Here...` title-card asset for comic-page overlays.
+
+It is a Sunday-comics feature title, not an in-world sign, newspaper clipping, label, or prop.
+
+Default placement is the upper-left corner. The title card has page-title priority and may cover incidental border details, height marks, background texture, or nonessential art if needed.
+
+New comic pages should include the title card during initial generation whenever practical. If not included at generation time, add it as a post-generation overlay before approval.
 
 ## Same-Structure Symbol Variations
 

@@ -163,6 +163,7 @@ if (-not $section) {
 
 $existingPages = @($section.Page)
 $usedPageIds = New-Object System.Collections.Generic.HashSet[string]
+$deletedPageIds = New-Object System.Collections.Generic.HashSet[string]
 $results = New-Object System.Collections.Generic.List[object]
 
 for ($i = 0; $i -lt $entries.Count; $i++) {
@@ -176,16 +177,20 @@ for ($i = 0; $i -lt $entries.Count; $i++) {
         $page = [pscustomobject]@{ ID = $newPageId; name = $entry.PageTitle }
         $action = "Inserted"
     }
+    elseif ($ForceRebuild) {
+        $oneNote.DeleteHierarchy($page.ID)
+        [void]$deletedPageIds.Add($page.ID)
+        $newPageId = ""
+        $oneNote.CreateNewPage($section.ID, [ref]$newPageId, 0)
+        $page = [pscustomobject]@{ ID = $newPageId; name = $entry.PageTitle }
+        $action = "Recreated for phone"
+    }
 
     [void]$usedPageIds.Add($page.ID)
 
     $hasImage = $false
     if ($action -eq "Already present") {
         $hasImage = Test-OneNotePageHasImage -OneNote $oneNote -PageId $page.ID
-    }
-
-    if ($ForceRebuild -and $action -eq "Already present") {
-        $action = "Force rebuilt for phone"
     }
 
     if ($action -ne "Already present" -or -not $hasImage) {
@@ -202,7 +207,7 @@ for ($i = 0; $i -lt $entries.Count; $i++) {
     })
 }
 
-$extraPages = @($existingPages | Where-Object { -not $usedPageIds.Contains($_.ID) })
+$extraPages = @($existingPages | Where-Object { -not $usedPageIds.Contains($_.ID) -and -not $deletedPageIds.Contains($_.ID) })
 $removedPages = New-Object System.Collections.Generic.List[string]
 
 if ($RemoveExtraPages) {

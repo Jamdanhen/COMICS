@@ -191,6 +191,52 @@ Before generating images involving recurring characters, check:
 
 If the direction has already been set, do not stop to ask process questions. Continue until a true Taskmaster decision is needed.
 
+## Around Here Title Card Rule
+
+Approved title-card asset:
+
+`C:\COMICS\Images\Generated\Title-Cards\title-card-around-here-v18-sunday-comics-simple-mine-cart.svg`
+
+Approved title text:
+
+```text
+Around Here...
+```
+
+Function:
+
+The title card is the comic's Sunday-comics feature title. It belongs to the
+printed comic page itself. It is not an in-world sign, newspaper clipping,
+object label, or prop.
+
+Generation rule:
+
+When generating a new comic page, include the title card in the initial image
+whenever practical. If the image is generated without the title card, add the
+approved title-card asset as a post-generation overlay before the page is
+approved.
+
+Approval rule:
+
+When Taskmaster approves a comic page, the approved page should receive the
+title card before or during promotion into:
+
+`C:\COMICS\Approved\Comic Pages`
+
+Placement rule:
+
+Default placement is the upper-left corner. The title card has page-title
+priority and may cover incidental border details, height marks, background
+texture, or nonessential art if needed. Do not move it to another corner unless
+Taskmaster explicitly requests or approves an alternate placement for that
+specific page.
+
+Record rule:
+
+When a title card is applied to an already-approved page, update the master
+approved image and exact-filename mirrors, then record the title-card update in
+`C:\COMICS\Source\Canon\approved-comics-register.md`.
+
 ## Adopted Workflow Preferences
 
 - Project folder authority
