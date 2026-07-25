@@ -44,11 +44,11 @@ Example artifact:
 
 `AGENTS.md`
 
-Committee of Discovery:
+Workshop / exploration lens:
 
 - What can we build next?
 
-Committee of Done:
+Completion pressure:
 
 - Good. Stop changing it. Use it.
 

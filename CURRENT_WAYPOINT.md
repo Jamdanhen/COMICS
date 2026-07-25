@@ -1,6 +1,6 @@
 # Current Waypoint
 
-Date: 2026-07-20
+Date: 2026-07-24
 
 ## Active Project Authority
 
@@ -9,8 +9,8 @@ C:\COMICS
 ```
 
 The Comics / Around Here project authority remains the C-drive project folder.
-OneDrive and OneNote paths are phone-facing reader or mirror surfaces only
-unless the owner explicitly changes authority.
+OneDrive and OneNote are phone-facing reader or mirror surfaces only unless the
+owner explicitly changes authority.
 
 ## Guidance Checked
 
@@ -18,41 +18,146 @@ Checked:
 
 ```text
 C:\COMICS\AGENTS.md
-C:\Crucible_Registry\REGISTRY_INHERITANCE_BLOCK.MD
-C:\Crucible_Registry\USER_OUTPUT_FORMAT_GUIDANCE.MD
-C:\Crucible_Registry\PROJECT_WAYPOINT_SYNCHRONIZATION_RULE.MD
+C:\CRUCIBLE_REGISTRY\AGENTS.MD
+C:\CRUCIBLE_REGISTRY\entries\COMICS-AROUND-HERE.MD
+C:\CRUCIBLE_REGISTRY\REGISTRY_INHERITANCE_BLOCK.MD
+C:\CRUCIBLE_REGISTRY\USER_OUTPUT_FORMAT_GUIDANCE.MD
+C:\CRUCIBLE_REGISTRY\PROJECT_WAYPOINT_SYNCHRONIZATION_RULE.MD
 ```
 
-The local Comics guidance remains the project-specific authority for canon,
-visual generation, character identity, workflow governance, and creative
-approval.
+The Crucible Registry repository was clean and aligned with `origin/main`.
+The local Comics inheritance block already matched the current Registry block,
+so no `AGENTS.md` refresh was required.
 
-## Repository Status
+Local Comics guidance remains authoritative for canon, visual generation,
+character identity, workflow governance, and creative approval.
+
+## Repository
+
+Approved remote:
 
 ```text
 https://github.com/Jamdanhen/COMICS.git
 ```
 
-Local `main` tracks `origin/main`.
-
-## Waypoint Contents
-
-This waypoint preserves two generated symbol candidate images:
+Branch:
 
 ```text
-C:\COMICS\Images\Generated\candidate-symbol-mythic-beam-2026-07-19-v1.png
-C:\COMICS\Images\Generated\candidate-symbol-mythic-beam-2026-07-19-v2.png
+main
 ```
 
-These are generated candidates, not approved comic canon unless the owner later
-promotes them through the Comics / Around Here workflow.
+## Approved State Preserved
 
-## Boundary
+### Committee For Comedic Standards
 
-No Comics canon, approved page, reader packet, OneNote route, or phone-facing
-mirror was changed as part of this waypoint.
+Approved representative portfolio:
 
-## Next Practical Action
+```text
+C:\COMICS\Images\Generated\candidate-portfolio-comedic-standards-representatives-2026-07-22-v6.png
+```
 
-The next Comics action is owner choice: review, revise, park, or promote the
-symbol candidates from inside the Comics project lane.
+Approved standing representatives:
+
+- formal citation clown
+- intervention clown
+- mime
+
+The Rubber Chicken and oversized `BAD PUN` mallet remain associated tools, not
+committee members.
+
+Character authority:
+
+```text
+C:\COMICS\Source\Characters\committee-representatives-comedic-standards.md
+```
+
+### Biological Committee
+
+Approved representative portfolio:
+
+```text
+C:\COMICS\Images\Generated\candidate-portfolio-biological-committee-representatives-2026-07-24-v4.png
+```
+
+Approved standing representatives:
+
+- Mother Nature
+- the Sandman
+- the cafeteria lady
+
+The old-fashioned family doctor is an approved consultant to the committee,
+not a standing representative.
+
+Character authority:
+
+```text
+C:\COMICS\Source\Characters\committee-representatives-biological.md
+```
+
+### Ham Sandwich
+
+The Ham Sandwich is confirmed as approved foundational vocabulary. The
+accepted progression reference shows the original sandwich, refined sandwich,
+overworked gourmet sandwich, and the original sandwich in the workshop vending
+machine:
+
+```text
+C:\COMICS\Images\Generated\candidate-symbol-ham-sandwich-progression-2026-07-20-v1.png
+```
+
+## Canon And Language Clarifications
+
+- Interestingness is an invisible force inferred through its effects, not a
+  committee, mascot, or approved single symbol.
+- The open door remains a candidate manifestation only.
+- The Chief Inspector remains an independent category-fraud investigator and
+  is not a committee member.
+- Discovery remains workshop activity rather than a committee.
+- The unsupported Committee of Done remains removed.
+- Institutions require recurrence, history, roots, shared language, or another
+  demonstrated need before they are established.
+
+## Intentionally Unfinished Work
+
+### Boundary Commission
+
+Latest candidate portfolio:
+
+```text
+C:\COMICS\Images\Generated\candidate-portfolio-boundary-commission-representatives-2026-07-24-v3.png
+```
+
+Current candidate delegation:
+
+- beaver civil engineer with chewed carpenter pencil
+- sports referee
+- municipal police officer with mustache and sunglasses
+
+This portfolio remains a candidate and is not approved character authority.
+
+### Other Committees
+
+Representative portfolios remain open for:
+
+- Technological Committee
+- Work Governance Committee
+
+Earlier generated portfolio iterations remain draft history and are not the
+current approved visual authorities.
+
+## Reader And Mirror Boundary
+
+No approved comic page was added or revised in this lane. No approved comic
+page, reader packet, OneDrive mirror, or OneNote page required updating.
+
+Committee portfolio sheets are character-language references and do not enter
+the approved comic-page shelf unless the owner explicitly changes that rule.
+
+## Resume Point
+
+Resume inside the Comics project from one of these substantive lanes:
+
+- review or revise the Boundary Commission candidate portfolio
+- develop Technological Committee representatives
+- develop Work Governance Committee representatives
+- use the approved committee delegations in a future town-hall comic concept

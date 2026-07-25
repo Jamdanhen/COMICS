@@ -28,6 +28,94 @@ Committees may be:
 
 Most committees appear when attention, time, energy, or priorities are being pulled in competing directions.
 
+## Institutional Precedent Rule
+
+An institution must earn its existence.
+
+Do not create a committee merely because a conceptual pressure could be given a
+committee-shaped name. A committee requires recurrence, history, roots, shared
+language, or another demonstrated need within Around Here.
+
+Discovery, completion, and other ordinary workshop activities are not
+committees unless the project develops an actual institutional precedent for
+them.
+
+## Interestingness
+
+Interestingness is not a committee.
+
+It is the opposing force that keeps attention attached to the creative process
+after ordinary reality has issued a valid interruption.
+
+Interestingness represents:
+
+- the idea that is too compelling to put down
+- the question that keeps opening another door
+- the joke that makes someone stay up too late
+- the conversation that continues after the authorized interval
+
+Interestingness repeatedly defeats or delays committee authority. It does not
+make the committees illegitimate. It makes their authority incomplete.
+
+Interestingness has no approved single visual symbol and should not be
+personified as a mascot, spirit, or committee member. It is inferred through
+its effects, the way gravity or magnetism is inferred through what objects do.
+
+Observed manifestations may include:
+
+- a page turning itself after everyone agreed to stop
+- a light remaining on in the Mine
+- an unfiled paper that cannot be ignored
+- a noodle protruding from a folder
+- a conversation continuing after closure
+- attention caught by a typo, mismatch, or unresolved object
+
+These are symptoms, not a new symbol category. They may recur in scenes before
+any one of them earns independent symbolic status.
+
+The open door is a promising visual candidate only. It is not established
+Interestingness language and must not be promoted without recurrence, history,
+or roots.
+
+Around Here law:
+
+> When something becomes sufficiently interesting, the Biological Committee
+> loses authority.
+
+## Committee Interplay
+
+The committees represent real-life encroachment on creative work:
+
+- Biological Committee: "You are tired. You need a break."
+- Technological Committee: "Tokens exceeded. Data limit reached. Memory full."
+- Boundary Commission: "This recursion has gone too far. Do not cross."
+- Committee for Comedic Standards: "That pun has become an offense."
+- Work Governance Committee: "The work week is still waiting."
+
+Interestingness answers by keeping the operator engaged:
+
+- fatigue loses to one more compelling question
+- token limits arrive while the subject is still alive
+- a bad pun is made because it is interesting enough to continue
+- a rabbit hole continues past the boundary marker
+
+The result is not that committees are villains. They are accurate pressures.
+The result is that Interestingness keeps producing exceptions.
+
+"Done is good enough" is a useful completion principle, not a Committee of
+Done. It may oppose Excessive Refinement, but it has no independent committee
+identity in the current vocabulary.
+
+## Town Hall Direction
+
+The town hall may eventually stage a hearing about Interestingness as the
+central problem before the committees.
+
+The committees issue notices, citations, warnings, slips, and boundary marks.
+Interestingness keeps the work in session.
+
+This is a working scene direction, not a completed comic premise.
+
 ## Committee Of Biological Standards
 
 Primary function:
@@ -58,6 +146,19 @@ Visual form:
 Visual differentiation note:
 
 Committee notices are already part of the foundational visual language. The open design problem is how to distinguish a Biological Committee notice from a Committee of Comedy Standards notice without relying on too much label text.
+
+Representative development:
+
+- Mother Nature, the Sandman, and the cafeteria lady are the approved standing
+  representatives.
+- The old-fashioned family doctor is a consultant to the committee, not a
+  standing representative. Medical interruption has not yet been a recurring
+  pressure on the work, but the doctor may interpret illness, injury, or
+  measurable physical limits when those matters arise.
+- Approved portfolio:
+  `C:\COMICS\Images\Generated\candidate-portfolio-biological-committee-representatives-2026-07-24-v4.png`
+- Character authority:
+  `C:\COMICS\Source\Characters\committee-representatives-biological.md`
 
 ## Committee Of Previously Answered Questions
 
@@ -227,58 +328,6 @@ Visual form:
 - Session logs
 - Maps
 - Roads
-
-## Committee Of Discovery
-
-Primary function:
-
-Continue excavation.
-
-Represents:
-
-The belief that something valuable is still deeper in the mine.
-
-Often correct.
-
-Sometimes dangerous.
-
-Typical messages:
-
-- Keep digging.
-- One more layer.
-- We are almost there.
-
-Visual form:
-
-- Mine entrance
-- Ore cart
-- Pickaxe
-
-## Committee Of Done
-
-Primary function:
-
-Counterbalance discovery.
-
-Represents:
-
-The understanding that value is created by completion as well as exploration.
-
-Natural adversary of:
-
-- Committee Of Excessive Refinement
-
-Typical messages:
-
-- Ship it.
-- This is sufficient.
-- Done is good enough.
-
-Visual form:
-
-- Stamped approval
-- Completed bridge
-- Finished comic
 
 ## Committee Of Comedy Standards
 

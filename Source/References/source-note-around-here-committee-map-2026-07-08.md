@@ -2,6 +2,50 @@
 
 Status: source note / working reference
 
+## Taskmaster Clarification - Committee Interplay
+
+The committees represent the ways real life encroaches on the creative process,
+conversation, and comic drafting.
+
+Interestingness is not a committee. It is the force that keeps attention engaged
+and repeatedly defeats or delays committee authority.
+
+Interestingness was observed, not designed. It should not be prematurely
+collapsed into a mascot, character, or single icon.
+
+It behaves more like physics than an institution. It is invisible and inferred
+through its effects:
+
+- a page turning itself
+- a light remaining on in the Mine
+- an unfiled paper
+- a noodle protruding from a folder
+- a conversation continuing after everyone agreed to stop
+
+The open door remains a candidate visual possibility only. It has not earned
+established-symbol status because it does not yet have recurrence, history, or
+roots.
+
+Examples:
+
+- Biological Committee: fatigue, sleep, hunger, and the need for a break.
+- Technological Committee: token limits, data limits, memory limits, and other
+  system interruptions.
+- Boundary Commission: stopping recursion and preventing a rabbit hole from
+  going too far.
+- Committee for Comedic Standards: issuing citations when a bad pun or joke
+  has become overworked.
+- Work Governance Committee: ordinary work obligations and the work week.
+
+Interestingness keeps the operator going despite valid notices. A compelling
+idea can override fatigue, continue after a token warning, cross a boundary,
+or produce another bad pun because the conversation remains alive.
+
+"Done is good enough" is a completion principle, not a Committee of Done.
+
+The town hall concept may eventually center on the committees issuing their
+notices and citations while Interestingness keeps the session in progress.
+
 Date: 2026-07-08
 
 Source:

@@ -85,6 +85,13 @@ Law #2:
 
 Interestingness outranks authority.
 
+Interestingness is not currently represented by a single approved symbol. It
+is an observed force inferred through attention capture and the effects it has
+on people, objects, conversations, and committee pressures.
+
+Candidate images such as an open door remain candidates until they earn
+recurrence, history, and roots.
+
 Law #3:
 
 If an observation survives long enough, it becomes a symbol.

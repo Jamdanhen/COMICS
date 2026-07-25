@@ -148,6 +148,21 @@ Archive:
 - Visual status: final appearance still flexible.
 - Source: `C:\COMICS\Source\Language\language-core-terms.md`.
 
+Ham Sandwich:
+
+- Status: approved established symbol.
+- Classification: foundational simplicity, practical resolution, continuity
+  symbol.
+- Meaning: a simple, complete, functional solution that remains available when
+  refinement begins to resemble unnecessary complexity.
+- Canonical form: Wonder Bread, chipped ham, yellow mustard, and American
+  cheese. The later improved sandwich is an evolution, not a replacement.
+- Recurring placement: the workshop vending machine.
+- Accepted visual reference: `C:\COMICS\Images\Generated\candidate-symbol-ham-sandwich-progression-2026-07-20-v1.png`.
+- Common use: a reminder to return to the original problem and the simplest
+  working solution.
+- Source: `C:\COMICS\Source\References\source-note-ham-sandwich-established-symbol-2026-07-20.md`.
+
 Compression and Extraction:
 
 - Status: approved language.
@@ -214,21 +229,32 @@ Committee Of Comedy Standards:
 - Status: approved committee.
 - Meaning: comedic enforcement for bad, forced, painful, overexplained, or
   labor-intensive jokes.
+- Approved representatives: formal whiteface clown, Auguste-style intervention
+  clown, and mime.
+- Approved portfolio: `C:\COMICS\Images\Generated\candidate-portfolio-comedic-standards-representatives-2026-07-22-v6.png`.
+- Character reference: `C:\COMICS\Source\Characters\committee-representatives-comedic-standards.md`.
 - Source: `C:\COMICS\Source\Canon\committee-register.md`.
 
 Committee Of Biological Standards:
 
-- Status: approved committee.
+- Status: approved committee and approved representative portfolio.
 - Meaning: sleep, hunger, hydration, physical maintenance, and bodily limits.
+- Standing representatives: Mother Nature, the Sandman, and the cafeteria
+  lady.
+- Consultant: old-fashioned family doctor.
 - Note: visual differentiation from Comedy Standards notices remains open.
 - Source: `C:\COMICS\Source\Canon\committee-register.md`.
+- Character source:
+  `C:\COMICS\Source\Characters\committee-representatives-biological.md`.
+- Approved visual:
+  `C:\COMICS\Images\Generated\candidate-portfolio-biological-committee-representatives-2026-07-24-v4.png`.
 
 Other Registered Committees:
 
 - Status: working canon committee vocabulary.
 - Includes: Previously Answered Questions, Token Conservation, Mechanical
   Barricades, Excessive Refinement, Shiny New Projects, Unresolved Noodles,
-  Campaign Continuity, Discovery, Done.
+  Campaign Continuity.
 - Source: `C:\COMICS\Source\Canon\committee-register.md`.
 
 ### Approved By `Around Here's Most Wanted`
