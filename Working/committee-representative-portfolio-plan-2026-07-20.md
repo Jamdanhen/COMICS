@@ -103,7 +103,7 @@ Standards.
 
 ### Technological Committee
 
-Status: identified / recurring committee; visual language established.
+Status: approved committee and approved apparatus portfolio.
 
 Jurisdiction:
 
@@ -122,7 +122,54 @@ Established visual language:
 - `INTERVAL EXPIRED`
 - `TOKEN LIMIT EXCEEDED`
 
-Representative roster: open. The clock and whistle are committee instruments, not necessarily members.
+Current apparatus direction:
+
+- Punch Clock: accounts for authorized time
+- System Terminal / Overmind: accounts for available system resources
+- Connection Node / Wireless Router: accounts for access
+
+The explanatory formulations are conceptual only. They are not dialogue,
+captions, or required machine text.
+
+The apparatuses are not malicious. They do not negotiate, become angry, or act
+as mascots. They report the system's current state and are technically correct.
+
+System Terminal direction:
+
+- visible terminal is only an interface to a larger governing system
+- the apparent face is interface pareidolia rather than an intentional avatar
+- two ordinary status blocks may accidentally read as eyes
+- a horizontal cursor on a lower row may accidentally read as a flat mouth
+- there is no nose, facial anatomy, face outline, emoticon, or deliberate
+  expression
+- perceived expression may change only because the status blocks or cursor
+  change during normal interface activity
+- the interface does not track or look at people
+- surrounding reel-to-reel banks, status lights, service panels, and cable
+  trunks imply a much larger system
+- the status strip is variable comic language rather than permanent wording
+- concise system-state messages may include `MEMORY FULL`, `CONTEXT FULL`,
+  `RESOURCE BUSY`, `UNAVAILABLE`, `PLEASE WAIT`, `UPDATE REQUIRED`, or
+  `TOO INTERESTING`
+
+Connection Node direction:
+
+- inherits the approved Wireless Router silhouette from `Around Here's Most
+  Wanted`
+- low horizontal router body, two antennas, front status lights, and visible
+  power cord
+- one antenna may be bent and the older router may show restrained wear
+- the router remains small while a large distressed low-signal wireless icon
+  becomes the primary visual representative
+- only the source dot and innermost arc remain strong; larger arcs appear
+  broken, faint, or incomplete
+- no words on or near the Connection Node
+
+Approved apparatus portfolio:
+
+`C:\COMICS\Images\Generated\candidate-portfolio-technological-committee-apparatuses-2026-07-25-v6.png`
+
+The apparatuses are approved committee infrastructure, not characters.
 
 ### Work Governance Committee
 
@@ -173,9 +220,10 @@ Established visual language:
 - caution tape
 - `RECURRENCE DO NOT CROSS`
 
-Proposed representative:
+Current candidate representatives:
 
 - Beaver civil engineer / senior infrastructure specialist
+- jurisdictional official / referee
 
 The beaver is a working direction, not yet an approved character. The role is
 earned through natural behavior: building, surveying, redirecting water,
@@ -190,7 +238,34 @@ Character details:
 
 These are tiny visual truths to be noticed rather than explained.
 
-Representative roster: beaver direction proposed; additional members open.
+The referee represents judgment at the line rather than sport. His current
+candidate language includes:
+
+- whistle
+- folded penalty flag
+- free hands and a mobile officiating stance
+- attentive focus on the action requiring a ruling
+
+The referee does not carry a clipboard and does not monitor his own position
+against the boundary. Referees move through and across the field while watching
+the event they have authority to judge.
+
+Candidate enforcement instrument:
+
+- unpersonified folding municipal barricade
+- established `RECURRENCE DO NOT CROSS` tape physically draped over it
+
+The barricade is equipment, not a representative or mascot.
+
+Current candidate portfolio:
+
+`C:\COMICS\Images\Generated\candidate-portfolio-boundary-commission-representatives-2026-07-25-v6.png`
+
+This candidate preserves the first of the two referee-corrected variants. The
+later pencil-cleanup pass remains an alternate, but is not the preferred
+version.
+
+Representative roster remains unapproved.
 
 ### Classification Board / Category Authority
 

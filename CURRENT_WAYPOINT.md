@@ -1,6 +1,6 @@
 # Current Waypoint
 
-Date: 2026-07-24
+Date: 2026-07-26
 
 ## Active Project Authority
 
@@ -94,6 +94,36 @@ Character authority:
 C:\COMICS\Source\Characters\committee-representatives-biological.md
 ```
 
+### Technological Committee
+
+Approved apparatus portfolio:
+
+```text
+C:\COMICS\Images\Generated\candidate-portfolio-technological-committee-apparatuses-2026-07-25-v6.png
+```
+
+Approved apparatuses:
+
+- Punch Clock: authorized time
+- System Terminal / Overmind: system resources
+- Connection Node / Wireless Router: connection and access state
+
+The apparatuses are infrastructure rather than characters. They report system
+state without anger, negotiation, or malice.
+
+The Overmind's apparent expression is interface pareidolia produced by ordinary
+status blocks and a horizontal cursor. Its status strip is variable comic
+language rather than permanently fixed to `MEMORY FULL`.
+
+The Connection Node is represented primarily by a large distressed wireless
+signal state carried by a small, worn router with one bent antenna.
+
+Language authority:
+
+```text
+C:\COMICS\Source\Language\committee-apparatuses-technological.md
+```
+
 ### Ham Sandwich
 
 The Ham Sandwich is confirmed as approved foundational vocabulary. The
@@ -124,14 +154,18 @@ C:\COMICS\Images\Generated\candidate-symbol-ham-sandwich-progression-2026-07-20-
 Latest candidate portfolio:
 
 ```text
-C:\COMICS\Images\Generated\candidate-portfolio-boundary-commission-representatives-2026-07-24-v3.png
+C:\COMICS\Images\Generated\candidate-portfolio-boundary-commission-representatives-2026-07-25-v6.png
 ```
 
 Current candidate delegation:
 
 - beaver civil engineer with chewed carpenter pencil
-- sports referee
-- municipal police officer with mustache and sunglasses
+- attentive jurisdictional referee with whistle and penalty flag
+
+Candidate enforcement instrument:
+
+- unpersonified folding municipal barricade
+- established `RECURRENCE DO NOT CROSS` tape draped over the barricade
 
 This portfolio remains a candidate and is not approved character authority.
 
@@ -139,7 +173,6 @@ This portfolio remains a candidate and is not approved character authority.
 
 Representative portfolios remain open for:
 
-- Technological Committee
 - Work Governance Committee
 
 Earlier generated portfolio iterations remain draft history and are not the
@@ -158,6 +191,6 @@ the approved comic-page shelf unless the owner explicitly changes that rule.
 Resume inside the Comics project from one of these substantive lanes:
 
 - review or revise the Boundary Commission candidate portfolio
-- develop Technological Committee representatives
 - develop Work Governance Committee representatives
-- use the approved committee delegations in a future town-hall comic concept
+- use the approved Comedic Standards, Biological, and Technological committee
+  language in a future town-hall comic concept

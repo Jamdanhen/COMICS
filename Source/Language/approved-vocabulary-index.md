@@ -467,9 +467,17 @@ Symbol Key Volume 2A As A Sheet:
 
 Technological Committee:
 
-- Status: not final name.
-- Replacement: Shift Clock / Mine Time Clock.
-- Source: `C:\COMICS\Working\candidate-symbol-shift-clock-technological-limits-2026-07-04.md`.
+- Status: approved committee and approved apparatus portfolio.
+- Meaning: limitations imposed by systems across time, resources, and
+  connection.
+- Approved apparatuses: Punch Clock, System Terminal / Overmind, and Connection
+  Node / Wireless Router.
+- Note: apparatuses are infrastructure, not characters or mascots.
+- Source: `C:\COMICS\Source\Canon\committee-register.md`.
+- Language authority:
+  `C:\COMICS\Source\Language\committee-apparatuses-technological.md`.
+- Approved visual:
+  `C:\COMICS\Images\Generated\candidate-portfolio-technological-committee-apparatuses-2026-07-25-v6.png`.
 
 White Chocolate:
 

@@ -2,7 +2,7 @@
 
 Status: working canon
 
-Version: 003
+Version: 004
 
 Source:
 
@@ -159,6 +159,43 @@ Representative development:
   `C:\COMICS\Images\Generated\candidate-portfolio-biological-committee-representatives-2026-07-24-v4.png`
 - Character authority:
   `C:\COMICS\Source\Characters\committee-representatives-biological.md`
+
+## Technological Committee
+
+Primary function:
+
+- account for authorized time
+- report available system resources
+- report connection and access state
+
+Represents:
+
+Limitations imposed by systems rather than technology in general.
+
+Approved apparatuses:
+
+- Punch Clock
+- System Terminal / Overmind
+- Connection Node / Wireless Router
+
+The apparatuses are infrastructure rather than characters. They are not
+malicious, do not negotiate, and do not become angry. They report current
+system state and are technically correct.
+
+The Overmind's apparent CRT face is accidental interface pareidolia produced by
+ordinary status blocks and a horizontal cursor. It is not an avatar and does
+not track people.
+
+The Connection Node is represented primarily by a large distressed wireless
+signal state carried by a small, worn older router. It uses no words.
+
+Approved portfolio:
+
+`C:\COMICS\Images\Generated\candidate-portfolio-technological-committee-apparatuses-2026-07-25-v6.png`
+
+Language authority:
+
+`C:\COMICS\Source\Language\committee-apparatuses-technological.md`
 
 ## Committee Of Previously Answered Questions
 
