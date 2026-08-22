@@ -114,6 +114,30 @@ central problem before the committees.
 The committees issue notices, citations, warnings, slips, and boundary marks.
 Interestingness keeps the work in session.
 
+Important causal boundary:
+
+- Interestingness does not attract, persuade, or motivate the committees.
+- The committees exist to stop, suspend, limit, or cite work because their
+  legitimate factors have been triggered.
+- Interestingness acts on Taskmaster and the workshop cohorts, including
+  Razorforge and Codex, causing the work to continue despite valid committee
+  action.
+- The committees may debate which jurisdiction applies, which stop order has
+  priority, why prior warrants failed, or what enforcement remains available.
+  They do not continue the work themselves.
+
+The hearing may use a recurring docket of concrete interesting subjects rather
+than personifying Interestingness. Possible docket subjects include:
+
+- the Shadowrun campaign
+- the data-extraction profile
+- comic drawing and development
+- purchase of a new computer
+- Crucible Inc.
+
+These are examples of work that Interestingness keeps active. They are not new
+committees or a single approved symbol for Interestingness.
+
 This is a working scene direction, not a completed comic premise.
 
 ## Committee Of Biological Standards
@@ -196,6 +220,34 @@ Approved portfolio:
 Language authority:
 
 `C:\COMICS\Source\Language\committee-apparatuses-technological.md`
+
+## Boundary Commission
+
+Primary function:
+
+- establish and maintain jurisdictional limits
+- identify when recurrence or scope has crossed a boundary
+- prevent random material from becoming canon without sufficient precedent
+
+Approved standing representatives:
+
+- beaver civil engineer / senior infrastructure specialist
+- jurisdictional official / referee
+
+Approved enforcement equipment:
+
+- unpersonified folding municipal barricade
+- `RECURRENCE DO NOT CROSS` tape physically draped over the barricade
+
+The barricade and tape are equipment, not representatives or mascots.
+
+Approved portfolio:
+
+`C:\COMICS\Images\Generated\candidate-portfolio-boundary-commission-representatives-2026-07-25-v6.png`
+
+Character authority:
+
+`C:\COMICS\Source\Characters\committee-representatives-boundary-commission.md`
 
 ## Committee Of Previously Answered Questions
 

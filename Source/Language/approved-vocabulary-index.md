@@ -249,6 +249,20 @@ Committee Of Biological Standards:
 - Approved visual:
   `C:\COMICS\Images\Generated\candidate-portfolio-biological-committee-representatives-2026-07-24-v4.png`.
 
+Boundary Commission:
+
+- Status: approved governing body and approved representative portfolio.
+- Meaning: jurisdictional limits, recurrence boundaries, scope control, and
+  protection against unsupported canon promotion.
+- Standing representatives: beaver civil engineer and jurisdictional referee.
+- Enforcement equipment: folding municipal barricade and
+  `RECURRENCE DO NOT CROSS` tape.
+- Character source:
+  `C:\COMICS\Source\Characters\committee-representatives-boundary-commission.md`.
+- Approved visual:
+  `C:\COMICS\Images\Generated\candidate-portfolio-boundary-commission-representatives-2026-07-25-v6.png`.
+- Source: `C:\COMICS\Source\Canon\committee-register.md`.
+
 Other Registered Committees:
 
 - Status: working canon committee vocabulary.

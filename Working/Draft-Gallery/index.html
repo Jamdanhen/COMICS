@@ -1,0 +1,919 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Around Here Draft Gallery</title>
+  <style>
+    :root { color-scheme: light; --ink:#191919; --paper:#f5f5f3; --panel:#fff; --line:#c8c8c4; --muted:#666; --soft:#e9e9e6; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--paper); font:15px/1.45 Arial, sans-serif; letter-spacing:0; }
+    header { position:sticky; top:0; z-index:3; padding:14px 20px; border-bottom:1px solid var(--line); background:rgba(245,245,243,.96); }
+    .header-row { display:flex; align-items:end; justify-content:space-between; gap:18px; max-width:1500px; margin:auto; }
+    h1 { margin:0; font:700 25px/1.1 Georgia, serif; }
+    .summary { margin:4px 0 0; color:var(--muted); }
+    #search { width:min(360px,100%); height:38px; padding:8px 11px; border:1px solid #999; border-radius:3px; background:#fff; font:inherit; }
+    main { max-width:1500px; margin:auto; padding:20px; }
+    section { margin:0 0 30px; }
+    .section-head { display:flex; align-items:baseline; gap:10px; border-bottom:2px solid var(--ink); margin-bottom:12px; }
+    h2 { margin:0 0 7px; font:700 19px/1.2 Georgia, serif; }
+    .count { color:var(--muted); font-size:13px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:12px; }
+    .card { min-width:0; background:var(--panel); border:1px solid var(--line); border-radius:5px; overflow:hidden; }
+    .thumb { display:flex; height:230px; align-items:center; justify-content:center; background:#ededeb; border-bottom:1px solid var(--line); }
+    .thumb img { width:100%; height:100%; object-fit:contain; }
+    .card-body { padding:12px; }
+    h3 { margin:0 0 4px; font-size:16px; }
+    p { margin:5px 0 9px; }
+    .status { display:inline-block; margin:0 0 6px; padding:2px 6px; background:var(--soft); border-left:3px solid #555; font-size:12px; font-weight:700; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin:10px 0; }
+    a { color:#111; text-decoration-thickness:1px; text-underline-offset:2px; }
+    .secondary { color:#555; }
+    code { display:block; overflow-wrap:anywhere; color:#666; font:11px/1.35 Consolas, monospace; }
+    .empty { padding:18px; background:var(--panel); border:1px dashed #999; color:var(--muted); }
+    .written-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(255px,1fr)); gap:10px; }
+    .written-card { background:var(--panel); border:1px solid var(--line); border-left:4px solid #777; padding:11px; }
+    details { background:var(--panel); border:1px solid var(--line); }
+    summary { cursor:pointer; padding:12px; font-weight:700; }
+    .history-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(290px,1fr)); gap:8px; padding:10px; border-top:1px solid var(--line); }
+    .history-card { display:grid; grid-template-columns:82px 1fr; gap:9px; min-width:0; padding:7px; border:1px solid #ddd; background:#fafafa; }
+    .history-thumb { display:flex; width:82px; height:68px; align-items:center; justify-content:center; background:#eee; }
+    .history-thumb img { width:100%; height:100%; object-fit:contain; }
+    .history-card strong { display:block; margin-bottom:5px; overflow-wrap:anywhere; font-size:12px; }
+    .note { padding:10px 12px; border-left:4px solid #555; background:#e8e8e5; }
+    [hidden] { display:none !important; }
+    @media (max-width:700px) {
+      header { position:static; }
+      .header-row { display:block; }
+      #search { margin-top:12px; width:100%; }
+      main { padding:14px; }
+      .grid { grid-template-columns:1fr; }
+      .thumb { height:auto; min-height:180px; max-height:420px; }
+      .thumb img { max-height:420px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-row">
+      <div><h1>Around Here Draft Gallery</h1><p class="summary">Pending work only, with historical versions separated below. Generated 2026-08-22 14:08.</p></div>
+      <input id="search" type="search" placeholder="Filter drafts and candidates" aria-label="Filter drafts and candidates">
+    </div>
+  </header>
+  <main>
+    <p class="note"><strong>Read-only index.</strong> Images remain in their original project locations. Approved comic pages and approved vocabulary references are intentionally excluded from the pending sections.</p>
+
+    <section>
+      <div class="section-head"><h2>Almost-Finished Comics</h2><span class="count">4 live visual drafts</span></div>
+      <div class="grid"><article class="card" data-search="around here town hall: interestingness accepted final draft, not approved completed draft version held outside the approved comic sequence.">
+  <a class="thumb" href="file:///C:/COMICS/Images/Generated/draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v5.png"><img src="../../Images/Generated/draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v5.png" alt="Around Here Town Hall: Interestingness" loading="lazy"></a>
+  <div class="card-body">
+    <h3>Around Here Town Hall: Interestingness</h3>
+    <p class="status">Accepted final draft, not approved</p>
+    <p>Completed draft version held outside the approved comic sequence.</p>
+    <div class="actions"><a href="file:///C:/COMICS/Images/Generated/draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v5.png">Open original</a><a class="secondary" href="file:///C:/COMICS/Working/committee-representative-portfolio-plan-2026-07-20.md">Open status record</a></div>
+    <code>Images\Generated\draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v5.png</code>
+  </div>
+</article>
+<article class="card" data-search="sasmg workplace comic corrected continuity draft, not approved current workplace-mode direction with razorforge identity corrections.">
+  <a class="thumb" href="file:///C:/COMICS/Images/Generated/workplace-comic-sasmg-razorforge-draft-002.png"><img src="../../Images/Generated/workplace-comic-sasmg-razorforge-draft-002.png" alt="SASMG Workplace Comic" loading="lazy"></a>
+  <div class="card-body">
+    <h3>SASMG Workplace Comic</h3>
+    <p class="status">Corrected continuity draft, not approved</p>
+    <p>Current workplace-mode direction with Razorforge identity corrections.</p>
+    <div class="actions"><a href="file:///C:/COMICS/Images/Generated/workplace-comic-sasmg-razorforge-draft-002.png">Open original</a><a class="secondary" href="file:///C:/COMICS/Scripts/workplace-comic-sasmg-razorforge-draft-001.md">Open status record</a></div>
+    <code>Images\Generated\workplace-comic-sasmg-razorforge-draft-002.png</code>
+  </div>
+</article>
+<article class="card" data-search="project process machine draft direction, not approved main mythology process scene using physical ore, tracks, sorting, decision, action, and review.">
+  <a class="thumb" href="file:///C:/COMICS/Images/Generated/project-process-machine-visual-draft-001.png"><img src="../../Images/Generated/project-process-machine-visual-draft-001.png" alt="Project Process Machine" loading="lazy"></a>
+  <div class="card-body">
+    <h3>Project Process Machine</h3>
+    <p class="status">Draft direction, not approved</p>
+    <p>Main mythology process scene using physical ore, tracks, sorting, decision, action, and review.</p>
+    <div class="actions"><a href="file:///C:/COMICS/Images/Generated/project-process-machine-visual-draft-001.png">Open original</a><a class="secondary" href="file:///C:/COMICS/Scripts/project-process-machine-visual-draft-001.md">Open status record</a></div>
+    <code>Images\Generated\project-process-machine-visual-draft-001.png</code>
+  </div>
+</article>
+<article class="card" data-search="around here topographical map saved map draft, not approved canon conceptual territory rendered as an old scroll-style map.">
+  <a class="thumb" href="file:///C:/COMICS/Images/Generated/candidate-around-here-topographical-map-2026-07-05-v1.png"><img src="../../Images/Generated/candidate-around-here-topographical-map-2026-07-05-v1.png" alt="Around Here Topographical Map" loading="lazy"></a>
+  <div class="card-body">
+    <h3>Around Here Topographical Map</h3>
+    <p class="status">Saved map draft, not approved canon</p>
+    <p>Conceptual territory rendered as an old scroll-style map.</p>
+    <div class="actions"><a href="file:///C:/COMICS/Images/Generated/candidate-around-here-topographical-map-2026-07-05-v1.png">Open original</a><a class="secondary" href="file:///C:/COMICS/Working/draft-around-here-topographical-map-2026-07-05.md">Open status record</a></div>
+    <code>Images\Generated\candidate-around-here-topographical-map-2026-07-05-v1.png</code>
+  </div>
+</article></div>
+    </section>
+
+    <section>
+      <div class="section-head"><h2>Symbol Drafts</h2><span class="count">2 standalone visual candidates</span></div>
+      <div class="grid"><article class="card" data-search="mythic beam working visual candidate, deferred approved meaning with an unresolved final visual form. this is the stronger second candidate.">
+  <a class="thumb" href="file:///C:/COMICS/Images/Generated/candidate-symbol-mythic-beam-2026-07-19-v2.png"><img src="../../Images/Generated/candidate-symbol-mythic-beam-2026-07-19-v2.png" alt="Mythic Beam" loading="lazy"></a>
+  <div class="card-body">
+    <h3>Mythic Beam</h3>
+    <p class="status">Working visual candidate, deferred</p>
+    <p>Approved meaning with an unresolved final visual form. This is the stronger second candidate.</p>
+    <div class="actions"><a href="file:///C:/COMICS/Images/Generated/candidate-symbol-mythic-beam-2026-07-19-v2.png">Open original</a><a class="secondary" href="file:///C:/COMICS/Source/Language/approved-vocabulary-index.md">Open status record</a></div>
+    <code>Images\Generated\candidate-symbol-mythic-beam-2026-07-19-v2.png</code>
+  </div>
+</article>
+<article class="card" data-search="around here sign working visual concept a jurisdiction sign that confirms arrival without providing useful location information.">
+  <a class="thumb" href="file:///C:/COMICS/Images/Generated/generated-2026-07-04-around-here-sign-concept-v1.png"><img src="../../Images/Generated/generated-2026-07-04-around-here-sign-concept-v1.png" alt="Around Here Sign" loading="lazy"></a>
+  <div class="card-body">
+    <h3>Around Here Sign</h3>
+    <p class="status">Working visual concept</p>
+    <p>A jurisdiction sign that confirms arrival without providing useful location information.</p>
+    <div class="actions"><a href="file:///C:/COMICS/Images/Generated/generated-2026-07-04-around-here-sign-concept-v1.png">Open original</a><a class="secondary" href="file:///C:/COMICS/Working/visual-concept-around-here-sign-2026-07-04.md">Open status record</a></div>
+    <code>Images\Generated\generated-2026-07-04-around-here-sign-concept-v1.png</code>
+  </div>
+</article></div>
+    </section>
+
+    <section>
+      <div class="section-head"><h2>Character Drafts</h2><span class="count">0 active</span></div>
+      <div class="empty">There are no active character drafts. The Chief Inspector, Gazelle Reporter, and current committee representative portfolios are accepted or approved visual-language references. Their earlier versions appear under Superseded Versions.</div>
+    </section>
+
+    <section>
+      <div class="section-head"><h2>Written-Only Candidates</h2><span class="count">15 concepts without standalone draft images</span></div>
+      <div class="written-grid"><article class="written-card" data-search="the crate strong candidate classified information or unknown contents.">
+  <h3>The Crate</h3>
+  <p class="status">Strong candidate</p>
+  <p>Classified information or unknown contents.</p>
+  <a href="file:///C:/COMICS/Source/References/around-here-comic-dictionary-candidate-symbol-register-v0-1.md">Open source note</a>
+</article>
+<article class="written-card" data-search="code block emerging unread signal or potential information requiring translation.">
+  <h3>Code Block</h3>
+  <p class="status">Emerging</p>
+  <p>Unread signal or potential information requiring translation.</p>
+  <a href="file:///C:/COMICS/Source/References/around-here-comic-dictionary-candidate-symbol-register-v0-1.md">Open source note</a>
+</article>
+<article class="written-card" data-search="noodle shop derivative candidate a possible location extending noodle language, not the primary noodle symbol.">
+  <h3>Noodle Shop</h3>
+  <p class="status">Derivative candidate</p>
+  <p>A possible location extending Noodle language, not the primary Noodle symbol.</p>
+  <a href="file:///C:/COMICS/Source/Canon/noodle-bowl-canon.md">Open source note</a>
+</article>
+<article class="written-card" data-search="biological committee notice design working design problem a distinct visual form for biological reminders without excessive labeling.">
+  <h3>Biological Committee Notice Design</h3>
+  <p class="status">Working design problem</p>
+  <p>A distinct visual form for biological reminders without excessive labeling.</p>
+  <a href="file:///C:/COMICS/Working/symbol-candidate-notes-chronicle-monocle-gazelle-biological-committee.md">Open source note</a>
+</article>
+<article class="written-card" data-search="comedy standards notice design working design problem a distinct fine or notice form for comedic violations.">
+  <h3>Comedy Standards Notice Design</h3>
+  <p class="status">Working design problem</p>
+  <p>A distinct fine or notice form for comedic violations.</p>
+  <a href="file:///C:/COMICS/Working/symbol-candidate-notes-chronicle-monocle-gazelle-biological-committee.md">Open source note</a>
+</article>
+<article class="written-card" data-search="archive visual form deferred visual candidate the meaning is valid, but its repeatable appearance remains open.">
+  <h3>Archive Visual Form</h3>
+  <p class="status">Deferred visual candidate</p>
+  <p>The meaning is valid, but its repeatable appearance remains open.</p>
+  <a href="file:///C:/COMICS/Source/Canon/concept-language-update-2026-06-09.md">Open source note</a>
+</article>
+<article class="written-card" data-search="no-write boundary deferred visual candidate review or staging does not automatically authorize durable archive changes.">
+  <h3>No-Write Boundary</h3>
+  <p class="status">Deferred visual candidate</p>
+  <p>Review or staging does not automatically authorize durable archive changes.</p>
+  <a href="file:///C:/COMICS/Source/Canon/concept-language-update-2026-06-09.md">Open source note</a>
+</article>
+<article class="written-card" data-search="human-facing control panel deferred visual candidate a usable taskmaster control surface without machine burden.">
+  <h3>Human-Facing Control Panel</h3>
+  <p class="status">Deferred visual candidate</p>
+  <p>A usable Taskmaster control surface without machine burden.</p>
+  <a href="file:///C:/COMICS/Source/Language/language-core-terms.md">Open source note</a>
+</article>
+<article class="written-card" data-search="crucible / lost city visual form visual form open approved high-level concept whose final repeatable appearance remains unresolved.">
+  <h3>Crucible / Lost City Visual Form</h3>
+  <p class="status">Visual form open</p>
+  <p>Approved high-level concept whose final repeatable appearance remains unresolved.</p>
+  <a href="file:///C:/COMICS/Source/Canon/concept-language-update-2026-06-09.md">Open source note</a>
+</article>
+<article class="written-card" data-search="play-doh parked / observe possible interoperability connector; currently too broad.">
+  <h3>Play-Doh</h3>
+  <p class="status">Parked / observe</p>
+  <p>Possible interoperability connector; currently too broad.</p>
+  <a href="file:///C:/COMICS/Source/References/around-here-comic-dictionary-candidate-symbol-register-v0-1.md">Open source note</a>
+</article>
+<article class="written-card" data-search="the cyborg parked / observe human and system integration; premature to define.">
+  <h3>The Cyborg</h3>
+  <p class="status">Parked / observe</p>
+  <p>Human and system integration; premature to define.</p>
+  <a href="file:///C:/COMICS/Source/References/around-here-comic-dictionary-candidate-symbol-register-v0-1.md">Open source note</a>
+</article>
+<article class="written-card" data-search="spiral noodle parked / observe possible recursion or escalating-complexity symbol.">
+  <h3>Spiral Noodle</h3>
+  <p class="status">Parked / observe</p>
+  <p>Possible recursion or escalating-complexity symbol.</p>
+  <a href="file:///C:/COMICS/Source/Canon/noodle-bowl-canon.md">Open source note</a>
+</article>
+<article class="written-card" data-search="naval mine / dormant significance proposed, not promoted dormant significance, distinct from the underground mine. it has appeared only inside development artwork.">
+  <h3>Naval Mine / Dormant Significance</h3>
+  <p class="status">Proposed, not promoted</p>
+  <p>Dormant significance, distinct from the underground Mine. It has appeared only inside development artwork.</p>
+  <a href="file:///C:/COMICS/Working/proposed-symbol-naval-mine-dormant-significance-2026-06-14.md">Open source note</a>
+</article>
+<article class="written-card" data-search="quantum noodle deferred, not promoted a parked noodle variation without a standalone visual candidate.">
+  <h3>Quantum Noodle</h3>
+  <p class="status">Deferred, not promoted</p>
+  <p>A parked Noodle variation without a standalone visual candidate.</p>
+  <a href="file:///C:/COMICS/Source/Canon/noodle-bowl-canon.md">Open source note</a>
+</article>
+<article class="written-card" data-search="noodle sub-comic characters parked possible rare sub-comic figures, not active main-language symbols.">
+  <h3>Noodle Sub-Comic Characters</h3>
+  <p class="status">Parked</p>
+  <p>Possible rare sub-comic figures, not active main-language symbols.</p>
+  <a href="file:///C:/COMICS/Source/Canon/noodle-bowl-canon.md">Open source note</a>
+</article></div>
+    </section>
+
+    <section>
+      <div class="section-head"><h2>Superseded Versions</h2><span class="count">167 historical or inactive generated images</span></div>
+      <details>
+        <summary>Show historical versions</summary>
+        <p class="note">These files are retained as iteration history. Their presence here does not make them active candidates or canon.</p>
+        <div class="history-grid"><article class="history-card" data-search="comic-001-the-fragile-detail.png images\generated\comic-001-the-fragile-detail.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/comic-001-the-fragile-detail.png"><img src="../../Images/Generated/comic-001-the-fragile-detail.png" alt="comic-001-the-fragile-detail.png" loading="lazy"></a>
+  <div><strong>comic-001-the-fragile-detail.png</strong><code>Images\Generated\comic-001-the-fragile-detail.png</code></div>
+</article>
+<article class="history-card" data-search="comic-001-the-fragile-detail-v2.png images\generated\comic-001-the-fragile-detail-v2.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/comic-001-the-fragile-detail-v2.png"><img src="../../Images/Generated/comic-001-the-fragile-detail-v2.png" alt="comic-001-the-fragile-detail-v2.png" loading="lazy"></a>
+  <div><strong>comic-001-the-fragile-detail-v2.png</strong><code>Images\Generated\comic-001-the-fragile-detail-v2.png</code></div>
+</article>
+<article class="history-card" data-search="workplace-comic-sasmg-razorforge-draft-001.png images\generated\workplace-comic-sasmg-razorforge-draft-001.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/workplace-comic-sasmg-razorforge-draft-001.png"><img src="../../Images/Generated/workplace-comic-sasmg-razorforge-draft-001.png" alt="workplace-comic-sasmg-razorforge-draft-001.png" loading="lazy"></a>
+  <div><strong>workplace-comic-sasmg-razorforge-draft-001.png</strong><code>Images\Generated\workplace-comic-sasmg-razorforge-draft-001.png</code></div>
+</article>
+<article class="history-card" data-search="draft-gibbering-detail-mass-comparison-2026-06-10.png images\generated\draft-gibbering-detail-mass-comparison-2026-06-10.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-gibbering-detail-mass-comparison-2026-06-10.png"><img src="../../Images/Generated/draft-gibbering-detail-mass-comparison-2026-06-10.png" alt="draft-gibbering-detail-mass-comparison-2026-06-10.png" loading="lazy"></a>
+  <div><strong>draft-gibbering-detail-mass-comparison-2026-06-10.png</strong><code>Images\Generated\draft-gibbering-detail-mass-comparison-2026-06-10.png</code></div>
+</article>
+<article class="history-card" data-search="draft-living-idea-blob-comparison-2026-06-10.png images\generated\draft-living-idea-blob-comparison-2026-06-10.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-living-idea-blob-comparison-2026-06-10.png"><img src="../../Images/Generated/draft-living-idea-blob-comparison-2026-06-10.png" alt="draft-living-idea-blob-comparison-2026-06-10.png" loading="lazy"></a>
+  <div><strong>draft-living-idea-blob-comparison-2026-06-10.png</strong><code>Images\Generated\draft-living-idea-blob-comparison-2026-06-10.png</code></div>
+</article>
+<article class="history-card" data-search="draft-living-idea-blob-no-mouth-no-labels-2026-06-10.png images\generated\draft-living-idea-blob-no-mouth-no-labels-2026-06-10.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-living-idea-blob-no-mouth-no-labels-2026-06-10.png"><img src="../../Images/Generated/draft-living-idea-blob-no-mouth-no-labels-2026-06-10.png" alt="draft-living-idea-blob-no-mouth-no-labels-2026-06-10.png" loading="lazy"></a>
+  <div><strong>draft-living-idea-blob-no-mouth-no-labels-2026-06-10.png</strong><code>Images\Generated\draft-living-idea-blob-no-mouth-no-labels-2026-06-10.png</code></div>
+</article>
+<article class="history-card" data-search="draft-information-outgrows-the-container-2026-06-10.png images\generated\draft-information-outgrows-the-container-2026-06-10.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-information-outgrows-the-container-2026-06-10.png"><img src="../../Images/Generated/draft-information-outgrows-the-container-2026-06-10.png" alt="draft-information-outgrows-the-container-2026-06-10.png" loading="lazy"></a>
+  <div><strong>draft-information-outgrows-the-container-2026-06-10.png</strong><code>Images\Generated\draft-information-outgrows-the-container-2026-06-10.png</code></div>
+</article>
+<article class="history-card" data-search="draft-thought-bubble-to-screen-escape-2026-06-10.png images\generated\draft-thought-bubble-to-screen-escape-2026-06-10.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-thought-bubble-to-screen-escape-2026-06-10.png"><img src="../../Images/Generated/draft-thought-bubble-to-screen-escape-2026-06-10.png" alt="draft-thought-bubble-to-screen-escape-2026-06-10.png" loading="lazy"></a>
+  <div><strong>draft-thought-bubble-to-screen-escape-2026-06-10.png</strong><code>Images\Generated\draft-thought-bubble-to-screen-escape-2026-06-10.png</code></div>
+</article>
+<article class="history-card" data-search="draft-thought-bubble-to-screen-escape-v2-duplicates-coalesce-2026-06-10.png images\generated\draft-thought-bubble-to-screen-escape-v2-duplicates-coalesce-2026-06-10.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-thought-bubble-to-screen-escape-v2-duplicates-coalesce-2026-06-10.png"><img src="../../Images/Generated/draft-thought-bubble-to-screen-escape-v2-duplicates-coalesce-2026-06-10.png" alt="draft-thought-bubble-to-screen-escape-v2-duplicates-coalesce-2026-06-10.png" loading="lazy"></a>
+  <div><strong>draft-thought-bubble-to-screen-escape-v2-duplicates-coalesce-2026-06-10.png</strong><code>Images\Generated\draft-thought-bubble-to-screen-escape-v2-duplicates-coalesce-2026-06-10.png</code></div>
+</article>
+<article class="history-card" data-search="draft-thought-bubble-to-screen-escape-v3-2026-06-10.png images\generated\draft-thought-bubble-to-screen-escape-v3-2026-06-10.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-thought-bubble-to-screen-escape-v3-2026-06-10.png"><img src="../../Images/Generated/draft-thought-bubble-to-screen-escape-v3-2026-06-10.png" alt="draft-thought-bubble-to-screen-escape-v3-2026-06-10.png" loading="lazy"></a>
+  <div><strong>draft-thought-bubble-to-screen-escape-v3-2026-06-10.png</strong><code>Images\Generated\draft-thought-bubble-to-screen-escape-v3-2026-06-10.png</code></div>
+</article>
+<article class="history-card" data-search="draft-thought-bubble-to-screen-escape-v4-panel4-coalescence-2026-06-11.png images\generated\draft-thought-bubble-to-screen-escape-v4-panel4-coalescence-2026-06-11.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-thought-bubble-to-screen-escape-v4-panel4-coalescence-2026-06-11.png"><img src="../../Images/Generated/draft-thought-bubble-to-screen-escape-v4-panel4-coalescence-2026-06-11.png" alt="draft-thought-bubble-to-screen-escape-v4-panel4-coalescence-2026-06-11.png" loading="lazy"></a>
+  <div><strong>draft-thought-bubble-to-screen-escape-v4-panel4-coalescence-2026-06-11.png</strong><code>Images\Generated\draft-thought-bubble-to-screen-escape-v4-panel4-coalescence-2026-06-11.png</code></div>
+</article>
+<article class="history-card" data-search="draft-thought-bubble-to-screen-escape-v5-four-page-corner-coalescence-2026-06-11.png images\generated\draft-thought-bubble-to-screen-escape-v5-four-page-corner-coalescence-2026-06-11.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-thought-bubble-to-screen-escape-v5-four-page-corner-coalescence-2026-06-11.png"><img src="../../Images/Generated/draft-thought-bubble-to-screen-escape-v5-four-page-corner-coalescence-2026-06-11.png" alt="draft-thought-bubble-to-screen-escape-v5-four-page-corner-coalescence-2026-06-11.png" loading="lazy"></a>
+  <div><strong>draft-thought-bubble-to-screen-escape-v5-four-page-corner-coalescence-2026-06-11.png</strong><code>Images\Generated\draft-thought-bubble-to-screen-escape-v5-four-page-corner-coalescence-2026-06-11.png</code></div>
+</article>
+<article class="history-card" data-search="draft-thought-bubble-to-screen-escape-v6-monitor-back-eye-2026-06-11.png images\generated\draft-thought-bubble-to-screen-escape-v6-monitor-back-eye-2026-06-11.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-thought-bubble-to-screen-escape-v6-monitor-back-eye-2026-06-11.png"><img src="../../Images/Generated/draft-thought-bubble-to-screen-escape-v6-monitor-back-eye-2026-06-11.png" alt="draft-thought-bubble-to-screen-escape-v6-monitor-back-eye-2026-06-11.png" loading="lazy"></a>
+  <div><strong>draft-thought-bubble-to-screen-escape-v6-monitor-back-eye-2026-06-11.png</strong><code>Images\Generated\draft-thought-bubble-to-screen-escape-v6-monitor-back-eye-2026-06-11.png</code></div>
+</article>
+<article class="history-card" data-search="draft-thought-bubble-to-screen-escape-v7-overlapping-pages-eye-only-2026-06-11.png images\generated\draft-thought-bubble-to-screen-escape-v7-overlapping-pages-eye-only-2026-06-11.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-thought-bubble-to-screen-escape-v7-overlapping-pages-eye-only-2026-06-11.png"><img src="../../Images/Generated/draft-thought-bubble-to-screen-escape-v7-overlapping-pages-eye-only-2026-06-11.png" alt="draft-thought-bubble-to-screen-escape-v7-overlapping-pages-eye-only-2026-06-11.png" loading="lazy"></a>
+  <div><strong>draft-thought-bubble-to-screen-escape-v7-overlapping-pages-eye-only-2026-06-11.png</strong><code>Images\Generated\draft-thought-bubble-to-screen-escape-v7-overlapping-pages-eye-only-2026-06-11.png</code></div>
+</article>
+<article class="history-card" data-search="draft-thought-bubble-to-screen-escape-v8-stronger-page-pull-eye-only-2026-06-11.png images\generated\draft-thought-bubble-to-screen-escape-v8-stronger-page-pull-eye-only-2026-06-11.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-thought-bubble-to-screen-escape-v8-stronger-page-pull-eye-only-2026-06-11.png"><img src="../../Images/Generated/draft-thought-bubble-to-screen-escape-v8-stronger-page-pull-eye-only-2026-06-11.png" alt="draft-thought-bubble-to-screen-escape-v8-stronger-page-pull-eye-only-2026-06-11.png" loading="lazy"></a>
+  <div><strong>draft-thought-bubble-to-screen-escape-v8-stronger-page-pull-eye-only-2026-06-11.png</strong><code>Images\Generated\draft-thought-bubble-to-screen-escape-v8-stronger-page-pull-eye-only-2026-06-11.png</code></div>
+</article>
+<article class="history-card" data-search="draft-thought-bubble-to-screen-escape-v9-upward-cone-coalescence-2026-06-11.png images\generated\draft-thought-bubble-to-screen-escape-v9-upward-cone-coalescence-2026-06-11.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-thought-bubble-to-screen-escape-v9-upward-cone-coalescence-2026-06-11.png"><img src="../../Images/Generated/draft-thought-bubble-to-screen-escape-v9-upward-cone-coalescence-2026-06-11.png" alt="draft-thought-bubble-to-screen-escape-v9-upward-cone-coalescence-2026-06-11.png" loading="lazy"></a>
+  <div><strong>draft-thought-bubble-to-screen-escape-v9-upward-cone-coalescence-2026-06-11.png</strong><code>Images\Generated\draft-thought-bubble-to-screen-escape-v9-upward-cone-coalescence-2026-06-11.png</code></div>
+</article>
+<article class="history-card" data-search="draft-thought-bubble-to-screen-escape-v10-smooth-core-eyes-2026-06-11.png images\generated\draft-thought-bubble-to-screen-escape-v10-smooth-core-eyes-2026-06-11.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-thought-bubble-to-screen-escape-v10-smooth-core-eyes-2026-06-11.png"><img src="../../Images/Generated/draft-thought-bubble-to-screen-escape-v10-smooth-core-eyes-2026-06-11.png" alt="draft-thought-bubble-to-screen-escape-v10-smooth-core-eyes-2026-06-11.png" loading="lazy"></a>
+  <div><strong>draft-thought-bubble-to-screen-escape-v10-smooth-core-eyes-2026-06-11.png</strong><code>Images\Generated\draft-thought-bubble-to-screen-escape-v10-smooth-core-eyes-2026-06-11.png</code></div>
+</article>
+<article class="history-card" data-search="draft-thought-bubble-to-screen-escape-v11-final-pass-time-cue-2026-06-11.png images\generated\draft-thought-bubble-to-screen-escape-v11-final-pass-time-cue-2026-06-11.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-thought-bubble-to-screen-escape-v11-final-pass-time-cue-2026-06-11.png"><img src="../../Images/Generated/draft-thought-bubble-to-screen-escape-v11-final-pass-time-cue-2026-06-11.png" alt="draft-thought-bubble-to-screen-escape-v11-final-pass-time-cue-2026-06-11.png" loading="lazy"></a>
+  <div><strong>draft-thought-bubble-to-screen-escape-v11-final-pass-time-cue-2026-06-11.png</strong><code>Images\Generated\draft-thought-bubble-to-screen-escape-v11-final-pass-time-cue-2026-06-11.png</code></div>
+</article>
+<article class="history-card" data-search="draft-thought-bubble-to-screen-escape-v12-final-pass-clock-continuity-2026-06-11.png images\generated\draft-thought-bubble-to-screen-escape-v12-final-pass-clock-continuity-2026-06-11.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-thought-bubble-to-screen-escape-v12-final-pass-clock-continuity-2026-06-11.png"><img src="../../Images/Generated/draft-thought-bubble-to-screen-escape-v12-final-pass-clock-continuity-2026-06-11.png" alt="draft-thought-bubble-to-screen-escape-v12-final-pass-clock-continuity-2026-06-11.png" loading="lazy"></a>
+  <div><strong>draft-thought-bubble-to-screen-escape-v12-final-pass-clock-continuity-2026-06-11.png</strong><code>Images\Generated\draft-thought-bubble-to-screen-escape-v12-final-pass-clock-continuity-2026-06-11.png</code></div>
+</article>
+<article class="history-card" data-search="draft-thought-bubble-to-screen-escape-v13-panel4-clock-corrected-2026-06-11.png images\generated\draft-thought-bubble-to-screen-escape-v13-panel4-clock-corrected-2026-06-11.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-thought-bubble-to-screen-escape-v13-panel4-clock-corrected-2026-06-11.png"><img src="../../Images/Generated/draft-thought-bubble-to-screen-escape-v13-panel4-clock-corrected-2026-06-11.png" alt="draft-thought-bubble-to-screen-escape-v13-panel4-clock-corrected-2026-06-11.png" loading="lazy"></a>
+  <div><strong>draft-thought-bubble-to-screen-escape-v13-panel4-clock-corrected-2026-06-11.png</strong><code>Images\Generated\draft-thought-bubble-to-screen-escape-v13-panel4-clock-corrected-2026-06-11.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-001-arrival-problem-draft-2026-06-12.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-001-arrival-problem-draft-2026-06-12.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-001-arrival-problem-draft-2026-06-12.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-001-arrival-problem-draft-2026-06-12.png" alt="chapter-001-page-002-panel-001-arrival-problem-draft-2026-06-12.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-001-arrival-problem-draft-2026-06-12.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-001-arrival-problem-draft-2026-06-12.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-001-arrival-problem-draft-v2-2026-06-12.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-001-arrival-problem-draft-v2-2026-06-12.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-001-arrival-problem-draft-v2-2026-06-12.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-001-arrival-problem-draft-v2-2026-06-12.png" alt="chapter-001-page-002-panel-001-arrival-problem-draft-v2-2026-06-12.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-001-arrival-problem-draft-v2-2026-06-12.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-001-arrival-problem-draft-v2-2026-06-12.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-002-anatomy-chart-appears-draft-2026-06-12.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-002-anatomy-chart-appears-draft-2026-06-12.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-002-anatomy-chart-appears-draft-2026-06-12.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-002-anatomy-chart-appears-draft-2026-06-12.png" alt="chapter-001-page-002-panel-002-anatomy-chart-appears-draft-2026-06-12.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-002-anatomy-chart-appears-draft-2026-06-12.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-002-anatomy-chart-appears-draft-2026-06-12.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-003-symbolic-anatomy-closeup-draft-2026-06-12.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-003-symbolic-anatomy-closeup-draft-2026-06-12.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-003-symbolic-anatomy-closeup-draft-2026-06-12.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-003-symbolic-anatomy-closeup-draft-2026-06-12.png" alt="chapter-001-page-002-panel-003-symbolic-anatomy-closeup-draft-2026-06-12.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-003-symbolic-anatomy-closeup-draft-2026-06-12.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-003-symbolic-anatomy-closeup-draft-2026-06-12.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-004-mine-habitat-design-chart-draft-2026-06-12.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-004-mine-habitat-design-chart-draft-2026-06-12.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-004-mine-habitat-design-chart-draft-2026-06-12.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-004-mine-habitat-design-chart-draft-2026-06-12.png" alt="chapter-001-page-002-panel-004-mine-habitat-design-chart-draft-2026-06-12.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-004-mine-habitat-design-chart-draft-2026-06-12.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-004-mine-habitat-design-chart-draft-2026-06-12.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-005-blob-inhabits-mine-habitat-draft-2026-06-12.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-005-blob-inhabits-mine-habitat-draft-2026-06-12.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-blob-inhabits-mine-habitat-draft-2026-06-12.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-blob-inhabits-mine-habitat-draft-2026-06-12.png" alt="chapter-001-page-002-panel-005-blob-inhabits-mine-habitat-draft-2026-06-12.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-005-blob-inhabits-mine-habitat-draft-2026-06-12.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-005-blob-inhabits-mine-habitat-draft-2026-06-12.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-006-grate-squeeze-escape-draft-2026-06-12.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-006-grate-squeeze-escape-draft-2026-06-12.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-006-grate-squeeze-escape-draft-2026-06-12.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-006-grate-squeeze-escape-draft-2026-06-12.png" alt="chapter-001-page-002-panel-006-grate-squeeze-escape-draft-2026-06-12.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-006-grate-squeeze-escape-draft-2026-06-12.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-006-grate-squeeze-escape-draft-2026-06-12.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-six-panel-draft-review-sheet-2026-06-12.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-six-panel-draft-review-sheet-2026-06-12.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-six-panel-draft-review-sheet-2026-06-12.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-six-panel-draft-review-sheet-2026-06-12.png" alt="chapter-001-page-002-six-panel-draft-review-sheet-2026-06-12.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-six-panel-draft-review-sheet-2026-06-12.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-six-panel-draft-review-sheet-2026-06-12.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-rough-storyboard-blocking-2026-06-12.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-rough-storyboard-blocking-2026-06-12.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-rough-storyboard-blocking-2026-06-12.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-rough-storyboard-blocking-2026-06-12.png" alt="chapter-001-page-002-rough-storyboard-blocking-2026-06-12.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-rough-storyboard-blocking-2026-06-12.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-rough-storyboard-blocking-2026-06-12.png</code></div>
+</article>
+<article class="history-card" data-search="panel-001-rough-blocking-office-desk-small-blob.png images\generated\chapter-001-page-002-panels\panel-001-rough-blocking-office-desk-small-blob.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/panel-001-rough-blocking-office-desk-small-blob.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/panel-001-rough-blocking-office-desk-small-blob.png" alt="panel-001-rough-blocking-office-desk-small-blob.png" loading="lazy"></a>
+  <div><strong>panel-001-rough-blocking-office-desk-small-blob.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\panel-001-rough-blocking-office-desk-small-blob.png</code></div>
+</article>
+<article class="history-card" data-search="panel-002-rough-blocking-chart-appears.png images\generated\chapter-001-page-002-panels\panel-002-rough-blocking-chart-appears.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/panel-002-rough-blocking-chart-appears.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/panel-002-rough-blocking-chart-appears.png" alt="panel-002-rough-blocking-chart-appears.png" loading="lazy"></a>
+  <div><strong>panel-002-rough-blocking-chart-appears.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\panel-002-rough-blocking-chart-appears.png</code></div>
+</article>
+<article class="history-card" data-search="panel-003-rough-blocking-anatomy-closeup-blob-looking.png images\generated\chapter-001-page-002-panels\panel-003-rough-blocking-anatomy-closeup-blob-looking.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/panel-003-rough-blocking-anatomy-closeup-blob-looking.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/panel-003-rough-blocking-anatomy-closeup-blob-looking.png" alt="panel-003-rough-blocking-anatomy-closeup-blob-looking.png" loading="lazy"></a>
+  <div><strong>panel-003-rough-blocking-anatomy-closeup-blob-looking.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\panel-003-rough-blocking-anatomy-closeup-blob-looking.png</code></div>
+</article>
+<article class="history-card" data-search="panel-004-rough-blocking-mine-habitat-plan-drain-route.png images\generated\chapter-001-page-002-panels\panel-004-rough-blocking-mine-habitat-plan-drain-route.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/panel-004-rough-blocking-mine-habitat-plan-drain-route.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/panel-004-rough-blocking-mine-habitat-plan-drain-route.png" alt="panel-004-rough-blocking-mine-habitat-plan-drain-route.png" loading="lazy"></a>
+  <div><strong>panel-004-rough-blocking-mine-habitat-plan-drain-route.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\panel-004-rough-blocking-mine-habitat-plan-drain-route.png</code></div>
+</article>
+<article class="history-card" data-search="panel-005-rough-blocking-blob-in-habitat-drain-unused.png images\generated\chapter-001-page-002-panels\panel-005-rough-blocking-blob-in-habitat-drain-unused.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/panel-005-rough-blocking-blob-in-habitat-drain-unused.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/panel-005-rough-blocking-blob-in-habitat-drain-unused.png" alt="panel-005-rough-blocking-blob-in-habitat-drain-unused.png" loading="lazy"></a>
+  <div><strong>panel-005-rough-blocking-blob-in-habitat-drain-unused.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\panel-005-rough-blocking-blob-in-habitat-drain-unused.png</code></div>
+</article>
+<article class="history-card" data-search="panel-006-rough-blocking-drain-found-a-way.png images\generated\chapter-001-page-002-panels\panel-006-rough-blocking-drain-found-a-way.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/panel-006-rough-blocking-drain-found-a-way.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/panel-006-rough-blocking-drain-found-a-way.png" alt="panel-006-rough-blocking-drain-found-a-way.png" loading="lazy"></a>
+  <div><strong>panel-006-rough-blocking-drain-found-a-way.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\panel-006-rough-blocking-drain-found-a-way.png</code></div>
+</article>
+<article class="history-card" data-search="panel-001-focused-rough-blocking-v1-2026-06-12.png images\generated\chapter-001-page-002-panels\panel-001-focused-rough-blocking-v1-2026-06-12.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/panel-001-focused-rough-blocking-v1-2026-06-12.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/panel-001-focused-rough-blocking-v1-2026-06-12.png" alt="panel-001-focused-rough-blocking-v1-2026-06-12.png" loading="lazy"></a>
+  <div><strong>panel-001-focused-rough-blocking-v1-2026-06-12.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\panel-001-focused-rough-blocking-v1-2026-06-12.png</code></div>
+</article>
+<article class="history-card" data-search="panel-002-focused-rough-blocking-v1-2026-06-12.png images\generated\chapter-001-page-002-panels\panel-002-focused-rough-blocking-v1-2026-06-12.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/panel-002-focused-rough-blocking-v1-2026-06-12.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/panel-002-focused-rough-blocking-v1-2026-06-12.png" alt="panel-002-focused-rough-blocking-v1-2026-06-12.png" loading="lazy"></a>
+  <div><strong>panel-002-focused-rough-blocking-v1-2026-06-12.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\panel-002-focused-rough-blocking-v1-2026-06-12.png</code></div>
+</article>
+<article class="history-card" data-search="panel-003-focused-rough-blocking-v1-2026-06-12.png images\generated\chapter-001-page-002-panels\panel-003-focused-rough-blocking-v1-2026-06-12.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/panel-003-focused-rough-blocking-v1-2026-06-12.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/panel-003-focused-rough-blocking-v1-2026-06-12.png" alt="panel-003-focused-rough-blocking-v1-2026-06-12.png" loading="lazy"></a>
+  <div><strong>panel-003-focused-rough-blocking-v1-2026-06-12.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\panel-003-focused-rough-blocking-v1-2026-06-12.png</code></div>
+</article>
+<article class="history-card" data-search="panel-004-focused-rough-blocking-v1-2026-06-12.png images\generated\chapter-001-page-002-panels\panel-004-focused-rough-blocking-v1-2026-06-12.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/panel-004-focused-rough-blocking-v1-2026-06-12.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/panel-004-focused-rough-blocking-v1-2026-06-12.png" alt="panel-004-focused-rough-blocking-v1-2026-06-12.png" loading="lazy"></a>
+  <div><strong>panel-004-focused-rough-blocking-v1-2026-06-12.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\panel-004-focused-rough-blocking-v1-2026-06-12.png</code></div>
+</article>
+<article class="history-card" data-search="panel-005-focused-rough-blocking-v1-2026-06-12.png images\generated\chapter-001-page-002-panels\panel-005-focused-rough-blocking-v1-2026-06-12.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/panel-005-focused-rough-blocking-v1-2026-06-12.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/panel-005-focused-rough-blocking-v1-2026-06-12.png" alt="panel-005-focused-rough-blocking-v1-2026-06-12.png" loading="lazy"></a>
+  <div><strong>panel-005-focused-rough-blocking-v1-2026-06-12.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\panel-005-focused-rough-blocking-v1-2026-06-12.png</code></div>
+</article>
+<article class="history-card" data-search="panel-006-focused-rough-blocking-v1-2026-06-12.png images\generated\chapter-001-page-002-panels\panel-006-focused-rough-blocking-v1-2026-06-12.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/panel-006-focused-rough-blocking-v1-2026-06-12.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/panel-006-focused-rough-blocking-v1-2026-06-12.png" alt="panel-006-focused-rough-blocking-v1-2026-06-12.png" loading="lazy"></a>
+  <div><strong>panel-006-focused-rough-blocking-v1-2026-06-12.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\panel-006-focused-rough-blocking-v1-2026-06-12.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-focused-rough-blocking-review-sheet-v1-2026-06-12.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-focused-rough-blocking-review-sheet-v1-2026-06-12.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-focused-rough-blocking-review-sheet-v1-2026-06-12.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-focused-rough-blocking-review-sheet-v1-2026-06-12.png" alt="chapter-001-page-002-focused-rough-blocking-review-sheet-v1-2026-06-12.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-focused-rough-blocking-review-sheet-v1-2026-06-12.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-focused-rough-blocking-review-sheet-v1-2026-06-12.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-001-visual-dev-v1-2026-06-12.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-001-visual-dev-v1-2026-06-12.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-001-visual-dev-v1-2026-06-12.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-001-visual-dev-v1-2026-06-12.png" alt="chapter-001-page-002-panel-001-visual-dev-v1-2026-06-12.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-001-visual-dev-v1-2026-06-12.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-001-visual-dev-v1-2026-06-12.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-001-visual-dev-v2-animation-style-2026-06-12.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-001-visual-dev-v2-animation-style-2026-06-12.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-001-visual-dev-v2-animation-style-2026-06-12.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-001-visual-dev-v2-animation-style-2026-06-12.png" alt="chapter-001-page-002-panel-001-visual-dev-v2-animation-style-2026-06-12.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-001-visual-dev-v2-animation-style-2026-06-12.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-001-visual-dev-v2-animation-style-2026-06-12.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-001-style-calibration-v3-lineup-reset-2026-06-13.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-001-style-calibration-v3-lineup-reset-2026-06-13.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-001-style-calibration-v3-lineup-reset-2026-06-13.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-001-style-calibration-v3-lineup-reset-2026-06-13.png" alt="chapter-001-page-002-panel-001-style-calibration-v3-lineup-reset-2026-06-13.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-001-style-calibration-v3-lineup-reset-2026-06-13.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-001-style-calibration-v3-lineup-reset-2026-06-13.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-001-style-calibration-v4-comic1-blob-lineup-reset-2026-06-13.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-001-style-calibration-v4-comic1-blob-lineup-reset-2026-06-13.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-001-style-calibration-v4-comic1-blob-lineup-reset-2026-06-13.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-001-style-calibration-v4-comic1-blob-lineup-reset-2026-06-13.png" alt="chapter-001-page-002-panel-001-style-calibration-v4-comic1-blob-lineup-reset-2026-06-13.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-001-style-calibration-v4-comic1-blob-lineup-reset-2026-06-13.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-001-style-calibration-v4-comic1-blob-lineup-reset-2026-06-13.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-002-visual-dev-v1-comic1-blob-chart-2026-06-13.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-002-visual-dev-v1-comic1-blob-chart-2026-06-13.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-002-visual-dev-v1-comic1-blob-chart-2026-06-13.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-002-visual-dev-v1-comic1-blob-chart-2026-06-13.png" alt="chapter-001-page-002-panel-002-visual-dev-v1-comic1-blob-chart-2026-06-13.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-002-visual-dev-v1-comic1-blob-chart-2026-06-13.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-002-visual-dev-v1-comic1-blob-chart-2026-06-13.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-002-visual-dev-v2-lineup-corrected-2026-06-13.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-002-visual-dev-v2-lineup-corrected-2026-06-13.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-002-visual-dev-v2-lineup-corrected-2026-06-13.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-002-visual-dev-v2-lineup-corrected-2026-06-13.png" alt="chapter-001-page-002-panel-002-visual-dev-v2-lineup-corrected-2026-06-13.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-002-visual-dev-v2-lineup-corrected-2026-06-13.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-002-visual-dev-v2-lineup-corrected-2026-06-13.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-002-visual-dev-v3-blob-surprised-interest-2026-06-13.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-002-visual-dev-v3-blob-surprised-interest-2026-06-13.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-002-visual-dev-v3-blob-surprised-interest-2026-06-13.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-002-visual-dev-v3-blob-surprised-interest-2026-06-13.png" alt="chapter-001-page-002-panel-002-visual-dev-v3-blob-surprised-interest-2026-06-13.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-002-visual-dev-v3-blob-surprised-interest-2026-06-13.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-002-visual-dev-v3-blob-surprised-interest-2026-06-13.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-002-visual-dev-v4-blob-looking-at-chart-2026-06-13.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-002-visual-dev-v4-blob-looking-at-chart-2026-06-13.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-002-visual-dev-v4-blob-looking-at-chart-2026-06-13.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-002-visual-dev-v4-blob-looking-at-chart-2026-06-13.png" alt="chapter-001-page-002-panel-002-visual-dev-v4-blob-looking-at-chart-2026-06-13.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-002-visual-dev-v4-blob-looking-at-chart-2026-06-13.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-002-visual-dev-v4-blob-looking-at-chart-2026-06-13.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-002-visual-dev-v5-rook-mug-restored-2026-06-13.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-002-visual-dev-v5-rook-mug-restored-2026-06-13.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-002-visual-dev-v5-rook-mug-restored-2026-06-13.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-002-visual-dev-v5-rook-mug-restored-2026-06-13.png" alt="chapter-001-page-002-panel-002-visual-dev-v5-rook-mug-restored-2026-06-13.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-002-visual-dev-v5-rook-mug-restored-2026-06-13.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-002-visual-dev-v5-rook-mug-restored-2026-06-13.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-003-visual-dev-v1-symbolic-anatomy-2026-06-13.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-003-visual-dev-v1-symbolic-anatomy-2026-06-13.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-003-visual-dev-v1-symbolic-anatomy-2026-06-13.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-003-visual-dev-v1-symbolic-anatomy-2026-06-13.png" alt="chapter-001-page-002-panel-003-visual-dev-v1-symbolic-anatomy-2026-06-13.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-003-visual-dev-v1-symbolic-anatomy-2026-06-13.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-003-visual-dev-v1-symbolic-anatomy-2026-06-13.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-003-visual-dev-v2-fancy-anatomy-noodle-dice-2026-06-13.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-003-visual-dev-v2-fancy-anatomy-noodle-dice-2026-06-13.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-003-visual-dev-v2-fancy-anatomy-noodle-dice-2026-06-13.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-003-visual-dev-v2-fancy-anatomy-noodle-dice-2026-06-13.png" alt="chapter-001-page-002-panel-003-visual-dev-v2-fancy-anatomy-noodle-dice-2026-06-13.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-003-visual-dev-v2-fancy-anatomy-noodle-dice-2026-06-13.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-003-visual-dev-v2-fancy-anatomy-noodle-dice-2026-06-13.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-003-visual-dev-v3-symbols-clarified-2026-06-14.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-003-visual-dev-v3-symbols-clarified-2026-06-14.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-003-visual-dev-v3-symbols-clarified-2026-06-14.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-003-visual-dev-v3-symbols-clarified-2026-06-14.png" alt="chapter-001-page-002-panel-003-visual-dev-v3-symbols-clarified-2026-06-14.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-003-visual-dev-v3-symbols-clarified-2026-06-14.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-003-visual-dev-v3-symbols-clarified-2026-06-14.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-004-visual-dev-v1-mine-habitat-design-2026-06-14.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-004-visual-dev-v1-mine-habitat-design-2026-06-14.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-004-visual-dev-v1-mine-habitat-design-2026-06-14.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-004-visual-dev-v1-mine-habitat-design-2026-06-14.png" alt="chapter-001-page-002-panel-004-visual-dev-v1-mine-habitat-design-2026-06-14.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-004-visual-dev-v1-mine-habitat-design-2026-06-14.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-004-visual-dev-v1-mine-habitat-design-2026-06-14.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-004-visual-dev-v2-razorforge-demonstrates-plan-2026-06-14.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-004-visual-dev-v2-razorforge-demonstrates-plan-2026-06-14.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-004-visual-dev-v2-razorforge-demonstrates-plan-2026-06-14.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-004-visual-dev-v2-razorforge-demonstrates-plan-2026-06-14.png" alt="chapter-001-page-002-panel-004-visual-dev-v2-razorforge-demonstrates-plan-2026-06-14.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-004-visual-dev-v2-razorforge-demonstrates-plan-2026-06-14.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-004-visual-dev-v2-razorforge-demonstrates-plan-2026-06-14.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-004-visual-dev-v3-connected-drain-route-2026-06-14.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-004-visual-dev-v3-connected-drain-route-2026-06-14.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-004-visual-dev-v3-connected-drain-route-2026-06-14.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-004-visual-dev-v3-connected-drain-route-2026-06-14.png" alt="chapter-001-page-002-panel-004-visual-dev-v3-connected-drain-route-2026-06-14.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-004-visual-dev-v3-connected-drain-route-2026-06-14.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-004-visual-dev-v3-connected-drain-route-2026-06-14.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-004-visual-dev-v4-feed-entrance-mine-habitat-2026-06-14.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-004-visual-dev-v4-feed-entrance-mine-habitat-2026-06-14.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-004-visual-dev-v4-feed-entrance-mine-habitat-2026-06-14.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-004-visual-dev-v4-feed-entrance-mine-habitat-2026-06-14.png" alt="chapter-001-page-002-panel-004-visual-dev-v4-feed-entrance-mine-habitat-2026-06-14.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-004-visual-dev-v4-feed-entrance-mine-habitat-2026-06-14.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-004-visual-dev-v4-feed-entrance-mine-habitat-2026-06-14.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-004-visual-dev-v5-logical-pipe-frame-drain-2026-06-14.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-004-visual-dev-v5-logical-pipe-frame-drain-2026-06-14.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-004-visual-dev-v5-logical-pipe-frame-drain-2026-06-14.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-004-visual-dev-v5-logical-pipe-frame-drain-2026-06-14.png" alt="chapter-001-page-002-panel-004-visual-dev-v5-logical-pipe-frame-drain-2026-06-14.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-004-visual-dev-v5-logical-pipe-frame-drain-2026-06-14.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-004-visual-dev-v5-logical-pipe-frame-drain-2026-06-14.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-005-visual-dev-v1-blob-inhabits-habitat-2026-06-14.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-005-visual-dev-v1-blob-inhabits-habitat-2026-06-14.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v1-blob-inhabits-habitat-2026-06-14.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v1-blob-inhabits-habitat-2026-06-14.png" alt="chapter-001-page-002-panel-005-visual-dev-v1-blob-inhabits-habitat-2026-06-14.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-005-visual-dev-v1-blob-inhabits-habitat-2026-06-14.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-005-visual-dev-v1-blob-inhabits-habitat-2026-06-14.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-005-visual-dev-v2-wheel-and-growth-2026-06-14.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-005-visual-dev-v2-wheel-and-growth-2026-06-14.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v2-wheel-and-growth-2026-06-14.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v2-wheel-and-growth-2026-06-14.png" alt="chapter-001-page-002-panel-005-visual-dev-v2-wheel-and-growth-2026-06-14.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-005-visual-dev-v2-wheel-and-growth-2026-06-14.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-005-visual-dev-v2-wheel-and-growth-2026-06-14.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-005-visual-dev-v3-balanced-fill-hearts-eyes-2026-06-15.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-005-visual-dev-v3-balanced-fill-hearts-eyes-2026-06-15.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v3-balanced-fill-hearts-eyes-2026-06-15.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v3-balanced-fill-hearts-eyes-2026-06-15.png" alt="chapter-001-page-002-panel-005-visual-dev-v3-balanced-fill-hearts-eyes-2026-06-15.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-005-visual-dev-v3-balanced-fill-hearts-eyes-2026-06-15.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-005-visual-dev-v3-balanced-fill-hearts-eyes-2026-06-15.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-005-visual-dev-v4-central-chamber-ooze-bridges-2026-06-15.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-005-visual-dev-v4-central-chamber-ooze-bridges-2026-06-15.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v4-central-chamber-ooze-bridges-2026-06-15.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v4-central-chamber-ooze-bridges-2026-06-15.png" alt="chapter-001-page-002-panel-005-visual-dev-v4-central-chamber-ooze-bridges-2026-06-15.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-005-visual-dev-v4-central-chamber-ooze-bridges-2026-06-15.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-005-visual-dev-v4-central-chamber-ooze-bridges-2026-06-15.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-005-visual-dev-v5-open-chambers-no-phasing-2026-06-15.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-005-visual-dev-v5-open-chambers-no-phasing-2026-06-15.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v5-open-chambers-no-phasing-2026-06-15.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v5-open-chambers-no-phasing-2026-06-15.png" alt="chapter-001-page-002-panel-005-visual-dev-v5-open-chambers-no-phasing-2026-06-15.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-005-visual-dev-v5-open-chambers-no-phasing-2026-06-15.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-005-visual-dev-v5-open-chambers-no-phasing-2026-06-15.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-005-visual-dev-v6-ladder-throughway-2026-06-15.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-005-visual-dev-v6-ladder-throughway-2026-06-15.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v6-ladder-throughway-2026-06-15.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v6-ladder-throughway-2026-06-15.png" alt="chapter-001-page-002-panel-005-visual-dev-v6-ladder-throughway-2026-06-15.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-005-visual-dev-v6-ladder-throughway-2026-06-15.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-005-visual-dev-v6-ladder-throughway-2026-06-15.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-005-visual-dev-v7-connected-network-2026-06-15.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-005-visual-dev-v7-connected-network-2026-06-15.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v7-connected-network-2026-06-15.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v7-connected-network-2026-06-15.png" alt="chapter-001-page-002-panel-005-visual-dev-v7-connected-network-2026-06-15.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-005-visual-dev-v7-connected-network-2026-06-15.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-005-visual-dev-v7-connected-network-2026-06-15.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-005-visual-dev-v8-connect-workout-workshop-2026-06-15.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-005-visual-dev-v8-connect-workout-workshop-2026-06-15.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v8-connect-workout-workshop-2026-06-15.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v8-connect-workout-workshop-2026-06-15.png" alt="chapter-001-page-002-panel-005-visual-dev-v8-connect-workout-workshop-2026-06-15.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-005-visual-dev-v8-connect-workout-workshop-2026-06-15.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-005-visual-dev-v8-connect-workout-workshop-2026-06-15.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-005-visual-dev-v9-smooth-workshop-transition-2026-06-15.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-005-visual-dev-v9-smooth-workshop-transition-2026-06-15.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v9-smooth-workshop-transition-2026-06-15.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v9-smooth-workshop-transition-2026-06-15.png" alt="chapter-001-page-002-panel-005-visual-dev-v9-smooth-workshop-transition-2026-06-15.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-005-visual-dev-v9-smooth-workshop-transition-2026-06-15.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-005-visual-dev-v9-smooth-workshop-transition-2026-06-15.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-005-visual-dev-v10-observed-success-2026-06-15.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-005-visual-dev-v10-observed-success-2026-06-15.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v10-observed-success-2026-06-15.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v10-observed-success-2026-06-15.png" alt="chapter-001-page-002-panel-005-visual-dev-v10-observed-success-2026-06-15.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-005-visual-dev-v10-observed-success-2026-06-15.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-005-visual-dev-v10-observed-success-2026-06-15.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-005-visual-dev-v11-single-ladder-route-2026-06-15.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-005-visual-dev-v11-single-ladder-route-2026-06-15.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v11-single-ladder-route-2026-06-15.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v11-single-ladder-route-2026-06-15.png" alt="chapter-001-page-002-panel-005-visual-dev-v11-single-ladder-route-2026-06-15.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-005-visual-dev-v11-single-ladder-route-2026-06-15.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-005-visual-dev-v11-single-ladder-route-2026-06-15.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-005-visual-dev-v12-final-architecture-fixes-2026-06-15.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-005-visual-dev-v12-final-architecture-fixes-2026-06-15.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v12-final-architecture-fixes-2026-06-15.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v12-final-architecture-fixes-2026-06-15.png" alt="chapter-001-page-002-panel-005-visual-dev-v12-final-architecture-fixes-2026-06-15.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-005-visual-dev-v12-final-architecture-fixes-2026-06-15.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-005-visual-dev-v12-final-architecture-fixes-2026-06-15.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-005-visual-dev-v13-top-bridge-left-drip-fixed-2026-06-15.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-005-visual-dev-v13-top-bridge-left-drip-fixed-2026-06-15.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v13-top-bridge-left-drip-fixed-2026-06-15.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-005-visual-dev-v13-top-bridge-left-drip-fixed-2026-06-15.png" alt="chapter-001-page-002-panel-005-visual-dev-v13-top-bridge-left-drip-fixed-2026-06-15.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-005-visual-dev-v13-top-bridge-left-drip-fixed-2026-06-15.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-005-visual-dev-v13-top-bridge-left-drip-fixed-2026-06-15.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-panel-006-visual-dev-v1-grate-found-a-way-2026-06-16.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-panel-006-visual-dev-v1-grate-found-a-way-2026-06-16.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-006-visual-dev-v1-grate-found-a-way-2026-06-16.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-panel-006-visual-dev-v1-grate-found-a-way-2026-06-16.png" alt="chapter-001-page-002-panel-006-visual-dev-v1-grate-found-a-way-2026-06-16.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-panel-006-visual-dev-v1-grate-found-a-way-2026-06-16.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-panel-006-visual-dev-v1-grate-found-a-way-2026-06-16.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-six-panel-review-assembly-v1-2026-06-16.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-six-panel-review-assembly-v1-2026-06-16.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-six-panel-review-assembly-v1-2026-06-16.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-six-panel-review-assembly-v1-2026-06-16.png" alt="chapter-001-page-002-six-panel-review-assembly-v1-2026-06-16.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-six-panel-review-assembly-v1-2026-06-16.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-six-panel-review-assembly-v1-2026-06-16.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-six-panel-review-assembly-v2-tight-2026-06-16.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-six-panel-review-assembly-v2-tight-2026-06-16.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-six-panel-review-assembly-v2-tight-2026-06-16.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-six-panel-review-assembly-v2-tight-2026-06-16.png" alt="chapter-001-page-002-six-panel-review-assembly-v2-tight-2026-06-16.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-six-panel-review-assembly-v2-tight-2026-06-16.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-six-panel-review-assembly-v2-tight-2026-06-16.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-six-panel-review-assembly-v3-standard-order-2026-06-16.png images\generated\chapter-001-page-002-panels\chapter-001-page-002-six-panel-review-assembly-v3-standard-order-2026-06-16.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-six-panel-review-assembly-v3-standard-order-2026-06-16.png"><img src="../../Images/Generated/Chapter-001-Page-002-Panels/chapter-001-page-002-six-panel-review-assembly-v3-standard-order-2026-06-16.png" alt="chapter-001-page-002-six-panel-review-assembly-v3-standard-order-2026-06-16.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-six-panel-review-assembly-v3-standard-order-2026-06-16.png</strong><code>Images\Generated\Chapter-001-Page-002-Panels\chapter-001-page-002-six-panel-review-assembly-v3-standard-order-2026-06-16.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-003-rough-blocking-v1-codex-overbuild-2026-06-17.png images\generated\chapter-001-page-003-codex-overbuild\chapter-001-page-003-rough-blocking-v1-codex-overbuild-2026-06-17.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Chapter-001-Page-003-Codex-Overbuild/chapter-001-page-003-rough-blocking-v1-codex-overbuild-2026-06-17.png"><img src="../../Images/Generated/Chapter-001-Page-003-Codex-Overbuild/chapter-001-page-003-rough-blocking-v1-codex-overbuild-2026-06-17.png" alt="chapter-001-page-003-rough-blocking-v1-codex-overbuild-2026-06-17.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-003-rough-blocking-v1-codex-overbuild-2026-06-17.png</strong><code>Images\Generated\Chapter-001-Page-003-Codex-Overbuild\chapter-001-page-003-rough-blocking-v1-codex-overbuild-2026-06-17.png</code></div>
+</article>
+<article class="history-card" data-search="generated-2026-06-18-idea-segmentation-machine-draft.png images\generated\generated-2026-06-18-idea-segmentation-machine-draft.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/generated-2026-06-18-idea-segmentation-machine-draft.png"><img src="../../Images/Generated/generated-2026-06-18-idea-segmentation-machine-draft.png" alt="generated-2026-06-18-idea-segmentation-machine-draft.png" loading="lazy"></a>
+  <div><strong>generated-2026-06-18-idea-segmentation-machine-draft.png</strong><code>Images\Generated\generated-2026-06-18-idea-segmentation-machine-draft.png</code></div>
+</article>
+<article class="history-card" data-search="generated-2026-06-18-idea-segmentation-machine-draft-v2.png images\generated\generated-2026-06-18-idea-segmentation-machine-draft-v2.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/generated-2026-06-18-idea-segmentation-machine-draft-v2.png"><img src="../../Images/Generated/generated-2026-06-18-idea-segmentation-machine-draft-v2.png" alt="generated-2026-06-18-idea-segmentation-machine-draft-v2.png" loading="lazy"></a>
+  <div><strong>generated-2026-06-18-idea-segmentation-machine-draft-v2.png</strong><code>Images\Generated\generated-2026-06-18-idea-segmentation-machine-draft-v2.png</code></div>
+</article>
+<article class="history-card" data-search="generated-2026-06-18-idea-segmentation-machine-draft-v3.png images\generated\generated-2026-06-18-idea-segmentation-machine-draft-v3.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/generated-2026-06-18-idea-segmentation-machine-draft-v3.png"><img src="../../Images/Generated/generated-2026-06-18-idea-segmentation-machine-draft-v3.png" alt="generated-2026-06-18-idea-segmentation-machine-draft-v3.png" loading="lazy"></a>
+  <div><strong>generated-2026-06-18-idea-segmentation-machine-draft-v3.png</strong><code>Images\Generated\generated-2026-06-18-idea-segmentation-machine-draft-v3.png</code></div>
+</article>
+<article class="history-card" data-search="draft-2026-06-20-around-heres-most-wanted-no-clown.svg images\generated\draft-2026-06-20-around-heres-most-wanted-no-clown.svg">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-2026-06-20-around-heres-most-wanted-no-clown.svg"><img src="../../Images/Generated/draft-2026-06-20-around-heres-most-wanted-no-clown.svg" alt="draft-2026-06-20-around-heres-most-wanted-no-clown.svg" loading="lazy"></a>
+  <div><strong>draft-2026-06-20-around-heres-most-wanted-no-clown.svg</strong><code>Images\Generated\draft-2026-06-20-around-heres-most-wanted-no-clown.svg</code></div>
+</article>
+<article class="history-card" data-search="generated-2026-06-29-around-heres-most-wanted-category-fraud.svg images\generated\generated-2026-06-29-around-heres-most-wanted-category-fraud.svg">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/generated-2026-06-29-around-heres-most-wanted-category-fraud.svg"><img src="../../Images/Generated/generated-2026-06-29-around-heres-most-wanted-category-fraud.svg" alt="generated-2026-06-29-around-heres-most-wanted-category-fraud.svg" loading="lazy"></a>
+  <div><strong>generated-2026-06-29-around-heres-most-wanted-category-fraud.svg</strong><code>Images\Generated\generated-2026-06-29-around-heres-most-wanted-category-fraud.svg</code></div>
+</article>
+<article class="history-card" data-search="generated-2026-06-29-around-heres-most-wanted-category-fraud.png images\generated\generated-2026-06-29-around-heres-most-wanted-category-fraud.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/generated-2026-06-29-around-heres-most-wanted-category-fraud.png"><img src="../../Images/Generated/generated-2026-06-29-around-heres-most-wanted-category-fraud.png" alt="generated-2026-06-29-around-heres-most-wanted-category-fraud.png" loading="lazy"></a>
+  <div><strong>generated-2026-06-29-around-heres-most-wanted-category-fraud.png</strong><code>Images\Generated\generated-2026-06-29-around-heres-most-wanted-category-fraud.png</code></div>
+</article>
+<article class="history-card" data-search="generated-2026-06-29-around-heres-most-wanted-comic-no-clown-v2.png images\generated\generated-2026-06-29-around-heres-most-wanted-comic-no-clown-v2.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/generated-2026-06-29-around-heres-most-wanted-comic-no-clown-v2.png"><img src="../../Images/Generated/generated-2026-06-29-around-heres-most-wanted-comic-no-clown-v2.png" alt="generated-2026-06-29-around-heres-most-wanted-comic-no-clown-v2.png" loading="lazy"></a>
+  <div><strong>generated-2026-06-29-around-heres-most-wanted-comic-no-clown-v2.png</strong><code>Images\Generated\generated-2026-06-29-around-heres-most-wanted-comic-no-clown-v2.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-symbol-chief-inspector-category-fraud-2026-07-04-v1.png images\generated\candidate-symbol-chief-inspector-category-fraud-2026-07-04-v1.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-symbol-chief-inspector-category-fraud-2026-07-04-v1.png"><img src="../../Images/Generated/candidate-symbol-chief-inspector-category-fraud-2026-07-04-v1.png" alt="candidate-symbol-chief-inspector-category-fraud-2026-07-04-v1.png" loading="lazy"></a>
+  <div><strong>candidate-symbol-chief-inspector-category-fraud-2026-07-04-v1.png</strong><code>Images\Generated\candidate-symbol-chief-inspector-category-fraud-2026-07-04-v1.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-symbol-chief-inspector-category-fraud-2026-07-04-v2.png images\generated\candidate-symbol-chief-inspector-category-fraud-2026-07-04-v2.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-symbol-chief-inspector-category-fraud-2026-07-04-v2.png"><img src="../../Images/Generated/candidate-symbol-chief-inspector-category-fraud-2026-07-04-v2.png" alt="candidate-symbol-chief-inspector-category-fraud-2026-07-04-v2.png" loading="lazy"></a>
+  <div><strong>candidate-symbol-chief-inspector-category-fraud-2026-07-04-v2.png</strong><code>Images\Generated\candidate-symbol-chief-inspector-category-fraud-2026-07-04-v2.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-symbol-chief-inspector-category-fraud-2026-07-04-v3.png images\generated\candidate-symbol-chief-inspector-category-fraud-2026-07-04-v3.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-symbol-chief-inspector-category-fraud-2026-07-04-v3.png"><img src="../../Images/Generated/candidate-symbol-chief-inspector-category-fraud-2026-07-04-v3.png" alt="candidate-symbol-chief-inspector-category-fraud-2026-07-04-v3.png" loading="lazy"></a>
+  <div><strong>candidate-symbol-chief-inspector-category-fraud-2026-07-04-v3.png</strong><code>Images\Generated\candidate-symbol-chief-inspector-category-fraud-2026-07-04-v3.png</code></div>
+</article>
+<article class="history-card" data-search="character-snapshot-chief-inspector-category-fraud-2026-07-04-v1.png images\generated\character-snapshot-chief-inspector-category-fraud-2026-07-04-v1.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/character-snapshot-chief-inspector-category-fraud-2026-07-04-v1.png"><img src="../../Images/Generated/character-snapshot-chief-inspector-category-fraud-2026-07-04-v1.png" alt="character-snapshot-chief-inspector-category-fraud-2026-07-04-v1.png" loading="lazy"></a>
+  <div><strong>character-snapshot-chief-inspector-category-fraud-2026-07-04-v1.png</strong><code>Images\Generated\character-snapshot-chief-inspector-category-fraud-2026-07-04-v1.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-character-gazelle-reporter-2026-07-05-v1.png images\generated\candidate-character-gazelle-reporter-2026-07-05-v1.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-character-gazelle-reporter-2026-07-05-v1.png"><img src="../../Images/Generated/candidate-character-gazelle-reporter-2026-07-05-v1.png" alt="candidate-character-gazelle-reporter-2026-07-05-v1.png" loading="lazy"></a>
+  <div><strong>candidate-character-gazelle-reporter-2026-07-05-v1.png</strong><code>Images\Generated\candidate-character-gazelle-reporter-2026-07-05-v1.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-character-gazelle-reporter-2026-07-05-v2.png images\generated\candidate-character-gazelle-reporter-2026-07-05-v2.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-character-gazelle-reporter-2026-07-05-v2.png"><img src="../../Images/Generated/candidate-character-gazelle-reporter-2026-07-05-v2.png" alt="candidate-character-gazelle-reporter-2026-07-05-v2.png" loading="lazy"></a>
+  <div><strong>candidate-character-gazelle-reporter-2026-07-05-v2.png</strong><code>Images\Generated\candidate-character-gazelle-reporter-2026-07-05-v2.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-around-here-chronicle-laundry-hydra-2026-07-05-v1.png images\generated\candidate-around-here-chronicle-laundry-hydra-2026-07-05-v1.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-around-here-chronicle-laundry-hydra-2026-07-05-v1.png"><img src="../../Images/Generated/candidate-around-here-chronicle-laundry-hydra-2026-07-05-v1.png" alt="candidate-around-here-chronicle-laundry-hydra-2026-07-05-v1.png" loading="lazy"></a>
+  <div><strong>candidate-around-here-chronicle-laundry-hydra-2026-07-05-v1.png</strong><code>Images\Generated\candidate-around-here-chronicle-laundry-hydra-2026-07-05-v1.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-around-here-chronicle-newsroom-laundry-hydra-2026-07-05-v1.png images\generated\candidate-around-here-chronicle-newsroom-laundry-hydra-2026-07-05-v1.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-around-here-chronicle-newsroom-laundry-hydra-2026-07-05-v1.png"><img src="../../Images/Generated/candidate-around-here-chronicle-newsroom-laundry-hydra-2026-07-05-v1.png" alt="candidate-around-here-chronicle-newsroom-laundry-hydra-2026-07-05-v1.png" loading="lazy"></a>
+  <div><strong>candidate-around-here-chronicle-newsroom-laundry-hydra-2026-07-05-v1.png</strong><code>Images\Generated\candidate-around-here-chronicle-newsroom-laundry-hydra-2026-07-05-v1.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-around-here-chronicle-newsroom-laundry-hydra-2026-07-05-v2.png images\generated\candidate-around-here-chronicle-newsroom-laundry-hydra-2026-07-05-v2.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-around-here-chronicle-newsroom-laundry-hydra-2026-07-05-v2.png"><img src="../../Images/Generated/candidate-around-here-chronicle-newsroom-laundry-hydra-2026-07-05-v2.png" alt="candidate-around-here-chronicle-newsroom-laundry-hydra-2026-07-05-v2.png" loading="lazy"></a>
+  <div><strong>candidate-around-here-chronicle-newsroom-laundry-hydra-2026-07-05-v2.png</strong><code>Images\Generated\candidate-around-here-chronicle-newsroom-laundry-hydra-2026-07-05-v2.png</code></div>
+</article>
+<article class="history-card" data-search="draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v1.png images\generated\draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v1.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v1.png"><img src="../../Images/Generated/draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v1.png" alt="draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v1.png" loading="lazy"></a>
+  <div><strong>draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v1.png</strong><code>Images\Generated\draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v1.png</code></div>
+</article>
+<article class="history-card" data-search="draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v2.png images\generated\draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v2.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v2.png"><img src="../../Images/Generated/draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v2.png" alt="draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v2.png" loading="lazy"></a>
+  <div><strong>draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v2.png</strong><code>Images\Generated\draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v2.png</code></div>
+</article>
+<article class="history-card" data-search="title-card-around-here-v1-road-sign.svg images\generated\title-cards\title-card-around-here-v1-road-sign.svg">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Title-Cards/title-card-around-here-v1-road-sign.svg"><img src="../../Images/Generated/Title-Cards/title-card-around-here-v1-road-sign.svg" alt="title-card-around-here-v1-road-sign.svg" loading="lazy"></a>
+  <div><strong>title-card-around-here-v1-road-sign.svg</strong><code>Images\Generated\Title-Cards\title-card-around-here-v1-road-sign.svg</code></div>
+</article>
+<article class="history-card" data-search="title-card-around-here-v2-chronicle-masthead.svg images\generated\title-cards\title-card-around-here-v2-chronicle-masthead.svg">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Title-Cards/title-card-around-here-v2-chronicle-masthead.svg"><img src="../../Images/Generated/Title-Cards/title-card-around-here-v2-chronicle-masthead.svg" alt="title-card-around-here-v2-chronicle-masthead.svg" loading="lazy"></a>
+  <div><strong>title-card-around-here-v2-chronicle-masthead.svg</strong><code>Images\Generated\Title-Cards\title-card-around-here-v2-chronicle-masthead.svg</code></div>
+</article>
+<article class="history-card" data-search="title-card-around-here-v3-case-label.svg images\generated\title-cards\title-card-around-here-v3-case-label.svg">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Title-Cards/title-card-around-here-v3-case-label.svg"><img src="../../Images/Generated/Title-Cards/title-card-around-here-v3-case-label.svg" alt="title-card-around-here-v3-case-label.svg" loading="lazy"></a>
+  <div><strong>title-card-around-here-v3-case-label.svg</strong><code>Images\Generated\Title-Cards\title-card-around-here-v3-case-label.svg</code></div>
+</article>
+<article class="history-card" data-search="title-card-around-here-v4-placard.svg images\generated\title-cards\title-card-around-here-v4-placard.svg">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Title-Cards/title-card-around-here-v4-placard.svg"><img src="../../Images/Generated/Title-Cards/title-card-around-here-v4-placard.svg" alt="title-card-around-here-v4-placard.svg" loading="lazy"></a>
+  <div><strong>title-card-around-here-v4-placard.svg</strong><code>Images\Generated\Title-Cards\title-card-around-here-v4-placard.svg</code></div>
+</article>
+<article class="history-card" data-search="draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v3.png images\generated\draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v3.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v3.png"><img src="../../Images/Generated/draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v3.png" alt="draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v3.png" loading="lazy"></a>
+  <div><strong>draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v3.png</strong><code>Images\Generated\draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v3.png</code></div>
+</article>
+<article class="history-card" data-search="title-card-around-here-v5-newspaper-masthead.svg images\generated\title-cards\title-card-around-here-v5-newspaper-masthead.svg">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Title-Cards/title-card-around-here-v5-newspaper-masthead.svg"><img src="../../Images/Generated/Title-Cards/title-card-around-here-v5-newspaper-masthead.svg" alt="title-card-around-here-v5-newspaper-masthead.svg" loading="lazy"></a>
+  <div><strong>title-card-around-here-v5-newspaper-masthead.svg</strong><code>Images\Generated\Title-Cards\title-card-around-here-v5-newspaper-masthead.svg</code></div>
+</article>
+<article class="history-card" data-search="title-card-around-here-v6-newspaper-slug.svg images\generated\title-cards\title-card-around-here-v6-newspaper-slug.svg">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Title-Cards/title-card-around-here-v6-newspaper-slug.svg"><img src="../../Images/Generated/Title-Cards/title-card-around-here-v6-newspaper-slug.svg" alt="title-card-around-here-v6-newspaper-slug.svg" loading="lazy"></a>
+  <div><strong>title-card-around-here-v6-newspaper-slug.svg</strong><code>Images\Generated\Title-Cards\title-card-around-here-v6-newspaper-slug.svg</code></div>
+</article>
+<article class="history-card" data-search="title-card-around-here-v7-newspaper-nameplate.svg images\generated\title-cards\title-card-around-here-v7-newspaper-nameplate.svg">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Title-Cards/title-card-around-here-v7-newspaper-nameplate.svg"><img src="../../Images/Generated/Title-Cards/title-card-around-here-v7-newspaper-nameplate.svg" alt="title-card-around-here-v7-newspaper-nameplate.svg" loading="lazy"></a>
+  <div><strong>title-card-around-here-v7-newspaper-nameplate.svg</strong><code>Images\Generated\Title-Cards\title-card-around-here-v7-newspaper-nameplate.svg</code></div>
+</article>
+<article class="history-card" data-search="title-card-around-here-v8-newspaper-corner-bug.svg images\generated\title-cards\title-card-around-here-v8-newspaper-corner-bug.svg">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Title-Cards/title-card-around-here-v8-newspaper-corner-bug.svg"><img src="../../Images/Generated/Title-Cards/title-card-around-here-v8-newspaper-corner-bug.svg" alt="title-card-around-here-v8-newspaper-corner-bug.svg" loading="lazy"></a>
+  <div><strong>title-card-around-here-v8-newspaper-corner-bug.svg</strong><code>Images\Generated\Title-Cards\title-card-around-here-v8-newspaper-corner-bug.svg</code></div>
+</article>
+<article class="history-card" data-search="title-card-around-here-v10-sunday-comics-brush.svg images\generated\title-cards\title-card-around-here-v10-sunday-comics-brush.svg">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Title-Cards/title-card-around-here-v10-sunday-comics-brush.svg"><img src="../../Images/Generated/Title-Cards/title-card-around-here-v10-sunday-comics-brush.svg" alt="title-card-around-here-v10-sunday-comics-brush.svg" loading="lazy"></a>
+  <div><strong>title-card-around-here-v10-sunday-comics-brush.svg</strong><code>Images\Generated\Title-Cards\title-card-around-here-v10-sunday-comics-brush.svg</code></div>
+</article>
+<article class="history-card" data-search="title-card-around-here-v9-sunday-comics-logo.svg images\generated\title-cards\title-card-around-here-v9-sunday-comics-logo.svg">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Title-Cards/title-card-around-here-v9-sunday-comics-logo.svg"><img src="../../Images/Generated/Title-Cards/title-card-around-here-v9-sunday-comics-logo.svg" alt="title-card-around-here-v9-sunday-comics-logo.svg" loading="lazy"></a>
+  <div><strong>title-card-around-here-v9-sunday-comics-logo.svg</strong><code>Images\Generated\Title-Cards\title-card-around-here-v9-sunday-comics-logo.svg</code></div>
+</article>
+<article class="history-card" data-search="title-card-around-here-v11-sunday-comics-block.svg images\generated\title-cards\title-card-around-here-v11-sunday-comics-block.svg">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Title-Cards/title-card-around-here-v11-sunday-comics-block.svg"><img src="../../Images/Generated/Title-Cards/title-card-around-here-v11-sunday-comics-block.svg" alt="title-card-around-here-v11-sunday-comics-block.svg" loading="lazy"></a>
+  <div><strong>title-card-around-here-v11-sunday-comics-block.svg</strong><code>Images\Generated\Title-Cards\title-card-around-here-v11-sunday-comics-block.svg</code></div>
+</article>
+<article class="history-card" data-search="title-card-around-here-v12-sunday-comics-corner.svg images\generated\title-cards\title-card-around-here-v12-sunday-comics-corner.svg">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Title-Cards/title-card-around-here-v12-sunday-comics-corner.svg"><img src="../../Images/Generated/Title-Cards/title-card-around-here-v12-sunday-comics-corner.svg" alt="title-card-around-here-v12-sunday-comics-corner.svg" loading="lazy"></a>
+  <div><strong>title-card-around-here-v12-sunday-comics-corner.svg</strong><code>Images\Generated\Title-Cards\title-card-around-here-v12-sunday-comics-corner.svg</code></div>
+</article>
+<article class="history-card" data-search="title-card-around-here-v13-sunday-comics-mine-logo.svg images\generated\title-cards\title-card-around-here-v13-sunday-comics-mine-logo.svg">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Title-Cards/title-card-around-here-v13-sunday-comics-mine-logo.svg"><img src="../../Images/Generated/Title-Cards/title-card-around-here-v13-sunday-comics-mine-logo.svg" alt="title-card-around-here-v13-sunday-comics-mine-logo.svg" loading="lazy"></a>
+  <div><strong>title-card-around-here-v13-sunday-comics-mine-logo.svg</strong><code>Images\Generated\Title-Cards\title-card-around-here-v13-sunday-comics-mine-logo.svg</code></div>
+</article>
+<article class="history-card" data-search="title-card-around-here-v14-sunday-comics-block-mine.svg images\generated\title-cards\title-card-around-here-v14-sunday-comics-block-mine.svg">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Title-Cards/title-card-around-here-v14-sunday-comics-block-mine.svg"><img src="../../Images/Generated/Title-Cards/title-card-around-here-v14-sunday-comics-block-mine.svg" alt="title-card-around-here-v14-sunday-comics-block-mine.svg" loading="lazy"></a>
+  <div><strong>title-card-around-here-v14-sunday-comics-block-mine.svg</strong><code>Images\Generated\Title-Cards\title-card-around-here-v14-sunday-comics-block-mine.svg</code></div>
+</article>
+<article class="history-card" data-search="draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v4.png images\generated\draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v4.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v4.png"><img src="../../Images/Generated/draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v4.png" alt="draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v4.png" loading="lazy"></a>
+  <div><strong>draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v4.png</strong><code>Images\Generated\draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v4.png</code></div>
+</article>
+<article class="history-card" data-search="title-card-around-here-v15-sunday-comics-timber-mine.svg images\generated\title-cards\title-card-around-here-v15-sunday-comics-timber-mine.svg">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Title-Cards/title-card-around-here-v15-sunday-comics-timber-mine.svg"><img src="../../Images/Generated/Title-Cards/title-card-around-here-v15-sunday-comics-timber-mine.svg" alt="title-card-around-here-v15-sunday-comics-timber-mine.svg" loading="lazy"></a>
+  <div><strong>title-card-around-here-v15-sunday-comics-timber-mine.svg</strong><code>Images\Generated\Title-Cards\title-card-around-here-v15-sunday-comics-timber-mine.svg</code></div>
+</article>
+<article class="history-card" data-search="title-card-around-here-v16-sunday-comics-mine-cart.svg images\generated\title-cards\title-card-around-here-v16-sunday-comics-mine-cart.svg">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Title-Cards/title-card-around-here-v16-sunday-comics-mine-cart.svg"><img src="../../Images/Generated/Title-Cards/title-card-around-here-v16-sunday-comics-mine-cart.svg" alt="title-card-around-here-v16-sunday-comics-mine-cart.svg" loading="lazy"></a>
+  <div><strong>title-card-around-here-v16-sunday-comics-mine-cart.svg</strong><code>Images\Generated\Title-Cards\title-card-around-here-v16-sunday-comics-mine-cart.svg</code></div>
+</article>
+<article class="history-card" data-search="title-card-around-here-v17-sunday-comics-dark-adit.svg images\generated\title-cards\title-card-around-here-v17-sunday-comics-dark-adit.svg">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Title-Cards/title-card-around-here-v17-sunday-comics-dark-adit.svg"><img src="../../Images/Generated/Title-Cards/title-card-around-here-v17-sunday-comics-dark-adit.svg" alt="title-card-around-here-v17-sunday-comics-dark-adit.svg" loading="lazy"></a>
+  <div><strong>title-card-around-here-v17-sunday-comics-dark-adit.svg</strong><code>Images\Generated\Title-Cards\title-card-around-here-v17-sunday-comics-dark-adit.svg</code></div>
+</article>
+<article class="history-card" data-search="title-card-around-here-v19-sunday-comics-tiny-cart.svg images\generated\title-cards\title-card-around-here-v19-sunday-comics-tiny-cart.svg">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Title-Cards/title-card-around-here-v19-sunday-comics-tiny-cart.svg"><img src="../../Images/Generated/Title-Cards/title-card-around-here-v19-sunday-comics-tiny-cart.svg" alt="title-card-around-here-v19-sunday-comics-tiny-cart.svg" loading="lazy"></a>
+  <div><strong>title-card-around-here-v19-sunday-comics-tiny-cart.svg</strong><code>Images\Generated\Title-Cards\title-card-around-here-v19-sunday-comics-tiny-cart.svg</code></div>
+</article>
+<article class="history-card" data-search="title-card-around-here-v20-sunday-comics-symbol-mine.svg images\generated\title-cards\title-card-around-here-v20-sunday-comics-symbol-mine.svg">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Title-Cards/title-card-around-here-v20-sunday-comics-symbol-mine.svg"><img src="../../Images/Generated/Title-Cards/title-card-around-here-v20-sunday-comics-symbol-mine.svg" alt="title-card-around-here-v20-sunday-comics-symbol-mine.svg" loading="lazy"></a>
+  <div><strong>title-card-around-here-v20-sunday-comics-symbol-mine.svg</strong><code>Images\Generated\Title-Cards\title-card-around-here-v20-sunday-comics-symbol-mine.svg</code></div>
+</article>
+<article class="history-card" data-search="title-card-around-here-v21-sunday-comics-symbol-rubber-chicken.svg images\generated\title-cards\title-card-around-here-v21-sunday-comics-symbol-rubber-chicken.svg">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Title-Cards/title-card-around-here-v21-sunday-comics-symbol-rubber-chicken.svg"><img src="../../Images/Generated/Title-Cards/title-card-around-here-v21-sunday-comics-symbol-rubber-chicken.svg" alt="title-card-around-here-v21-sunday-comics-symbol-rubber-chicken.svg" loading="lazy"></a>
+  <div><strong>title-card-around-here-v21-sunday-comics-symbol-rubber-chicken.svg</strong><code>Images\Generated\Title-Cards\title-card-around-here-v21-sunday-comics-symbol-rubber-chicken.svg</code></div>
+</article>
+<article class="history-card" data-search="title-card-around-here-v22-sunday-comics-symbol-rook-mug.svg images\generated\title-cards\title-card-around-here-v22-sunday-comics-symbol-rook-mug.svg">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Title-Cards/title-card-around-here-v22-sunday-comics-symbol-rook-mug.svg"><img src="../../Images/Generated/Title-Cards/title-card-around-here-v22-sunday-comics-symbol-rook-mug.svg" alt="title-card-around-here-v22-sunday-comics-symbol-rook-mug.svg" loading="lazy"></a>
+  <div><strong>title-card-around-here-v22-sunday-comics-symbol-rook-mug.svg</strong><code>Images\Generated\Title-Cards\title-card-around-here-v22-sunday-comics-symbol-rook-mug.svg</code></div>
+</article>
+<article class="history-card" data-search="draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v5.png images\generated\draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v5.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v5.png"><img src="../../Images/Generated/draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v5.png" alt="draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v5.png" loading="lazy"></a>
+  <div><strong>draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v5.png</strong><code>Images\Generated\draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v5.png</code></div>
+</article>
+<article class="history-card" data-search="title-card-around-here-v23-sunday-comics-plain-coffee-mug.svg images\generated\title-cards\title-card-around-here-v23-sunday-comics-plain-coffee-mug.svg">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/Title-Cards/title-card-around-here-v23-sunday-comics-plain-coffee-mug.svg"><img src="../../Images/Generated/Title-Cards/title-card-around-here-v23-sunday-comics-plain-coffee-mug.svg" alt="title-card-around-here-v23-sunday-comics-plain-coffee-mug.svg" loading="lazy"></a>
+  <div><strong>title-card-around-here-v23-sunday-comics-plain-coffee-mug.svg</strong><code>Images\Generated\Title-Cards\title-card-around-here-v23-sunday-comics-plain-coffee-mug.svg</code></div>
+</article>
+<article class="history-card" data-search="dictionary-003-around-here-title-overlay-v18-draft.png images\edits\title-overlay-tests\dictionary-003-around-here-title-overlay-v18-draft.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Edits/Title-Overlay-Tests/dictionary-003-around-here-title-overlay-v18-draft.png"><img src="../../Images/Edits/Title-Overlay-Tests/dictionary-003-around-here-title-overlay-v18-draft.png" alt="dictionary-003-around-here-title-overlay-v18-draft.png" loading="lazy"></a>
+  <div><strong>dictionary-003-around-here-title-overlay-v18-draft.png</strong><code>Images\Edits\Title-Overlay-Tests\dictionary-003-around-here-title-overlay-v18-draft.png</code></div>
+</article>
+<article class="history-card" data-search="dictionary-003-around-here-title-overlay-v18-small-upper-left-draft.png images\edits\title-overlay-tests\dictionary-003-around-here-title-overlay-v18-small-upper-left-draft.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Edits/Title-Overlay-Tests/dictionary-003-around-here-title-overlay-v18-small-upper-left-draft.png"><img src="../../Images/Edits/Title-Overlay-Tests/dictionary-003-around-here-title-overlay-v18-small-upper-left-draft.png" alt="dictionary-003-around-here-title-overlay-v18-small-upper-left-draft.png" loading="lazy"></a>
+  <div><strong>dictionary-003-around-here-title-overlay-v18-small-upper-left-draft.png</strong><code>Images\Edits\Title-Overlay-Tests\dictionary-003-around-here-title-overlay-v18-small-upper-left-draft.png</code></div>
+</article>
+<article class="history-card" data-search="dictionary-003-around-here-title-overlay-v18-top-band-draft.png images\edits\title-overlay-tests\dictionary-003-around-here-title-overlay-v18-top-band-draft.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Edits/Title-Overlay-Tests/dictionary-003-around-here-title-overlay-v18-top-band-draft.png"><img src="../../Images/Edits/Title-Overlay-Tests/dictionary-003-around-here-title-overlay-v18-top-band-draft.png" alt="dictionary-003-around-here-title-overlay-v18-top-band-draft.png" loading="lazy"></a>
+  <div><strong>dictionary-003-around-here-title-overlay-v18-top-band-draft.png</strong><code>Images\Edits\Title-Overlay-Tests\dictionary-003-around-here-title-overlay-v18-top-band-draft.png</code></div>
+</article>
+<article class="history-card" data-search="draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v6.png images\generated\draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v6.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v6.png"><img src="../../Images/Generated/draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v6.png" alt="draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v6.png" loading="lazy"></a>
+  <div><strong>draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v6.png</strong><code>Images\Generated\draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v6.png</code></div>
+</article>
+<article class="history-card" data-search="dictionary-003-around-here-title-overlay-v18-left-corner-draft.png images\edits\title-overlay-tests\dictionary-003-around-here-title-overlay-v18-left-corner-draft.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Edits/Title-Overlay-Tests/dictionary-003-around-here-title-overlay-v18-left-corner-draft.png"><img src="../../Images/Edits/Title-Overlay-Tests/dictionary-003-around-here-title-overlay-v18-left-corner-draft.png" alt="dictionary-003-around-here-title-overlay-v18-left-corner-draft.png" loading="lazy"></a>
+  <div><strong>dictionary-003-around-here-title-overlay-v18-left-corner-draft.png</strong><code>Images\Edits\Title-Overlay-Tests\dictionary-003-around-here-title-overlay-v18-left-corner-draft.png</code></div>
+</article>
+<article class="history-card" data-search="draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v7.png images\generated\draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v7.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v7.png"><img src="../../Images/Generated/draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v7.png" alt="draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v7.png" loading="lazy"></a>
+  <div><strong>draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v7.png</strong><code>Images\Generated\draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v7.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-001-around-here-title-overlay-v18-upper-left-draft.png images\edits\title-overlay-tests\chapter-001-page-001-around-here-title-overlay-v18-upper-left-draft.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Edits/Title-Overlay-Tests/chapter-001-page-001-around-here-title-overlay-v18-upper-left-draft.png"><img src="../../Images/Edits/Title-Overlay-Tests/chapter-001-page-001-around-here-title-overlay-v18-upper-left-draft.png" alt="chapter-001-page-001-around-here-title-overlay-v18-upper-left-draft.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-001-around-here-title-overlay-v18-upper-left-draft.png</strong><code>Images\Edits\Title-Overlay-Tests\chapter-001-page-001-around-here-title-overlay-v18-upper-left-draft.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-001-around-here-title-overlay-v18-bottom-right-draft.png images\edits\title-overlay-tests\chapter-001-page-001-around-here-title-overlay-v18-bottom-right-draft.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Edits/Title-Overlay-Tests/chapter-001-page-001-around-here-title-overlay-v18-bottom-right-draft.png"><img src="../../Images/Edits/Title-Overlay-Tests/chapter-001-page-001-around-here-title-overlay-v18-bottom-right-draft.png" alt="chapter-001-page-001-around-here-title-overlay-v18-bottom-right-draft.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-001-around-here-title-overlay-v18-bottom-right-draft.png</strong><code>Images\Edits\Title-Overlay-Tests\chapter-001-page-001-around-here-title-overlay-v18-bottom-right-draft.png</code></div>
+</article>
+<article class="history-card" data-search="draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v8.png images\generated\draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v8.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v8.png"><img src="../../Images/Generated/draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v8.png" alt="draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v8.png" loading="lazy"></a>
+  <div><strong>draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v8.png</strong><code>Images\Generated\draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v8.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-around-here-title-overlay-v18-upper-left-draft.png images\edits\title-overlay-tests\chapter-001-page-002-around-here-title-overlay-v18-upper-left-draft.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Edits/Title-Overlay-Tests/chapter-001-page-002-around-here-title-overlay-v18-upper-left-draft.png"><img src="../../Images/Edits/Title-Overlay-Tests/chapter-001-page-002-around-here-title-overlay-v18-upper-left-draft.png" alt="chapter-001-page-002-around-here-title-overlay-v18-upper-left-draft.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-around-here-title-overlay-v18-upper-left-draft.png</strong><code>Images\Edits\Title-Overlay-Tests\chapter-001-page-002-around-here-title-overlay-v18-upper-left-draft.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-003-around-here-title-overlay-v18-upper-left-draft.png images\edits\title-overlay-tests\chapter-001-page-003-around-here-title-overlay-v18-upper-left-draft.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Edits/Title-Overlay-Tests/chapter-001-page-003-around-here-title-overlay-v18-upper-left-draft.png"><img src="../../Images/Edits/Title-Overlay-Tests/chapter-001-page-003-around-here-title-overlay-v18-upper-left-draft.png" alt="chapter-001-page-003-around-here-title-overlay-v18-upper-left-draft.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-003-around-here-title-overlay-v18-upper-left-draft.png</strong><code>Images\Edits\Title-Overlay-Tests\chapter-001-page-003-around-here-title-overlay-v18-upper-left-draft.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-002-around-here-title-overlay-v18-upper-left-v2-draft.png images\edits\title-overlay-tests\chapter-001-page-002-around-here-title-overlay-v18-upper-left-v2-draft.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Edits/Title-Overlay-Tests/chapter-001-page-002-around-here-title-overlay-v18-upper-left-v2-draft.png"><img src="../../Images/Edits/Title-Overlay-Tests/chapter-001-page-002-around-here-title-overlay-v18-upper-left-v2-draft.png" alt="chapter-001-page-002-around-here-title-overlay-v18-upper-left-v2-draft.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-002-around-here-title-overlay-v18-upper-left-v2-draft.png</strong><code>Images\Edits\Title-Overlay-Tests\chapter-001-page-002-around-here-title-overlay-v18-upper-left-v2-draft.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-003-around-here-title-overlay-v18-upper-left-v2-draft.png images\edits\title-overlay-tests\chapter-001-page-003-around-here-title-overlay-v18-upper-left-v2-draft.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Edits/Title-Overlay-Tests/chapter-001-page-003-around-here-title-overlay-v18-upper-left-v2-draft.png"><img src="../../Images/Edits/Title-Overlay-Tests/chapter-001-page-003-around-here-title-overlay-v18-upper-left-v2-draft.png" alt="chapter-001-page-003-around-here-title-overlay-v18-upper-left-v2-draft.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-003-around-here-title-overlay-v18-upper-left-v2-draft.png</strong><code>Images\Edits\Title-Overlay-Tests\chapter-001-page-003-around-here-title-overlay-v18-upper-left-v2-draft.png</code></div>
+</article>
+<article class="history-card" data-search="draft-panel-003-codex-candle-lens-ore-cutter-2026-07-07-v1.png images\generated\draft-panel-003-codex-candle-lens-ore-cutter-2026-07-07-v1.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-panel-003-codex-candle-lens-ore-cutter-2026-07-07-v1.png"><img src="../../Images/Generated/draft-panel-003-codex-candle-lens-ore-cutter-2026-07-07-v1.png" alt="draft-panel-003-codex-candle-lens-ore-cutter-2026-07-07-v1.png" loading="lazy"></a>
+  <div><strong>draft-panel-003-codex-candle-lens-ore-cutter-2026-07-07-v1.png</strong><code>Images\Generated\draft-panel-003-codex-candle-lens-ore-cutter-2026-07-07-v1.png</code></div>
+</article>
+<article class="history-card" data-search="draft-panel-003-codex-candle-lens-ore-cutter-2026-07-07-v2.png images\generated\draft-panel-003-codex-candle-lens-ore-cutter-2026-07-07-v2.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-panel-003-codex-candle-lens-ore-cutter-2026-07-07-v2.png"><img src="../../Images/Generated/draft-panel-003-codex-candle-lens-ore-cutter-2026-07-07-v2.png" alt="draft-panel-003-codex-candle-lens-ore-cutter-2026-07-07-v2.png" loading="lazy"></a>
+  <div><strong>draft-panel-003-codex-candle-lens-ore-cutter-2026-07-07-v2.png</strong><code>Images\Generated\draft-panel-003-codex-candle-lens-ore-cutter-2026-07-07-v2.png</code></div>
+</article>
+<article class="history-card" data-search="draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v9-wide-panel3-assembly.png images\generated\draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v9-wide-panel3-assembly.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v9-wide-panel3-assembly.png"><img src="../../Images/Generated/draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v9-wide-panel3-assembly.png" alt="draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v9-wide-panel3-assembly.png" loading="lazy"></a>
+  <div><strong>draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v9-wide-panel3-assembly.png</strong><code>Images\Generated\draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-07-v9-wide-panel3-assembly.png</code></div>
+</article>
+<article class="history-card" data-search="draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-08-v11-titled.png images\generated\draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-08-v11-titled.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-08-v11-titled.png"><img src="../../Images/Generated/draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-08-v11-titled.png" alt="draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-08-v11-titled.png" loading="lazy"></a>
+  <div><strong>draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-08-v11-titled.png</strong><code>Images\Generated\draft-three-panel-mine-ore-taskmaster-razorforge-codex-2026-07-08-v11-titled.png</code></div>
+</article>
+<article class="history-card" data-search="clipboard-around-here-title-overlay-v18-upper-left-draft-2026-07-08.png images\edits\title-overlay-tests\clipboard-around-here-title-overlay-v18-upper-left-draft-2026-07-08.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Edits/Title-Overlay-Tests/clipboard-around-here-title-overlay-v18-upper-left-draft-2026-07-08.png"><img src="../../Images/Edits/Title-Overlay-Tests/clipboard-around-here-title-overlay-v18-upper-left-draft-2026-07-08.png" alt="clipboard-around-here-title-overlay-v18-upper-left-draft-2026-07-08.png" loading="lazy"></a>
+  <div><strong>clipboard-around-here-title-overlay-v18-upper-left-draft-2026-07-08.png</strong><code>Images\Edits\Title-Overlay-Tests\clipboard-around-here-title-overlay-v18-upper-left-draft-2026-07-08.png</code></div>
+</article>
+<article class="history-card" data-search="chapter-001-page-005-around-here-title-overlay-v18-upper-left-draft.png images\edits\title-overlay-tests\chapter-001-page-005-around-here-title-overlay-v18-upper-left-draft.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Edits/Title-Overlay-Tests/chapter-001-page-005-around-here-title-overlay-v18-upper-left-draft.png"><img src="../../Images/Edits/Title-Overlay-Tests/chapter-001-page-005-around-here-title-overlay-v18-upper-left-draft.png" alt="chapter-001-page-005-around-here-title-overlay-v18-upper-left-draft.png" loading="lazy"></a>
+  <div><strong>chapter-001-page-005-around-here-title-overlay-v18-upper-left-draft.png</strong><code>Images\Edits\Title-Overlay-Tests\chapter-001-page-005-around-here-title-overlay-v18-upper-left-draft.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-symbol-mythic-beam-2026-07-19-v1.png images\generated\candidate-symbol-mythic-beam-2026-07-19-v1.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-symbol-mythic-beam-2026-07-19-v1.png"><img src="../../Images/Generated/candidate-symbol-mythic-beam-2026-07-19-v1.png" alt="candidate-symbol-mythic-beam-2026-07-19-v1.png" loading="lazy"></a>
+  <div><strong>candidate-symbol-mythic-beam-2026-07-19-v1.png</strong><code>Images\Generated\candidate-symbol-mythic-beam-2026-07-19-v1.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-portfolio-comedic-standards-representatives-2026-07-20-v1.png images\generated\candidate-portfolio-comedic-standards-representatives-2026-07-20-v1.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-portfolio-comedic-standards-representatives-2026-07-20-v1.png"><img src="../../Images/Generated/candidate-portfolio-comedic-standards-representatives-2026-07-20-v1.png" alt="candidate-portfolio-comedic-standards-representatives-2026-07-20-v1.png" loading="lazy"></a>
+  <div><strong>candidate-portfolio-comedic-standards-representatives-2026-07-20-v1.png</strong><code>Images\Generated\candidate-portfolio-comedic-standards-representatives-2026-07-20-v1.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-portfolio-comedic-standards-representatives-2026-07-21-v2.png images\generated\candidate-portfolio-comedic-standards-representatives-2026-07-21-v2.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-portfolio-comedic-standards-representatives-2026-07-21-v2.png"><img src="../../Images/Generated/candidate-portfolio-comedic-standards-representatives-2026-07-21-v2.png" alt="candidate-portfolio-comedic-standards-representatives-2026-07-21-v2.png" loading="lazy"></a>
+  <div><strong>candidate-portfolio-comedic-standards-representatives-2026-07-21-v2.png</strong><code>Images\Generated\candidate-portfolio-comedic-standards-representatives-2026-07-21-v2.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-portfolio-comedic-standards-representatives-2026-07-22-v3.png images\generated\candidate-portfolio-comedic-standards-representatives-2026-07-22-v3.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-portfolio-comedic-standards-representatives-2026-07-22-v3.png"><img src="../../Images/Generated/candidate-portfolio-comedic-standards-representatives-2026-07-22-v3.png" alt="candidate-portfolio-comedic-standards-representatives-2026-07-22-v3.png" loading="lazy"></a>
+  <div><strong>candidate-portfolio-comedic-standards-representatives-2026-07-22-v3.png</strong><code>Images\Generated\candidate-portfolio-comedic-standards-representatives-2026-07-22-v3.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-portfolio-comedic-standards-representatives-2026-07-22-v4.png images\generated\candidate-portfolio-comedic-standards-representatives-2026-07-22-v4.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-portfolio-comedic-standards-representatives-2026-07-22-v4.png"><img src="../../Images/Generated/candidate-portfolio-comedic-standards-representatives-2026-07-22-v4.png" alt="candidate-portfolio-comedic-standards-representatives-2026-07-22-v4.png" loading="lazy"></a>
+  <div><strong>candidate-portfolio-comedic-standards-representatives-2026-07-22-v4.png</strong><code>Images\Generated\candidate-portfolio-comedic-standards-representatives-2026-07-22-v4.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-portfolio-comedic-standards-representatives-2026-07-22-v5.png images\generated\candidate-portfolio-comedic-standards-representatives-2026-07-22-v5.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-portfolio-comedic-standards-representatives-2026-07-22-v5.png"><img src="../../Images/Generated/candidate-portfolio-comedic-standards-representatives-2026-07-22-v5.png" alt="candidate-portfolio-comedic-standards-representatives-2026-07-22-v5.png" loading="lazy"></a>
+  <div><strong>candidate-portfolio-comedic-standards-representatives-2026-07-22-v5.png</strong><code>Images\Generated\candidate-portfolio-comedic-standards-representatives-2026-07-22-v5.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-portfolio-boundary-commission-representatives-2026-07-22-v1.png images\generated\candidate-portfolio-boundary-commission-representatives-2026-07-22-v1.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-portfolio-boundary-commission-representatives-2026-07-22-v1.png"><img src="../../Images/Generated/candidate-portfolio-boundary-commission-representatives-2026-07-22-v1.png" alt="candidate-portfolio-boundary-commission-representatives-2026-07-22-v1.png" loading="lazy"></a>
+  <div><strong>candidate-portfolio-boundary-commission-representatives-2026-07-22-v1.png</strong><code>Images\Generated\candidate-portfolio-boundary-commission-representatives-2026-07-22-v1.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-portfolio-boundary-commission-representatives-2026-07-24-v2.png images\generated\candidate-portfolio-boundary-commission-representatives-2026-07-24-v2.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-portfolio-boundary-commission-representatives-2026-07-24-v2.png"><img src="../../Images/Generated/candidate-portfolio-boundary-commission-representatives-2026-07-24-v2.png" alt="candidate-portfolio-boundary-commission-representatives-2026-07-24-v2.png" loading="lazy"></a>
+  <div><strong>candidate-portfolio-boundary-commission-representatives-2026-07-24-v2.png</strong><code>Images\Generated\candidate-portfolio-boundary-commission-representatives-2026-07-24-v2.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-portfolio-boundary-commission-representatives-2026-07-24-v3.png images\generated\candidate-portfolio-boundary-commission-representatives-2026-07-24-v3.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-portfolio-boundary-commission-representatives-2026-07-24-v3.png"><img src="../../Images/Generated/candidate-portfolio-boundary-commission-representatives-2026-07-24-v3.png" alt="candidate-portfolio-boundary-commission-representatives-2026-07-24-v3.png" loading="lazy"></a>
+  <div><strong>candidate-portfolio-boundary-commission-representatives-2026-07-24-v3.png</strong><code>Images\Generated\candidate-portfolio-boundary-commission-representatives-2026-07-24-v3.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-portfolio-biological-committee-representatives-2026-07-24-v1.png images\generated\candidate-portfolio-biological-committee-representatives-2026-07-24-v1.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-portfolio-biological-committee-representatives-2026-07-24-v1.png"><img src="../../Images/Generated/candidate-portfolio-biological-committee-representatives-2026-07-24-v1.png" alt="candidate-portfolio-biological-committee-representatives-2026-07-24-v1.png" loading="lazy"></a>
+  <div><strong>candidate-portfolio-biological-committee-representatives-2026-07-24-v1.png</strong><code>Images\Generated\candidate-portfolio-biological-committee-representatives-2026-07-24-v1.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-portfolio-biological-committee-representatives-2026-07-24-v2.png images\generated\candidate-portfolio-biological-committee-representatives-2026-07-24-v2.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-portfolio-biological-committee-representatives-2026-07-24-v2.png"><img src="../../Images/Generated/candidate-portfolio-biological-committee-representatives-2026-07-24-v2.png" alt="candidate-portfolio-biological-committee-representatives-2026-07-24-v2.png" loading="lazy"></a>
+  <div><strong>candidate-portfolio-biological-committee-representatives-2026-07-24-v2.png</strong><code>Images\Generated\candidate-portfolio-biological-committee-representatives-2026-07-24-v2.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-portfolio-biological-committee-representatives-2026-07-24-v3.png images\generated\candidate-portfolio-biological-committee-representatives-2026-07-24-v3.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-portfolio-biological-committee-representatives-2026-07-24-v3.png"><img src="../../Images/Generated/candidate-portfolio-biological-committee-representatives-2026-07-24-v3.png" alt="candidate-portfolio-biological-committee-representatives-2026-07-24-v3.png" loading="lazy"></a>
+  <div><strong>candidate-portfolio-biological-committee-representatives-2026-07-24-v3.png</strong><code>Images\Generated\candidate-portfolio-biological-committee-representatives-2026-07-24-v3.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-portfolio-boundary-commission-representatives-2026-07-24-v4.png images\generated\candidate-portfolio-boundary-commission-representatives-2026-07-24-v4.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-portfolio-boundary-commission-representatives-2026-07-24-v4.png"><img src="../../Images/Generated/candidate-portfolio-boundary-commission-representatives-2026-07-24-v4.png" alt="candidate-portfolio-boundary-commission-representatives-2026-07-24-v4.png" loading="lazy"></a>
+  <div><strong>candidate-portfolio-boundary-commission-representatives-2026-07-24-v4.png</strong><code>Images\Generated\candidate-portfolio-boundary-commission-representatives-2026-07-24-v4.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-portfolio-boundary-commission-representatives-2026-07-24-v5.png images\generated\candidate-portfolio-boundary-commission-representatives-2026-07-24-v5.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-portfolio-boundary-commission-representatives-2026-07-24-v5.png"><img src="../../Images/Generated/candidate-portfolio-boundary-commission-representatives-2026-07-24-v5.png" alt="candidate-portfolio-boundary-commission-representatives-2026-07-24-v5.png" loading="lazy"></a>
+  <div><strong>candidate-portfolio-boundary-commission-representatives-2026-07-24-v5.png</strong><code>Images\Generated\candidate-portfolio-boundary-commission-representatives-2026-07-24-v5.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-portfolio-technological-committee-apparatuses-2026-07-25-v1.png images\generated\candidate-portfolio-technological-committee-apparatuses-2026-07-25-v1.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-portfolio-technological-committee-apparatuses-2026-07-25-v1.png"><img src="../../Images/Generated/candidate-portfolio-technological-committee-apparatuses-2026-07-25-v1.png" alt="candidate-portfolio-technological-committee-apparatuses-2026-07-25-v1.png" loading="lazy"></a>
+  <div><strong>candidate-portfolio-technological-committee-apparatuses-2026-07-25-v1.png</strong><code>Images\Generated\candidate-portfolio-technological-committee-apparatuses-2026-07-25-v1.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-portfolio-technological-committee-apparatuses-2026-07-25-v2.png images\generated\candidate-portfolio-technological-committee-apparatuses-2026-07-25-v2.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-portfolio-technological-committee-apparatuses-2026-07-25-v2.png"><img src="../../Images/Generated/candidate-portfolio-technological-committee-apparatuses-2026-07-25-v2.png" alt="candidate-portfolio-technological-committee-apparatuses-2026-07-25-v2.png" loading="lazy"></a>
+  <div><strong>candidate-portfolio-technological-committee-apparatuses-2026-07-25-v2.png</strong><code>Images\Generated\candidate-portfolio-technological-committee-apparatuses-2026-07-25-v2.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-portfolio-technological-committee-apparatuses-2026-07-25-v3.png images\generated\candidate-portfolio-technological-committee-apparatuses-2026-07-25-v3.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-portfolio-technological-committee-apparatuses-2026-07-25-v3.png"><img src="../../Images/Generated/candidate-portfolio-technological-committee-apparatuses-2026-07-25-v3.png" alt="candidate-portfolio-technological-committee-apparatuses-2026-07-25-v3.png" loading="lazy"></a>
+  <div><strong>candidate-portfolio-technological-committee-apparatuses-2026-07-25-v3.png</strong><code>Images\Generated\candidate-portfolio-technological-committee-apparatuses-2026-07-25-v3.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-portfolio-technological-committee-apparatuses-2026-07-25-v4.png images\generated\candidate-portfolio-technological-committee-apparatuses-2026-07-25-v4.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-portfolio-technological-committee-apparatuses-2026-07-25-v4.png"><img src="../../Images/Generated/candidate-portfolio-technological-committee-apparatuses-2026-07-25-v4.png" alt="candidate-portfolio-technological-committee-apparatuses-2026-07-25-v4.png" loading="lazy"></a>
+  <div><strong>candidate-portfolio-technological-committee-apparatuses-2026-07-25-v4.png</strong><code>Images\Generated\candidate-portfolio-technological-committee-apparatuses-2026-07-25-v4.png</code></div>
+</article>
+<article class="history-card" data-search="candidate-portfolio-technological-committee-apparatuses-2026-07-25-v5.png images\generated\candidate-portfolio-technological-committee-apparatuses-2026-07-25-v5.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/candidate-portfolio-technological-committee-apparatuses-2026-07-25-v5.png"><img src="../../Images/Generated/candidate-portfolio-technological-committee-apparatuses-2026-07-25-v5.png" alt="candidate-portfolio-technological-committee-apparatuses-2026-07-25-v5.png" loading="lazy"></a>
+  <div><strong>candidate-portfolio-technological-committee-apparatuses-2026-07-25-v5.png</strong><code>Images\Generated\candidate-portfolio-technological-committee-apparatuses-2026-07-25-v5.png</code></div>
+</article>
+<article class="history-card" data-search="draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v1-raw.png images\generated\draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v1-raw.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v1-raw.png"><img src="../../Images/Generated/draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v1-raw.png" alt="draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v1-raw.png" loading="lazy"></a>
+  <div><strong>draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v1-raw.png</strong><code>Images\Generated\draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v1-raw.png</code></div>
+</article>
+<article class="history-card" data-search="draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v1.png images\generated\draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v1.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v1.png"><img src="../../Images/Generated/draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v1.png" alt="draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v1.png" loading="lazy"></a>
+  <div><strong>draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v1.png</strong><code>Images\Generated\draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v1.png</code></div>
+</article>
+<article class="history-card" data-search="draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v2-raw.png images\generated\draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v2-raw.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v2-raw.png"><img src="../../Images/Generated/draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v2-raw.png" alt="draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v2-raw.png" loading="lazy"></a>
+  <div><strong>draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v2-raw.png</strong><code>Images\Generated\draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v2-raw.png</code></div>
+</article>
+<article class="history-card" data-search="draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v2.png images\generated\draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v2.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v2.png"><img src="../../Images/Generated/draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v2.png" alt="draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v2.png" loading="lazy"></a>
+  <div><strong>draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v2.png</strong><code>Images\Generated\draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v2.png</code></div>
+</article>
+<article class="history-card" data-search="draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v3-raw.png images\generated\draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v3-raw.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v3-raw.png"><img src="../../Images/Generated/draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v3-raw.png" alt="draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v3-raw.png" loading="lazy"></a>
+  <div><strong>draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v3-raw.png</strong><code>Images\Generated\draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v3-raw.png</code></div>
+</article>
+<article class="history-card" data-search="draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v3.png images\generated\draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v3.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v3.png"><img src="../../Images/Generated/draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v3.png" alt="draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v3.png" loading="lazy"></a>
+  <div><strong>draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v3.png</strong><code>Images\Generated\draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v3.png</code></div>
+</article>
+<article class="history-card" data-search="draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v4-raw.png images\generated\draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v4-raw.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v4-raw.png"><img src="../../Images/Generated/draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v4-raw.png" alt="draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v4-raw.png" loading="lazy"></a>
+  <div><strong>draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v4-raw.png</strong><code>Images\Generated\draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v4-raw.png</code></div>
+</article>
+<article class="history-card" data-search="draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v4.png images\generated\draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v4.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v4.png"><img src="../../Images/Generated/draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v4.png" alt="draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v4.png" loading="lazy"></a>
+  <div><strong>draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v4.png</strong><code>Images\Generated\draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v4.png</code></div>
+</article>
+<article class="history-card" data-search="draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v5-raw.png images\generated\draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v5-raw.png">
+  <a class="history-thumb" href="file:///C:/COMICS/Images/Generated/draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v5-raw.png"><img src="../../Images/Generated/draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v5-raw.png" alt="draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v5-raw.png" loading="lazy"></a>
+  <div><strong>draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v5-raw.png</strong><code>Images\Generated\draft-single-panel-around-here-town-hall-interestingness-2026-08-01-v5-raw.png</code></div>
+</article></div>
+      </details>
+    </section>
+  </main>
+  <script>
+    const search = document.getElementById('search');
+    search.addEventListener('input', () => {
+      const query = search.value.trim().toLowerCase();
+      document.querySelectorAll('[data-search]').forEach(card => {
+        card.hidden = query && !card.dataset.search.includes(query);
+      });
+    });
+  </script>
+</body>
+</html>
