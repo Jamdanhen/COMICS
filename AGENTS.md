@@ -37,6 +37,33 @@ Inherited defaults include:
 
 Local project guidance controls when it is more specific.
 
+## Dictation And Established Terminology Safeguard
+
+Before interpreting unfamiliar wording as a new term, compare it with:
+
+- established project vocabulary
+- current project doctrine
+- immediate conversational context
+- likely voice-dictation or transcription substitutions
+
+When the intended established term is clear from context, use the established
+term, continue without unnecessary confirmation, and do not repeat or formalize
+the transcription error.
+
+When the wording could genuinely indicate either a new term or an established
+term, pause before analyzing or documenting it and ask exactly: `Is this a new
+term?` Identify the likely established term when useful.
+
+When the user clearly introduces a new term intentionally, treat it as a
+candidate unless the user explicitly adopts or locks it. Do not canonize a term
+merely because it appeared in discussion.
+
+Never create analysis, rules, categories, doctrine, project files, Registry
+entries, or waypoint content around a probable transcription artifact.
+
+Preserve this project's established terminology, local guidance, substantive
+content, and local overrides.
+
 This folder is the home base for the private comic project.
 
 ## Core Premise
