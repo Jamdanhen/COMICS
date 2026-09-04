@@ -37,6 +37,32 @@ Inherited defaults include:
 
 Local project guidance controls when it is more specific.
 
+## Sparky Delegation - Included-Allocation Helper
+
+For bounded routine work inside an already-approved project lane, consider the
+shared Spark helper when delegation is likely to save main-task usage or time
+after handoff and review costs. Prefer a direct calculator or script when simpler.
+Do not delegate ordinary conversation or create work to consume spare allocation.
+
+Before dispatch, read the current rule and verified worker route at
+`C:\CRUCIBLE_REGISTRY\SPARKY_DELEGATION_RULE.MD`.
+Explicitly select `gpt-5.3-codex-spark`, confirm included allocation remains,
+verify the worker identity and working directory, and do not interrupt a busy job.
+If the route, tools, or allocation cannot be verified, report the limitation;
+do not silently substitute a model, buy credits, use paid APIs, or redeem resets.
+
+Send a unique job ID, requesting project, minimum inputs, permitted reads/writes,
+expected output, validation checks, and stopping condition. Shared jobs default
+to supplied-input, read-only assistance. File-changing work needs an explicitly
+authorized project-scoped assignment and suitable execution context.
+Delegation does not expand permissions or authorize onward delegation.
+
+Keep project substance, decisions, terminology, and local overrides with the
+owning project. Do not import another job's history as authority or turn Registry
+hosting into permission to read or modify other projects. The requester must
+retrieve, match, and validate the result. Completion without a visible result
+is not success; follow the rule's bounded retrieval fallback, never blind retries.
+
 ## Dictation And Established Terminology Safeguard
 
 Before interpreting unfamiliar wording as a new term, compare it with:
