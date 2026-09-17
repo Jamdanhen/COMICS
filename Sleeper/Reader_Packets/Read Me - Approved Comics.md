@@ -29,7 +29,10 @@ Combined views:
 10. `chronicle-001-around-here-chronicle-laundry-hydra.png`
 11. `chronicle-002-around-here-chronicle-newsroom-laundry-hydra.png`
 12. `committee-001-official-committee-notifications.png`
+13. `bench-outside-mine-accumulated-traces-v4-2026-09-13.png`
 
 The durable source of truth remains:
 
 `C:\COMICS`
+
+

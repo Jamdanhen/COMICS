@@ -1,5 +1,32 @@
 # Current Waypoint
 
+## September 17, 2026 approval checkpoint
+
+Authority remains `C:\COMICS`; the approved COMICS remote and main branch are
+unchanged. Registry entry, inheritance block, output guidance, waypoint rule,
+local AGENTS and comic workflow governance were reviewed. Inherited guidance is
+current and creative authority remains local. Live remote main matched local
+main before this checkpoint.
+
+The Bench outside the Mine is now approved, superseding the concept-only status
+in the historical checkpoint below. The September 13 approval record documents
+the conditional correction and the approved register names the final v4 page.
+Its generated image, approved master, Sleeper approved copy and reader-page
+copy have identical SHA-256 hashes. The updated local reader packet and approval
+record are included. No chapter/page position is assigned by this waypoint.
+
+The Canary in a Coal Mine Cage is an approved symbol with v3 as its governing
+visual, per the recorded instruction `Approve him as a symbol.` Its vocabulary
+updates, approval record and v1-v3 visual history are preserved. It is not an
+approved narrative page and is not added to the comic reader.
+
+Unfinished candidate/Pink Fairy work, draft-gallery edits, recovered OneDrive
+reader material and pre-refresh backup copies remain uncommitted. No new canon
+is adopted. OneDrive and OneNote are not refreshed or claimed synchronized by
+this GitHub waypoint. Final push verification is in the Registry sweep report.
+
+## Historical August checkpoint
+
 Date: 2026-08-22
 
 ## Active Project Authority

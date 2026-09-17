@@ -96,6 +96,18 @@ Idea Spud / Living Information Blob:
 - Approval basis: approved through early comics and Taskmaster approval.
 - Source: `C:\COMICS\Working\candidate-symbol-idea-spud-information-2026-06-11.md`.
 
+Canary In A Coal Mine Cage:
+
+- Status: approved symbol.
+- Meaning: disposable tests in systems, sent in first to expose danger or
+  failure before the real system or more valuable material is put at risk.
+- Approved visual:
+  `C:\COMICS\Images\Generated\candidate-symbol-canary-in-coal-mine-cage-2026-08-24-v3.png`.
+- Visual language: alert two-eyed cartoon canary, miner's helmet and lamp,
+  restrained coal smudges, old-fashioned domed cage.
+- Source:
+  `C:\COMICS\Working\candidate-symbol-canary-in-coal-mine-cage-2026-08-24.md`.
+
 Fragile Detail Jar:
 
 - Status: approved symbol.

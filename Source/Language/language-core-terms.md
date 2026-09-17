@@ -129,6 +129,16 @@ Fragile Detail Jar:
 
 - A visual symbol for preserving useful uncertain details without promoting them to canon or forcing an immediate decision.
 
+Canary In A Coal Mine Cage:
+
+- Approved symbol for disposable tests in systems.
+- Sent in first to expose danger, failure, or an unhealthy environment before
+  the real system or more valuable material is put at risk.
+- Represents an early probe and warning instrument, with emphasis on the
+  disposable test function rather than harm to the bird.
+- Approved visual: alert two-eyed cartoon canary with miner's helmet, lamp,
+  restrained coal smudges, and an old-fashioned domed cage.
+
 One True Intake:
 
 - The principle that information should enter once and then be derived, reconciled, validated, or reused everywhere.

@@ -339,6 +339,38 @@ Placement note:
 
 This page was an early successful test and is approved to save, but its reader-facing placement belongs later than Chapter 001.
 
+## Approved Narrative Page - Chapter Placement Unassigned
+
+### The Bench outside the Mine
+
+Status: approved 2026-09-13 after the two stray circles near the departing Agent were removed.
+
+Approval text: "Other than the two stray bubble circles near the agent's head, um, I would approve this."
+
+Approved shelf image:
+
+`C:\COMICS\Approved\Comic Pages\bench-outside-mine-accumulated-traces-v4-2026-09-13.png`
+
+Generated source:
+
+`C:\COMICS\Images\Generated\bench-outside-mine-accumulated-traces-v4-2026-09-13.png`
+
+Approval and edit/prompt record:
+
+`C:\COMICS\Working\bench-outside-mine-approval-v4-2026-09-13.md`
+
+Series function:
+
+Projects leave accumulated traces on the Bench before Taskmaster and Razorforge arrive for lunch. Their shared examination takes priority over the untouched meal. Taskmaster does not stage the artifacts himself.
+
+Page-specific title correction:
+
+The v18-style Around Here title remains within panel one's upper-left corner. Its two floating decorative circles were removed at Taskmaster's direction; the approved source logo asset itself is unchanged.
+
+Placement note:
+
+Saved on the approved shelf without assigning a chapter/page number. Appended to the phone/share reading list for access, not as a decision about final narrative sequence.
+
 ## Current Reading Order
 
 1. `_dictionary-001-the-usual-suspects.png`
@@ -353,3 +385,5 @@ This page was an early successful test and is approved to save, but its reader-f
 10. `chronicle-001-around-here-chronicle-laundry-hydra.png`
 11. `chronicle-002-around-here-chronicle-newsroom-laundry-hydra.png`
 12. `committee-001-official-committee-notifications.png`
+13. `bench-outside-mine-accumulated-traces-v4-2026-09-13.png`
+
