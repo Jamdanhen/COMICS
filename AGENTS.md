@@ -277,3 +277,26 @@ Use clear names that sort naturally:
 - `generated-YYYY-MM-DD-short-description.png`
 
 Prefer dated filenames for generated assets and episode numbers for story work.
+
+
+## Phone Image Display
+
+Adopted by Jamie on 2026-09-22. For an image requested on a phone, including
+the in-chat phone preview, follow:
+C:\CRUCIBLE_REGISTRY\PHONE_IMAGE_DISPLAY_PROTOCOL.MD
+
+Complete necessary prose and authorized file work first. Reuse the requested
+local image; generate or edit only when actually requested. Call native
+tools.view_image with its actual absolute path, then emit the returned image
+with image(preview.image_url). Leave that native preview as the final output,
+ending with an empty final response where supported. Do not append a Markdown
+image embed, filesystem link, caption, success announcement, continuation block,
+or further tool work after the preview. Tool success alone is not proof that
+the phone displayed the image. Respect higher-level tool requirements.
+
+This is display guidance only. Preserve the project's style, canon, character
+and scale rules, creative workflow, privacy, participant access, and local
+authority. In Comics it does not authorize ANY drawing-style, color, realism,
+character, canon, reference, or creative-workflow change. It grants no new
+permission for file moves, publication, mirrors, sandbox resets, or permission
+changes. Ordinary non-image output rules remain unchanged.

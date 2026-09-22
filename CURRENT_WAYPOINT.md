@@ -1,5 +1,65 @@
 # Current Waypoint
 
+## September 22, 2026 scoped Comics checkpoint
+
+Authority: `C:\COMICS`, branch `main`.
+Approved remote: `https://github.com/Jamdanhen/COMICS.git` (`origin/main`).
+Dispatch reference: `REGISTRY-2026-09-22-comics`.
+
+Taskmaster directly approved establishing this waypoint by committing and
+pushing only `AGENTS.md` and `CURRENT_WAYPOINT.md`, with drafts, recovery files,
+worktrees and mirrors left untouched. The earlier dispatched attempt made no
+changes because automatic review required direct approval.
+
+### Guidance and Registry freshness
+
+Reviewed the Comics Registry entry, waypoint synchronization rule, inheritance
+block, output-format guidance, phone-display protocol and approved rollout,
+local AGENTS and comic workflow governance. The installed phone-display section
+matches the current Registry section after line-ending normalization and occurs
+once. No further inherited-guidance rewrite is required. The approved addition
+is display-only; all local drawing-style, color/realism, character, scale,
+reference, canon and creative-workflow rules remain unchanged.
+
+At the live starting check, Registry local and remote main both resolved to
+`13cc1489020659345165aacc0807fb2ded647176`. Registry's uncommitted phone-display,
+seed-rollout and registration records remain its responsibility. The relevant
+display directive is explicitly approved and installed; no Comics entry or
+authority conflict was found. Those pending records do not block this narrow
+checkpoint. No Registry files, index, commits or remote are changed here.
+
+### Approved state and synchronization scope
+
+Starting Comics local and live remote main both resolved to
+`e1a8c9fe395d63d1d2f52a6e0455d5ba4ec7fac0`. That September 17 commit already
+preserves the approved Bench v4 page and its approval/reader records, plus the
+approved Canary symbol. This checkpoint does not alter or promote artwork.
+
+The only checkpoint changes are the approved phone-display addition in
+`AGENTS.md` and this waypoint section. The exact staged diff is reviewed before
+commit; raw chat, recovery archives, candidate artwork and unrelated content
+are excluded. The checkpoint is identified by the commit containing this
+section. Push completion and live remote alignment must be verified against
+that commit and reported in the completion response; this record does not
+claim a push before verification. The approved remote is not reconfigured.
+
+### Intentionally unfinished or untouched
+
+- `Scripts/Build-DraftGallery.ps1` and `Working/Draft-Gallery/index.html` retain
+  their existing deferred local edits.
+- The starting 116 untracked files remain excluded: candidate/Pink Fairy/Astra
+  material, preserved concept/source notes, Workshop v5 recovery, superseded
+  Bench v2 material, recovered OneDrive reader files and pre-refresh backups.
+- The task worktree at `C:\Users\MrJam\.codex\worktrees\e853\COMICS` remains
+  detached at `7e8eee72e351bfe1d8bb9f6af9a1977ffa5b1378`, with its untracked
+  Bench staging material preserved. It is not the authority checkout and is
+  not committed from, refreshed, merged, moved or handed off.
+- No OneDrive synchronization, OneNote refresh, mirror update, file cleanup or
+  phone-visibility test is performed or claimed by this Git waypoint.
+
+Resume from the C-drive authority and its current approved records. Remaining
+creative decisions stay with Taskmaster; this checkpoint creates no new canon.
+
 ## September 17, 2026 approval checkpoint
 
 Authority remains `C:\COMICS`; the approved COMICS remote and main branch are
